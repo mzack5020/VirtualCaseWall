@@ -4,6 +4,10 @@
     background-repeat: no-repeat;
 }
 
+.login {
+    text-align: center;
+}
+
 .login section {
 	margin: auto 120px;
 }

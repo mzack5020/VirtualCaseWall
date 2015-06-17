@@ -49,13 +49,15 @@
                 var json = JSON.parse(result.responseText);
                 user.secToken = json.access_token;
                 user.username = json.username;
-                document.getElementById("JSON").innerText = "<h1>" + user.secToken + "</h1>";
-            }, function error(result) {
-                document.getElementById("JSON").innerText = "<h1>WHOOPS</h1>";
-            });
+                
+                if (user.secToken == "")
+                    document.getElementById("JSON").innerText += "<h2>Incorrect credentials</h2>";
+                else
+                    nav.navigate("pages/groupedItems/groupedItems.html");
 
-            //document.getElementById("JSON").innerText = "<h1>" + user.secToken + "</h1>";
-            //nav.navigate("pages/groupedItems/groupedItems.html");
+            }, function error(result) {
+                document.getElementById("JSON").innerText = "Incorrect Credentials";
+            });            
         }
     });
 })();

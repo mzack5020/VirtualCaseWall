@@ -42,7 +42,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\login\login.css">
       <PackagePath>pages\login\login.css</PackagePath>
-      <Modified>2015-06-17T11:52:01.506</Modified>
+      <Modified>2015-06-17T14:24:56.436</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\images\logo.scale-100.png">
       <PackagePath>images\logo.scale-100.png</PackagePath>
@@ -94,7 +94,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\login\login.js">
       <PackagePath>pages\login\login.js</PackagePath>
-      <Modified>2015-06-17T14:06:31.432</Modified>
+      <Modified>2015-06-17T14:25:23.552</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\itemDetail\itemDetail.html">
       <PackagePath>pages\itemDetail\itemDetail.html</PackagePath>

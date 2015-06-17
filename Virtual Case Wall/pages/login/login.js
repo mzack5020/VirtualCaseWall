@@ -26,10 +26,28 @@
                
         terminateLoginScreen: function() 
         {
-            //var div = document.getElementById("loginScreen");
-            //while (div.firstChild)
-            //    div.removeChild(div.firstChild);
-            nav.navigate("pages/groupedItems/groupedItems.html");
+            var user = {
+                username: document.getElementById("username").value,
+                password: document.getElementById("password").value,
+                secToken: "",
+                       };
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            var loginStr = { "username": username, "password": password };
+            loginStr = JSON.stringify(loginStr);
+
+            WinJS.xhr({
+                type: "POST",
+                url: "http://156.80.138.161:8090/VirtualCaseWall/api/login",
+                data: loginStr,
+            }).done(function (result) {
+                var json = JSON.parse(result.response);
+                user.secToken = json.access_token;
+                user.username = json.username;
+            });
+
+            document.getElementById("JSON").innerText = json.access_token;
+            //nav.navigate("pages/groupedItems/groupedItems.html");
         }
     });
 })();

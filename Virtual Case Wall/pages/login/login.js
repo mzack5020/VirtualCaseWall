@@ -12,6 +12,7 @@
             // TODO: Initialize the page here.
             var submitButton = document.getElementById("submitButton");
             submitButton.addEventListener("click", this.terminateLoginScreen, false);
+            
         },
 
         unload: function () {
@@ -36,17 +37,24 @@
             var loginStr = { "username": username, "password": password };
             loginStr = JSON.stringify(loginStr);
 
+            //var httpModule = new Windows.Web.Http.HttpClient();
+            //var userInfo = httpModule.postAsync("http://156.80.138.161:8090/VirtualCaseWall/api/login", loginStr);
+            
             WinJS.xhr({
                 type: "POST",
                 url: "http://156.80.138.161:8090/VirtualCaseWall/api/login",
                 data: loginStr,
+                responseType: "String",
             }).done(function (result) {
-                var json = JSON.parse(result.response);
+                var json = JSON.parse(result.responseText);
                 user.secToken = json.access_token;
                 user.username = json.username;
+                document.getElementById("JSON").innerText = "<h1>" + user.secToken + "</h1>";
+            }, function error(result) {
+                document.getElementById("JSON").innerText = "<h1>WHOOPS</h1>";
             });
 
-            document.getElementById("JSON").innerText = json.access_token;
+            //document.getElementById("JSON").innerText = "<h1>" + user.secToken + "</h1>";
             //nav.navigate("pages/groupedItems/groupedItems.html");
         }
     });

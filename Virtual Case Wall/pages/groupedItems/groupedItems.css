@@ -102,9 +102,37 @@
                 color: rgba(255, 255, 255, 0.6);
                 width: 220px;
             }
-
+                        
 @media screen and (-ms-high-contrast) {
     .groupeditemspage .groupeditemslist .item .item-overlay {
         color: WindowText;
     }
+}
+
+#userInfo {
+    text-align: right;
+    vertical-align: top;
+    float:right;    
+}
+
+#logoutLink {
+    text-align: right;
+    vertical-align: top;
+    float: right;
+}
+
+#logoutLink {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+}
+
+#userInfo h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+}
+
+#topRight {
+    text-align:right;
 }

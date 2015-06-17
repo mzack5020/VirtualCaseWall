@@ -38,7 +38,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\groupedItems\groupedItems.css">
       <PackagePath>pages\groupedItems\groupedItems.css</PackagePath>
-      <Modified>2015-06-17T11:56:27.116</Modified>
+      <Modified>2015-06-17T15:35:18.821</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\login\login.css">
       <PackagePath>pages\login\login.css</PackagePath>
@@ -90,11 +90,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\groupedItems\groupedItems.js">
       <PackagePath>pages\groupedItems\groupedItems.js</PackagePath>
-      <Modified>2015-06-17T01:29:38.070</Modified>
+      <Modified>2015-06-17T15:29:05.547</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\login\login.js">
       <PackagePath>pages\login\login.js</PackagePath>
-      <Modified>2015-06-17T14:25:23.552</Modified>
+      <Modified>2015-06-17T14:40:19.279</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\itemDetail\itemDetail.html">
       <PackagePath>pages\itemDetail\itemDetail.html</PackagePath>
@@ -106,7 +106,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\groupedItems\groupedItems.html">
       <PackagePath>pages\groupedItems\groupedItems.html</PackagePath>
-      <Modified>2015-06-17T01:26:04.947</Modified>
+      <Modified>2015-06-17T15:35:32.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\default.html">
       <PackagePath>default.html</PackagePath>
@@ -114,7 +114,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\login\login.html">
       <PackagePath>pages\login\login.html</PackagePath>
-      <Modified>2015-06-17T14:05:58.438</Modified>
+      <Modified>2015-06-17T14:41:06.711</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>

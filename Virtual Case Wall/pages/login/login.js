@@ -4,6 +4,8 @@
     "use strict";
 
     var nav = WinJS.Navigation;
+    var roamingSettings = Windows.Storage.ApplicationData.current.roamingSettings;
+    var sessionSettings = WinJS.Application.sessionState;
 
     WinJS.UI.Pages.define("/pages/login/login.html", {
         // This function is called whenever a user navigates to this page. It
@@ -13,6 +15,12 @@
             var submitButton = document.getElementById("submitButton");
             submitButton.addEventListener("click", this.terminateLoginScreen, false);
             
+            var username = roamingSettings.values["user"];
+            if(username)
+                document.getElementById("username").innerText = username;
+            var securityToken = sessionSettings.securityToken;
+            if(securityToken)
+                nav.navigate("pages/groupedItems/groupedItems.html");
         },
 
         unload: function () {
@@ -52,8 +60,12 @@
                 
                 if (user.secToken == "")
                     document.getElementById("JSON").innerText += "<h2>Incorrect credentials</h2>";
-                else
-                    nav.navigate("pages/groupedItems/groupedItems.html");
+                else {
+                    sessionSettings.user = user.username;
+                    roamingSettings.values["user"] = user.username;
+                    sessionSettings.securityToken = user.secToken;
+                    nav.navigate("pages/groupedItems/groupedItems.html");                    
+                }
 
             }, function error(result) {
                 document.getElementById("JSON").innerText = "Incorrect Credentials";

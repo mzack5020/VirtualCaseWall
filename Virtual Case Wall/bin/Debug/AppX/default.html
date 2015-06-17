@@ -18,29 +18,7 @@
 </head>
 <body>
     <div id="homeScreen">
-        <div id="loginScreen">
-            <div id="header">
-                <h1>Virtual Case Wall</h1>
-                <br />
-                <h2>Please Login</h2>
-            </div>
-
-            <div id="login">
-                <h3>Username: </h3>
-                <input type="text" id="username" />
-                <br />
-                <h3>Password: </h3>
-                <input type="text" id="password" />
-                <br />
-                <button type="submit" id="submitButton">Submit</button>
-            </div>
-
-            <div id="footer">
-                <p>Booz | Allen | Hamilton<br />Solutions Engineering &amp; Design Interns</p>
-            </div>
-        </div>
-
-        <div id="contenthost" data-win-control="Application.PageControlNavigator" data-win-options="{home: '/pages/groupedItems/groupedItems.html'}"></div>
+        <div id="contenthost" data-win-control="Application.PageControlNavigator" data-win-options="{home: '/pages/login/login.html'}"></div>
         <div id="appbar" data-win-control="WinJS.UI.AppBar" data-win-options="{placement: 'top'}">
             <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'home', label:'Home', icon:'home'}" type="button"></button>
             <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'myCases', label:'My Cases', icon:'page'}" type="button" ></button>

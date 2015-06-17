@@ -74,6 +74,9 @@
     <Content Include="pages\groupedItems\groupedItems.html" />
     <Content Include="pages\groupedItems\groupedItems.js" />
     <Content Include="default.html" />
+    <Content Include="pages\login\login.css" />
+    <Content Include="pages\login\login.html" />
+    <Content Include="pages\login\login.js" />
     <None Include="Virtual Case Wall_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>

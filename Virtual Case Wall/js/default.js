@@ -34,8 +34,8 @@
 
             args.setPromise(p);
 
-           var submitButton = document.getElementById("submitButton");
-           submitButton.addEventListener("click", terminateLoginScreen, false);
+           //var submitButton = document.getElementById("submitButton");
+           //submitButton.addEventListener("click", terminateLoginScreen, false);
         }
     });
 
@@ -47,32 +47,32 @@
         app.sessionState.history = nav.history;
     };
 
-    function terminateLoginScreen() {
-        turnOff(document.getElementById("login"));
-        turnOff(document.getElementById("header"));
-        turnOff(document.getElementById("footer"));
-    }
+    //function terminateLoginScreen() {
+    //    turnOff(document.getElementById("login"));
+    //    turnOff(document.getElementById("header"));
+    //    turnOff(document.getElementById("footer"));        
+    //}
 
-    function turnOff(div) {
-        while (div.firstChild)
-            div.removeChild(div.firstChild);
-    }
+    //function turnOff(div) {
+    //    while (div.firstChild)
+    //        div.removeChild(div.firstChild);
+    //}
 
-    function turnOnHomePage() {
-        var homePage = document.createElement("div");
-        homePage.uniqueID = "contenthost";
+    //function turnOnHomePage() {
+    //    var homePage = document.createElement("div");
+    //    homePage.uniqueID = "contenthost";
 
-        var dataWinControl = document.createAttribute("data-win-control");
-        dataWinControl.value = "Application.PageControlNavigator";
+    //    var dataWinControl = document.createAttribute("data-win-control");
+    //    dataWinControl.value = "Application.PageControlNavigator";
 
-        var dataWinOptions = document.createAttribute("data-win-options");
-        dataWinOptions.value = "{home: '/pages/groupedItems/groupedItems.html'}";
+    //    var dataWinOptions = document.createAttribute("data-win-options");
+    //    dataWinOptions.value = "{home: '/pages/groupedItems/groupedItems.html'}";
 
-        homePage.setAttributeNode(dataWinOptions);
-        homePage.setAttributeNode(dataWinControl);
+    //    homePage.setAttributeNode(dataWinOptions);
+    //    homePage.setAttributeNode(dataWinControl);
 
-        document.getElementById("homeScreen").appendChild(homePage);
-    }
+    //    document.getElementById("homeScreen").appendChild(homePage);
+    //}
 
     app.start();
 })();

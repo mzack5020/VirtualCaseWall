@@ -17,3 +17,6 @@ pages\groupedItems\groupedItems.js
 pages\itemDetail\itemDetail.css
 pages\itemDetail\itemDetail.html
 pages\itemDetail\itemDetail.js
+pages\login\login.css
+pages\login\login.html
+pages\login\login.js

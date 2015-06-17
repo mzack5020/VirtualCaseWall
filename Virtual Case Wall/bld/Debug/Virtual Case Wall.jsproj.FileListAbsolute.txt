@@ -1,0 +1,15 @@
+c:\users\drzac\documents\visual studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\bin\Debug\ReverseMap\resources.pri
+c:\users\drzac\documents\visual studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\bin\Debug\AppxManifest.xml
+c:\users\drzac\documents\visual studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\bin\Debug\Virtual Case Wall.build.appxrecipe
+c:\users\drzac\documents\visual studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\bld\Debug\priconfig.xml
+c:\users\drzac\documents\visual studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\bld\Debug\priconfig.xml.intermediate
+c:\users\drzac\documents\visual studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\bld\Debug\layout.resfiles
+c:\users\drzac\documents\visual studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\bld\Debug\layout.resfiles.intermediate
+c:\users\drzac\documents\visual studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\bld\Debug\resources.resfiles
+c:\users\drzac\documents\visual studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\bld\Debug\resources.resfiles.intermediate
+c:\users\drzac\documents\visual studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\bld\Debug\pri.resfiles
+c:\users\drzac\documents\visual studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\bld\Debug\pri.resfiles.intermediate
+c:\users\drzac\documents\visual studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\bld\Debug\qualifiers.txt
+c:\users\drzac\documents\visual studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\bld\Debug\qualifiers.txt.intermediate
+c:\users\drzac\documents\visual studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\drzac\documents\visual studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\bld\Debug\ProjectArchitectures.txt

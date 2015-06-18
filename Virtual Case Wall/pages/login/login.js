@@ -45,30 +45,33 @@
             var loginStr = { "username": username, "password": password };
             loginStr = JSON.stringify(loginStr);
             
-            WinJS.xhr({
-                type: "POST",
-                url: "http://10.201.30.200:8090/VirtualCaseWall/api/login",
-                data: loginStr,
-                responseType: "String",
-            }).done(function (result) {
-                var json = JSON.parse(result.responseText);
-                user.secToken = json.access_token;
-                user.username = json.username;
+            //WinJS.xhr({
+            //    type: "POST",
+            //    url: "http://10.201.30.200:8090/VirtualCaseWall/api/login",
+            //    data: loginStr,
+            //    responseType: "String",
+            //}).done(function (result) {
+            //    var json = JSON.parse(result.responseText);
+            //    user.secToken = json.access_token;
+            //    user.username = json.username;
                 
-                if (user.secToken == "")
-                    document.getElementById("JSON").innerText += "<h2>Incorrect credentials</h2>";
-                else {
-                    sessionSettings.user = user.username;
-                    roamingSettings.values["user"] = user.username;
-                    sessionSettings.securityToken = user.secToken;
-                    nav.navigate("pages/groupedItems/groupedItems.html");
-                    document.getElementById("topRight").hidden = false;
-                    document.getElementById("profile").innerText = user.username;                    
-                }
+            //    if (user.secToken == "")
+            //        document.getElementById("JSON").innerText += "<h2>Incorrect credentials</h2>";
+            //    else {
+            //        sessionSettings.user = user.username;
+            //        roamingSettings.values["user"] = user.username;
+            //        sessionSettings.securityToken = user.secToken;
+            //        nav.navigate("pages/groupedItems/groupedItems.html");
+            //        document.getElementById("topRight").hidden = false;
+            //        document.getElementById("profile").innerText = user.username;
+            //        document.body.style.backgroundColor = "red";
+            //    }
 
-            }, function error(result) {
-                document.getElementById("JSON").innerText = "Incorrect Credentials";
-            });            
+            //}, function error(result) {
+            //    document.getElementById("JSON").innerText = "Incorrect Credentials";
+            //});            
+
+            nav.navigate("pages/groupedItems/groupedItems.html");
         }
     });
 })();

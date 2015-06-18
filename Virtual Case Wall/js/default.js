@@ -51,8 +51,8 @@
     function terminateLoginScreen()
     {
         document.getElementById("topRight").hidden = true;
-        WinJS.Application.sessionState.securityToken = "";
-        nav.navigate("pages/login/login.html");
+        WinJS.Application.sessionState.securityToken = "";        
+        nav.navigate("pages/login/login.html");        
     }
 
     app.start();

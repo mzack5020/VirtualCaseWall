@@ -1,4 +1,10 @@
-﻿#header {
+﻿body {
+    background-image: url("/images/private-investigator-e1346535078419.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#header {
     text-align: center;
 }
 
@@ -80,5 +86,6 @@
 }
 
 #profile {
-    font-size: 40px;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }

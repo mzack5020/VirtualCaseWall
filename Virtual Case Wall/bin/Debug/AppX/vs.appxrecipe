@@ -26,11 +26,11 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2015-06-18T17:48:01.918</Modified>
+      <Modified>2015-06-18T20:35:26.771</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\itemDetail\itemDetail.css">
       <PackagePath>pages\itemDetail\itemDetail.css</PackagePath>
-      <Modified>2015-06-18T17:37:30.587</Modified>
+      <Modified>2015-06-18T17:55:02.483</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\groupDetail\groupDetail.css">
       <PackagePath>pages\groupDetail\groupDetail.css</PackagePath>
@@ -38,11 +38,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\groupedItems\groupedItems.css">
       <PackagePath>pages\groupedItems\groupedItems.css</PackagePath>
-      <Modified>2015-06-18T17:45:20.906</Modified>
+      <Modified>2015-06-18T20:19:47.864</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\login\login.css">
       <PackagePath>pages\login\login.css</PackagePath>
-      <Modified>2015-06-17T14:24:56.436</Modified>
+      <Modified>2015-06-18T20:35:26.743</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\images\logo.scale-100.png">
       <PackagePath>images\logo.scale-100.png</PackagePath>
@@ -70,11 +70,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\js\data.js">
       <PackagePath>js\data.js</PackagePath>
-      <Modified>2015-06-18T14:13:35.574</Modified>
+      <Modified>2015-06-18T19:37:53.310</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2015-06-18T17:38:46.684</Modified>
+      <Modified>2015-06-18T20:34:20.667</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\js\navigator.js">
       <PackagePath>js\navigator.js</PackagePath>
@@ -90,15 +90,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\groupedItems\groupedItems.js">
       <PackagePath>pages\groupedItems\groupedItems.js</PackagePath>
-      <Modified>2015-06-18T17:33:54.991</Modified>
+      <Modified>2015-06-18T20:51:52.233</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\login\login.js">
       <PackagePath>pages\login\login.js</PackagePath>
-      <Modified>2015-06-18T17:47:29.320</Modified>
+      <Modified>2015-06-18T20:45:48.619</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\itemDetail\itemDetail.html">
       <PackagePath>pages\itemDetail\itemDetail.html</PackagePath>
-      <Modified>2015-06-18T17:34:29.740</Modified>
+      <Modified>2015-06-18T17:55:02.449</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\groupDetail\groupDetail.html">
       <PackagePath>pages\groupDetail\groupDetail.html</PackagePath>
@@ -106,7 +106,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\groupedItems\groupedItems.html">
       <PackagePath>pages\groupedItems\groupedItems.html</PackagePath>
-      <Modified>2015-06-18T17:32:47.446</Modified>
+      <Modified>2015-06-18T20:41:48.671</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\default.html">
       <PackagePath>default.html</PackagePath>

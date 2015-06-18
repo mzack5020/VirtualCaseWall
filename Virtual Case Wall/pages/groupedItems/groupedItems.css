@@ -10,8 +10,21 @@
 .groupeditemspage .groupeditemslist {
     height: 100%;
     position: relative;
-    width: 100%;
+    width: 50%;
     z-index: 0;
+    float:left;
+}
+
+.groupeditemspage #newsfeed {
+    float:right;
+    padding-right:50px;
+    padding-top: 30px;   
+    padding-left: 5px; 
+    height: 92.06%;
+    border: solid;	
+    border-right: hidden;
+    border-bottom: hidden;
+    border-top: hidden;
 }
 
     /* This selector is used to prevent ui-dark/light.css from overwriting changes

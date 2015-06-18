@@ -61,7 +61,9 @@
                     sessionSettings.user = user.username;
                     roamingSettings.values["user"] = user.username;
                     sessionSettings.securityToken = user.secToken;
-                    nav.navigate("pages/groupedItems/groupedItems.html");                    
+                    nav.navigate("pages/groupedItems/groupedItems.html");
+                    document.getElementById("topRight").hidden = false;
+                    document.getElementById("profile").innerText = user.username;                    
                 }
 
             }, function error(result) {

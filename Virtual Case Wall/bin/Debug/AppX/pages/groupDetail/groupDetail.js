@@ -32,7 +32,6 @@
 
         updateLayout: function (element) {
             /// <param name="element" domElement="true" />
-
             // TODO: Respond to changes in layout.
         },
 

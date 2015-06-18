@@ -13,11 +13,6 @@
 
         // This function is called whenever a user navigates to this page.
         ready: function (element, options) {
-            var username = WinJS.Application.sessionState.user;
-            document.getElementById("userInfo").innerHTML = "<h3>" + username + "</h3>";
-
-            var logout = document.getElementById("logoutLink");
-            logout.addEventListener("click", this.logout, false);
         },
 
         updateLayout: function (element) {
@@ -35,11 +30,5 @@
             var item = Data.items.getAt(args.detail.itemIndex);
             nav.navigate("/pages/itemDetail/itemDetail.html", { item: Data.getItemReference(item) });
         },
-
-        logout: function()
-        {
-            WinJS.Application.sessionState.securityToken = null;
-            nav.navigate("/pages/login/login.html");
-        }
     });
 })();

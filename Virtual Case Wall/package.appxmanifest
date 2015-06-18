@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:build="http://schemas.microsoft.com/developer/appx/2012/build" IgnorableNamespaces="build">
   <Identity Name="381e36cb-6858-4514-8c60-57c574ddb770" Version="1.0.0.0" Publisher="CN=drzac" />
   <Properties>
     <DisplayName>Virtual Case Wall</DisplayName>
@@ -25,4 +25,7 @@
     <Capability Name="internetClientServer" />
     <Capability Name="privateNetworkClientServer" />
   </Capabilities>
+  <build:Metadata>
+    <build:Item Name="Blend" Version="12.0.51020.0" />
+  </build:Metadata>
 </Package>

@@ -17,7 +17,11 @@
 
 </head>
 <body>
-    <div id="homeScreen">
+    <div id="homeScreen">        
+        <div id="topRight">
+            <h1 id="profile"></h1>
+            <button type="button" id="logoutLink">Log Out</button>
+        </div>
         <div id="contenthost" data-win-control="Application.PageControlNavigator" data-win-options="{home: '/pages/login/login.html'}"></div>
         <div id="appbar" data-win-control="WinJS.UI.AppBar" data-win-options="{placement: 'top'}">
             <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'home', label:'Home', icon:'home'}" type="button"></button>

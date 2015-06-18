@@ -71,3 +71,14 @@
         -ms-grid-row: 2;
         height: 100%;
     }
+
+#topRight {
+    text-align:right;
+    padding-right: 30px;
+    padding-top: 10px;
+    color: #ff0000;
+}
+
+#profile {
+    font-size: 40px;
+}

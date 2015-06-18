@@ -32,10 +32,8 @@
     <Capability Name="internetClientServer" />
     <Capability Name="privateNetworkClientServer" />
   </Capabilities>
-  <Dependencies>
-    <PackageDependency Name="Microsoft.WinJS.2.0" MinVersion="1.0.9600.17018" />
-  </Dependencies>
   <build:Metadata>
+    <build:Item Name="Blend" Version="12.0.51020.0" />
     <build:Item Name="VisualStudio" Version="12.0" />
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2013" />
     <build:Item Name="OperatingSystem" Version="10.0.10074.0 (fbl_impressive.150424-1350)" />
@@ -43,4 +41,7 @@
     <build:Item Name="ProjectGUID" Value="381e36cb-6858-4514-8c60-57c574ddb770" />
     <build:Item Name="MakePri.exe" Version="6.3.9600.17298 (winblue.141024-1500)" />
   </build:Metadata>
+  <Dependencies>
+    <PackageDependency Name="Microsoft.WinJS.2.0" MinVersion="1.0.9600.17018" />
+  </Dependencies>
 </Package>

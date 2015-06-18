@@ -44,13 +44,10 @@
             var password = document.getElementById("password").value;
             var loginStr = { "username": username, "password": password };
             loginStr = JSON.stringify(loginStr);
-
-            //var httpModule = new Windows.Web.Http.HttpClient();
-            //var userInfo = httpModule.postAsync("http://156.80.138.161:8090/VirtualCaseWall/api/login", loginStr);
             
             WinJS.xhr({
                 type: "POST",
-                url: "http://156.80.138.161:8090/VirtualCaseWall/api/login",
+                url: "http://10.201.30.200:8090/VirtualCaseWall/api/login",
                 data: loginStr,
                 responseType: "String",
             }).done(function (result) {

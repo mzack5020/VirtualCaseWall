@@ -8,22 +8,27 @@
         // This function is called to initialize the page.
         init: function (element, options) {
             this.groupHeaderInvoked = ui.eventHandler(this._groupHeaderInvoked.bind(this));
-            this.itemInvoked = ui.eventHandler(this._itemInvoked.bind(this));
-            //var feedQuery = ["Beyonce divorces Jay-Z and marries a SEDI intern (Ryan P.)",
-            //         "Donald Trump makes another zillion dollars.",
-            //         "Obama leaves the White House in a Cadillac Coupe DeVille."
-            //];
-
-            //for(var feedItem in feedQuery)
-            //{
-            //    var newDiv = document.createElement("div");
-            //    newDiv.innerHTML = "<h3>" + feedItem + "</h3><br />";
-            //    document.getElementById("newsfeed").appendChild(newDiv);
-            //}
+            this.itemInvoked = ui.eventHandler(this._itemInvoked.bind(this));            
         },
 
         // This function is called whenever a user navigates to this page.
         ready: function (element, options) {
+            var feedQuery = ["Beyonce divorces Jay-Z and marries a SEDI intern (Ryan P.)",
+                     "Donald Trump makes another zillion dollars.",
+                     "Obama leaves the White House in a Cadillac Coupe DeVille."
+            ];
+            
+            var list = document.createElement("ul");
+            list.id = "feedItems";
+
+            for (var feedItem = 0; feedItem < feedQuery.length; feedItem++) {
+                var newItem = document.createElement("li");
+                newItem.innerText = feedQuery[feedItem];
+                newItem.innerHTML += "<br />";
+                list.appendChild(newItem);
+            }
+            
+            document.getElementById("newsfeed").appendChild(list);
         },
 
         updateLayout: function (element) {

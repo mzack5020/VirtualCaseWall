@@ -71,7 +71,7 @@
         // separately.
  
         var sampleGroups = [
-            { key: "poi", title: "People of Interest", subtitle: "Cases you are involved in", backgroundImage: darkGray, description: groupDescription[0] },           
+            { key: "poi", title: "People of Interest", subtitle: "Cases you are involved in", backgroundImage: darkGray, description: groupDescription[0] },
         ];
 
         // Each of these sample items should have a reference to a particular

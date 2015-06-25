@@ -28,3 +28,18 @@ C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtu
 C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\bld\Debug\qualifiers.txt.intermediate
 C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\bld\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\bld\Debug\ProjectArchitectures.txt
+C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\bin\Debug\ReverseMap\resources.pri
+C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\bin\Debug\AppxManifest.xml
+C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\bin\Debug\Virtual Case Wall.build.appxrecipe
+C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\bld\Debug\priconfig.xml
+C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\bld\Debug\priconfig.xml.intermediate
+C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\bld\Debug\layout.resfiles
+C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\bld\Debug\layout.resfiles.intermediate
+C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\bld\Debug\resources.resfiles
+C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\bld\Debug\resources.resfiles.intermediate
+C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\bld\Debug\pri.resfiles
+C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\bld\Debug\pri.resfiles.intermediate
+C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\bld\Debug\qualifiers.txt
+C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\bld\Debug\qualifiers.txt.intermediate
+C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\bld\Debug\ProjectArchitectures.txt

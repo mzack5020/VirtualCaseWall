@@ -10,56 +10,26 @@
 .groupeditemspage .groupeditemslist {
     height: 100%;
     position: relative;
-    width: 60%;
+    width: 100%;
     z-index: 0;
-    float:left;
-}
-
-#newsfeed h1 {
-    padding-top: 15px;
-}
-
-#newsfeed ul {
-    font-size: 16px;
-    margin-left: 18px;
-    padding: 0px;
-}
-
-#newsfeed ul li {
-    padding-bottom: 10px;
-}
-
-.groupeditemspage #newsfeed {
-    float:right;
-    padding-right:50px;
-    padding-top: 30px;   
-    padding-left: 5px; 
-    height: 100%;
-    width: 17%;
-    border: ridge;
-    border-color: red;
-    border-width: 10px;
-    border-right: hidden;
-    border-bottom: hidden;
-    border-top: hidden;
 }
 
     /* This selector is used to prevent ui-dark/light.css from overwriting changes
        to .win-surface. */
     .groupeditemspage .groupeditemslist .win-horizontal.win-viewport .win-surface {
-        margin-bottom: 60px;        
+        margin-bottom: 60px;
+        margin-left: 45px;
         margin-right: 115px;
         margin-top: 128px;
-        padding-left: 20px;
     }
 
     .groupeditemspage .groupeditemslist.win-rtl .win-horizontal.win-viewport .win-surface {
-        margin-right: 45px;        
+        margin-left: 115px;
+        margin-right: 45px;
     }
 
     .groupeditemspage .groupeditemslist .win-groupheader {
         padding: 0;
-        padding-left: 20px;
     }
 
     /* Use grid and top level layout for truncation */
@@ -75,6 +45,7 @@
         background: transparent;
         border: 0;
         margin-bottom: 1px;
+        margin-left: 5px;
         margin-right: 5px;
         margin-top: 1px;
         min-height: 0;
@@ -103,8 +74,8 @@
         -ms-grid-columns: 1fr;
         -ms-grid-rows: 1fr 90px;
         display: -ms-grid;
-        height: 180px;
-        width: 180px;
+        height: 250px;
+        width: 250px;
     }
 
         .groupeditemspage .groupeditemslist .item .item-image {
@@ -112,7 +83,7 @@
         }
 
         .groupeditemspage .groupeditemslist .item .item-overlay {
-            -ms-grid-row: 3;
+            -ms-grid-row: 2;
             -ms-grid-rows: 1fr 21px;
             background: rgba(0, 0, 0, 0.65);
             display: -ms-grid;
@@ -127,11 +98,11 @@
             }
 
             .groupeditemspage .groupeditemslist .item .item-overlay .item-subtitle {
-                -ms-grid-row: 3;
+                -ms-grid-row: 2;
                 color: rgba(255, 255, 255, 0.6);
                 width: 220px;
             }
-                        
+
 @media screen and (-ms-high-contrast) {
     .groupeditemspage .groupeditemslist .item .item-overlay {
         color: WindowText;

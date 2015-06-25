@@ -74,6 +74,7 @@
             { key: "poi", title: "People of Interest", subtitle: "Cases you are involved in", backgroundImage: darkGray, description: groupDescription[0] },
         ];
 
+
         // Each of these sample items should have a reference to a particular
         // group.
         var sampleItems = [
@@ -90,6 +91,57 @@
                 content: itemContent, backgroundImage: obama
             },
         ];
+      
+        var virtualCase = {
+            casenumber: "",
+            locations: [],
+            aliases: [],
+            phoneNumbers: [],
+            addresses: [],
+            emailAddresses: [],
+            events: [],
+        };
+
+        WinJS.xhr({
+            type: "GET",
+            url: "http://156.80.138.153:8090/VirtualCaseWall/api/person",
+            headers: { "X-Auth-Header": WinJS.Application.sessionState.securityToken},
+            responseType: "String",
+        }).done(function (result) {
+            var json = JSON.parse(result.responseText);
+
+            if (json == "")
+                virtualCase.casenumber;
+            else {
+                virtualCase.casenumber = json[0].caseNumber;
+                for (var i = 0; i < json[0].locations.length; i++)
+                    virtualCase.locations[i] = json[0].locations[i] + ", ";
+                //virtualCase.locations = json.locations;
+                for (var i = 0; i < json[0].aliases.length; i++)
+                    virtualCase.aliases[i] = json[0].aliases[i] + ", ";
+                //virtualCase.aliases = json.aliases;
+                for (var i = 0; i < json[0].phoneNumbers.length; i++)
+                    virtualCase.phoneNumbers[i] = json[0].phoneNumbers[i] + ", ";
+                //virtualCase.phoneNumber = json.phoneNumbers;
+                for (var i = 0; i < json[0].addresses.length; i++)
+                    virtualCase.addresses[i] = json[0].addresses[i] + ", ";
+                //virtualCase.addresses = json.addresses;
+                for (var i = 0; i < json[0].emailAddresses.length; i++)
+                    virtualCase.emailAddresses[i] = json[0].emailAddresses[i] + ", ";
+                //virtualCase.emailAddresses = json.emailAddresses;
+
+                var newItem = {
+                    group: sampleGroups[0], title: virtualCase.casenumber, subtitle: virtualCase.aliases[0] + virtualCase.aliases[1] + virtualCase.aliases[2],
+                    description: itemDescription, content: itemContent, backgroundImage: obama
+                }
+
+                sampleItems.push(newItem);
+                document.getElementById
+            }
+
+        }, function error(result) {
+            
+        });
 
         return sampleItems;
     }

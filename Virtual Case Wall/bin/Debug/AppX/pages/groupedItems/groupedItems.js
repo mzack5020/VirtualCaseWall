@@ -15,8 +15,7 @@
 
         ready: function (element, options) {           
 
-            var map = document.getElementById("viewButton");
-            map.addEventListener("click", this.viewPage, false);
+            
         },
 
         updateLayout: function (element) {
@@ -39,11 +38,6 @@
         {
             WinJS.Application.sessionState.securityToken = null;
             nav.navigate("/pages/login/login.html");
-        },
-
-        viewPage : function()
-        {
-            nav.navigate("pages/chart/chart_container.html");
-        }
+        },        
     });
 })();

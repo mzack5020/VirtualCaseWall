@@ -37,6 +37,9 @@
            var submitButton = document.getElementById("logoutLink");
            submitButton.addEventListener("click", terminateLoginScreen, false);
            document.getElementById("topRight").hidden = true;
+
+           var map = document.getElementById("maps");
+           map.addEventListener("click", viewPage, false);
         }
     });
 
@@ -53,6 +56,11 @@
         document.getElementById("topRight").hidden = true;
         WinJS.Application.sessionState.securityToken = "";        
         nav.navigate("pages/login/login.html");        
+    }
+
+    function viewPage()
+    {
+        nav.navigate("pages/map/map_container.html");
     }
 
     app.start();

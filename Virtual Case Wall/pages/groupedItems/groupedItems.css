@@ -1,8 +1,4 @@
-﻿body {
-    background-color: #808080
-}
-
-.groupeditemspage section[role=main] {
+﻿.groupeditemspage section[role=main] {
     -ms-grid-row: 1;
     -ms-grid-row-span: 2;
 }
@@ -115,43 +111,3 @@
     padding-left: 42%;
     font-weight: bold;
 }
-
-/*#userInfo {
-    text-align: right;
-    vertical-align: top;
-    float:right;    
-}
-
-#logoutLink {
-    text-align: right;
-    vertical-align: top;
-    float: right;
-}
-
-#logoutLink {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 25px;
-    font-style: normal;
-}
-
-#userInfo h3 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 25px;
-    font-style: normal;
-}
-
-#topRight {
-    text-align:right;
-    padding-right: 30px;
-    padding-top: 10px;
-    color: #ff0000;
-}
-
-#topRight #logoutLink {
-    margin: auto;
-    background-color: #ff0000;
-    width: 10px;
-    height: 7px;
-    font-size: 14px;
-    text-align:center;
-}*/

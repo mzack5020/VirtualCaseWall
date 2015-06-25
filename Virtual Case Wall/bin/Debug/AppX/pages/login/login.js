@@ -63,8 +63,7 @@
                     sessionSettings.securityToken = user.secToken;
                     nav.navigate("pages/groupedItems/groupedItems.html");
                     document.getElementById("topRight").hidden = false;
-                    document.getElementById("profile").innerText = user.username;
-                    document.body.style.backgroundColor = "red";
+                    document.getElementById("profile").innerText = user.username;                   
                 }
 
             }, function error(result) {

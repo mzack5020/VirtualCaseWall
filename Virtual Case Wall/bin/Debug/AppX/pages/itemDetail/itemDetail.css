@@ -11,7 +11,7 @@
 }
 
 #chart {
-	position: relative;
+	position: absolute;
 	width: 50%;
 	height: 50%;
 	float: right;
@@ -25,6 +25,32 @@
 }
 
 #mapPanel {
-	position: relative;
+	position: absolute;
 	width: 100%;
+	left: 0px;
+	top: 454.13px;
+}
+
+#photo {
+	float: left;
+	height: 154px;
+	width: 170px;
+}
+
+#rightText {
+	float:right;
+	height: 154px;
+	width: 513px;
+}
+
+#bottomText {
+	position: relative;
+	height: 156px;
+	width: 663px;
+	top: 164px;
+	left: 10px;
+}
+
+#rightText h4 {
+    padding: 0px;
 }

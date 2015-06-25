@@ -19,21 +19,45 @@
             var item = Data.resolveItemReference(options.item);
             element.querySelector(".titlearea .pagetitle").textContent = item.title;
 
-            var peopleID = -1;
-            var person;
-
-            for(var i = 1; i < WinJS.Application.sessionState.people.length + 1; i++)
-            {
-                if (item.title == WinJS.Application.sessionState.people._keyMap[i].data.title) {
-                    person = WinJS.Application.sessionState.people._keyMap[i].data;
-                    peopleID = i;
-                    break;
-                }
-            }
-
-            document.getElementById("data").innerHTML = "<h3>" + person.title + "</h3>";
+            //for (var i = 1; i < WinJS.Application.sessionState.people.length + 1; i++) {
+            //    if (item.title == WinJS.Application.sessionState.people.casenumber) {
+            //        fillDetails(WinJS.Application.sessionState.people);
+            //    }
+            //}
 
             // TODO: Initialize the page here.
-        }
+            
+
+            var person = WinJS.Application.sessionState.people;
+
+            // Add photo to document
+            var img = document.createElement("img");
+            img.src = "data:images/png;base64," + person.photo;
+            img.alt = "Profile Image";
+            
+            document.getElementById("photo").style.backgroundImage = "url(" + img.src + ")";
+            document.getElementById("photo").style.backgroundSize = "100%"
+
+            // Add details to right panel div
+          
+            var text = "<h4>Aliases: ";
+            if (person.aliases[0] != "")
+                text += person.aliases[0] + ", ";
+            if (person.aliases[1] != "")
+                text += person.aliases[1] + ", ";
+            if (person.aliases[2] != "")
+                text += person.aliases[2] + "</h4>";            
+
+            text += "<h4>Sex: Male</h4>";
+            text += "<h4>Race: White</h4>";
+            text += "<h4>Date of Birth: June 14, 1980</h4>";
+            text += "<h4>Place of Birth: Queens, NY</h4>";
+            text += "<h4>Height: 5' 10\"</h4>";
+            text += "<h4>Weight: 165 lbs</h4>";
+            text += "<h4>Eyes: Green</h4>";
+            text += "<h4>Hair: Brown</h4>";
+            text += "<h4>Skintone: Light</h4>";
+            document.getElementById("rightText").innerHTML = text;
+        },
     });
 })();

@@ -122,7 +122,7 @@
             }
 
             list.push(newItem);
-            sessionSettings.people = list;
+            sessionSettings.people = virtualCase;
 
         },function error(result) {
             //I think this is what gets called when 

@@ -1,5 +1,8 @@
 ﻿(function () {
     "use strict";
+
+    var sessionSettings = WinJS.Application.sessionState;
+
     //holds data for 
     var virtualCase = {
         casenumber: "",
@@ -25,6 +28,7 @@
         console.log("ITEM")
         //we basically need to have everything wait for the XMLHttpRequest to go through
         //maybe we can push this on manually
+        //What is an item?
         list.push(item);
     });
 
@@ -98,9 +102,8 @@
             responseType: "String",
         }).done(function (result) {
             var json = JSON.parse(result.responseText);
-            if (json == "")
-                virtualCase.casenumber;//why is this line of code here?
-            else {
+            if (json != "")
+            {
                 virtualCase.casenumber = json[0].person.caseNumber;
                 for (var i = 0; i < json[0].person.locations.length; i++)
                     virtualCase.locations[i] = json[0].person.locations[i] + ", ";
@@ -112,18 +115,18 @@
                     virtualCase.addresses[i] = json[0].person.addresses[i] + ", ";
                 for (var i = 0; i < json[0].person.emailAddresses.length; i++)
                     virtualCase.emailAddresses[i] = json[0].person.emailAddresses[i] + ", ";
+                virtualCase.photo = json[0].person.photo;
                 var newItem = {
                     group: sampleGroups[0], title: virtualCase.casenumber, subtitle: virtualCase.aliases[0] + virtualCase.aliases[1] + virtualCase.aliases[2],
-                    description: itemDescription, content: itemContent, backgroundImage: obama
+                    description: itemDescription, content: itemContent, backgroundImage: "data:image/png;base64," + virtualCase.photo,
                 }
-                console.log("HERE IS THE VIRTUAL CASE" + virtualCase.casenumber);
             }
+
+            list.push(newItem);
 
         },function error(result) {
             //I think this is what gets called when 
         });
-
-        console.log("THIS CODE WAS AFTER THE OTHER CODE THOUGH?")
 
         //we need to get our items before this sampleItems is created!
         //each item in sampleItems will be a person!
@@ -145,9 +148,8 @@
             },
         ];
 
-        //I don't know what this error thing is for
-
-
+       
+        sessionSettings.people = sampleItems;
         return sampleItems;
     }
 })();

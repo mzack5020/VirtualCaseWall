@@ -147,7 +147,6 @@
                 content: itemContent, backgroundImage: obama
             },
         ];
-
        
         sessionSettings.people = sampleItems;
         return sampleItems;

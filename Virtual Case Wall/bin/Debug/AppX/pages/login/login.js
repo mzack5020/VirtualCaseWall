@@ -47,7 +47,7 @@
             
             WinJS.xhr({
                 type: "POST",
-                url: "http://10.201.30.200:8090/VirtualCaseWall/api/login",
+                url: "http://156.80.138.153:8090/VirtualCaseWall/api/login",
                 data: loginStr,
                 responseType: "String",
             }).done(function (result) {
@@ -63,12 +63,15 @@
                     sessionSettings.securityToken = user.secToken;
                     nav.navigate("pages/groupedItems/groupedItems.html");
                     document.getElementById("topRight").hidden = false;
-                    document.getElementById("profile").innerText = user.username;                    
+                    document.getElementById("profile").innerText = user.username;
+                    document.body.style.backgroundColor = "red";
                 }
 
             }, function error(result) {
                 document.getElementById("JSON").innerText = "Incorrect Credentials";
             });            
+
+            //nav.navigate("pages/groupedItems/groupedItems.html");
         }
     });
 })();

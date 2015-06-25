@@ -3,16 +3,16 @@
 
     var nav = WinJS.Navigation;
     var ui = WinJS.UI;
-
+    
     ui.Pages.define("/pages/groupedItems/groupedItems.html", {
         // This function is called to initialize the page.
         init: function (element, options) {
             this.groupHeaderInvoked = ui.eventHandler(this._groupHeaderInvoked.bind(this));
-            this.itemInvoked = ui.eventHandler(this._itemInvoked.bind(this));
+            this.itemInvoked = ui.eventHandler(this._itemInvoked.bind(this));            
         },
 
         // This function is called whenever a user navigates to this page.
-        ready: function (element, options) {
+        ready: function (element, options) {                             
         },
 
         updateLayout: function (element) {

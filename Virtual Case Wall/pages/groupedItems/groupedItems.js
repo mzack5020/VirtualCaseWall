@@ -3,7 +3,7 @@
 
     var nav = WinJS.Navigation;
     var ui = WinJS.UI;
-
+    
     ui.Pages.define("/pages/groupedItems/groupedItems.html", {
         // This function is called to initialize the page.
         init: function (element, options) {
@@ -12,7 +12,7 @@
         },
 
         // This function is called whenever a user navigates to this page.
-        ready: function (element, options) {
+        ready: function (element, options) {                             
         },
 
         updateLayout: function (element) {

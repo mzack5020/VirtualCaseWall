@@ -19,8 +19,21 @@
             var item = Data.resolveItemReference(options.item);
             element.querySelector(".titlearea .pagetitle").textContent = item.title;
 
+            var peopleID = -1;
+            var person;
+
+            for(var i = 1; i < WinJS.Application.sessionState.people.length + 1; i++)
+            {
+                if (item.title == WinJS.Application.sessionState.people._keyMap[i].data.title) {
+                    person = WinJS.Application.sessionState.people._keyMap[i].data;
+                    peopleID = i;
+                    break;
+                }
+            }
+
+            document.getElementById("data").innerHTML = "<h3>" + person.title + "</h3>";
+
             // TODO: Initialize the page here.
-                                  
         }
     });
 })();

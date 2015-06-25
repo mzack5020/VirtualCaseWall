@@ -60,7 +60,7 @@
 
     function viewPage()
     {
-        nav.navigate("pages/map/map_container.html");
+        nav.navigate("pages/chart/chart_container.html");
     }
 
     app.start();

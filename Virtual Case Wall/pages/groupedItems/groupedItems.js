@@ -13,12 +13,7 @@
 
         // This function is called whenever a user navigates to this page.
 
-        ready: function (element, options) {
-            var username = WinJS.Application.sessionState.user;
-            document.getElementById("userInfo").innerHTML = "<h3>" + username + "</h3>";
-
-            var logout = document.getElementById("logoutLink");
-            logout.addEventListener("click", this.logout, false);
+        ready: function (element, options) {           
 
             var map = document.getElementById("viewButton");
             map.addEventListener("click", this.viewPage, false);

@@ -24,8 +24,7 @@
     // You can add data from asynchronous sources whenever it becomes available.
     //Generate sample data has the "sample items, which are generated in the generateSampleData function, this is where they are actually pushed onto the list
     //so we need to make sure we can get our items into the "sample items"
-    generateSampleData().forEach(function (item) {
-        console.log("ITEM")
+    generateSampleData().forEach(function (item) {       
         //we basically need to have everything wait for the XMLHttpRequest to go through
         //maybe we can push this on manually
         //What is an item?

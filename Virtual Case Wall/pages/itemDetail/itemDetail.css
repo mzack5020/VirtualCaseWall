@@ -23,3 +23,8 @@
 	height: 305px;
 	top: 325px;
 }
+
+#mapPanel {
+	position: relative;
+	width: 100%;
+}

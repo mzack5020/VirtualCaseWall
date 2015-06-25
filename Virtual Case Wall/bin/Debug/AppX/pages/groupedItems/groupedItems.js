@@ -12,7 +12,19 @@
         },
 
         // This function is called whenever a user navigates to this page.
+<<<<<<< HEAD
         ready: function (element, options) {                             
+=======
+        ready: function (element, options) {
+            var username = WinJS.Application.sessionState.user;
+            document.getElementById("userInfo").innerHTML = "<h3>" + username + "</h3>";
+
+            var logout = document.getElementById("logoutLink");
+            logout.addEventListener("click", this.logout, false);
+
+            var map = document.getElementById("viewButton");
+            map.addEventListener("click", this.viewPage, false);
+>>>>>>> map
         },
 
         updateLayout: function (element) {
@@ -30,5 +42,19 @@
             var item = Data.items.getAt(args.detail.itemIndex);
             nav.navigate("/pages/itemDetail/itemDetail.html", { item: Data.getItemReference(item) });
         },
+<<<<<<< HEAD
+=======
+
+        logout: function()
+        {
+            WinJS.Application.sessionState.securityToken = null;
+            nav.navigate("/pages/login/login.html");
+        },
+
+        viewPage : function()
+        {
+            nav.navigate("pages/chart/chart_container.html");
+        }
+>>>>>>> map
     });
 })();

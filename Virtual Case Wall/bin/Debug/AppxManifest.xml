@@ -25,6 +25,9 @@
       <m2:VisualElements DisplayName="Virtual Case Wall" Description="Virtual Case Wall" ForegroundText="light" BackgroundColor="#464646" Square150x150Logo="images\Logo.png" Square30x30Logo="images\SmallLogo.png">
         <m2:SplashScreen Image="images\splashscreen.png" />
       </m2:VisualElements>
+      <ApplicationContentUriRules>
+        <Rule Match="https://maps.googleapis.com/maps/api/js?sensor=false&amp;libraries=visualization" Type="include" />
+      </ApplicationContentUriRules>
     </Application>
   </Applications>
   <Capabilities>

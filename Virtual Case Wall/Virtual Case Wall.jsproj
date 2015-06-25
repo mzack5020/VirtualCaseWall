@@ -65,6 +65,10 @@
     <Content Include="js\data.js" />
     <Content Include="js\default.js" />
     <Content Include="js\navigator.js" />
+    <Content Include="pages\chart\chart.css" />
+    <Content Include="pages\chart\chart.html" />
+    <Content Include="pages\chart\chart.js" />
+    <Content Include="pages\chart\chart_container.html" />
     <Content Include="pages\itemDetail\itemDetail.css" />
     <Content Include="pages\itemDetail\itemDetail.html" />
     <Content Include="pages\itemDetail\itemDetail.js" />
@@ -78,6 +82,10 @@
     <Content Include="pages\login\login.css" />
     <Content Include="pages\login\login.html" />
     <Content Include="pages\login\login.js" />
+    <Content Include="pages\map\map.css" />
+    <Content Include="pages\map\map.html" />
+    <Content Include="pages\map\map.js" />
+    <Content Include="pages\map\map_container.html" />
     <None Include="Virtual Case Wall_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>

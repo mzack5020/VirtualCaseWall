@@ -47,7 +47,11 @@
             
             WinJS.xhr({
                 type: "POST",
+<<<<<<< HEAD
                 url: "http://156.80.138.153:8090/VirtualCaseWall/api/login",
+=======
+                url: "http://192.168.1.18:8090/VirtualCaseWall/api/login",
+>>>>>>> map
                 data: loginStr,
                 responseType: "String",
             }).done(function (result) {

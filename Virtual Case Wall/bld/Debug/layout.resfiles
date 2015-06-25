@@ -8,6 +8,10 @@ images\storelogo.scale-100.png
 js\data.js
 js\default.js
 js\navigator.js
+pages\chart\chart.css
+pages\chart\chart.html
+pages\chart\chart.js
+pages\chart\chart_container.html
 pages\groupDetail\groupDetail.css
 pages\groupDetail\groupDetail.html
 pages\groupDetail\groupDetail.js
@@ -20,3 +24,7 @@ pages\itemDetail\itemDetail.js
 pages\login\login.css
 pages\login\login.html
 pages\login\login.js
+pages\map\map.css
+pages\map\map.html
+pages\map\map.js
+pages\map\map_container.html

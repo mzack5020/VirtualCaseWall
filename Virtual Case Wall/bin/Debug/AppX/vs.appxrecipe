@@ -7,8 +7,16 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>381e36cb-6858-4514-8c60-57c574ddb770</PackageIdentityName>
+<<<<<<< HEAD
     <IntermediateOutputPath>C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\bld\Debug\</IntermediateOutputPath>
+=======
+    <IntermediateOutputPath>C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\bld\Debug\</IntermediateOutputPath>
+<<<<<<< HEAD
+>>>>>>> master_origin
     <RegisteredManifestChecksum>11A646ED872C2FBA96C0B31949C66B3AC75B9B522DB5A4F9A5F05B5C9B63170C</RegisteredManifestChecksum>
+=======
+    <RegisteredManifestChecksum>A91E47DD48470C906A74BBD020B51879A3A979062E5847B6FB01275900256720</RegisteredManifestChecksum>
+>>>>>>> chart
     <RegisteredPackageMoniker>381e36cb-6858-4514-8c60-57c574ddb770_1.0.0.0_neutral__97h71xxxcpm32</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>381e36cb-6858-4514-8c60-57c574ddb770_97h71xxxcpm32!App</RegisteredUserModeAppID>
     <RegisteredPackageID>381e36cb-6858-4514-8c60-57c574ddb770</RegisteredPackageID>
@@ -20,12 +28,25 @@
     <AppXManifest Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+<<<<<<< HEAD
       <Modified>2015-06-25T14:30:47.195</Modified>
+=======
+<<<<<<< HEAD
+      <Modified>2015-06-25T16:48:38.306</Modified>
+=======
+      <Modified>2015-06-25T15:28:57.436</Modified>
+>>>>>>> chart
+>>>>>>> master_origin
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\css\default.css">
       <PackagePath>css\default.css</PackagePath>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master_origin
       <Modified>2015-06-25T15:15:12.479</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\chart\chart.css">
@@ -34,7 +55,26 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\itemDetail\itemDetail.css">
       <PackagePath>pages\itemDetail\itemDetail.css</PackagePath>
+<<<<<<< HEAD
       <Modified>2015-06-25T20:59:42.725</Modified>
+=======
+<<<<<<< HEAD
+      <Modified>2015-06-25T19:06:07.646</Modified>
+=======
+      <Modified>2015-06-25T14:53:35.641</Modified>
+>>>>>>> curran_maps
+=======
+      <Modified>2015-06-25T14:53:35.441</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\chart\chart.css">
+      <PackagePath>pages\chart\chart.css</PackagePath>
+      <Modified>2015-06-25T16:15:02.373</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\itemDetail\itemDetail.css">
+      <PackagePath>pages\itemDetail\itemDetail.css</PackagePath>
+      <Modified>2015-06-25T14:53:35.641</Modified>
+>>>>>>> chart
+>>>>>>> master_origin
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\groupDetail\groupDetail.css">
       <PackagePath>pages\groupDetail\groupDetail.css</PackagePath>
@@ -42,7 +82,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\groupedItems\groupedItems.css">
       <PackagePath>pages\groupedItems\groupedItems.css</PackagePath>
+<<<<<<< HEAD
       <Modified>2015-06-25T15:07:57.085</Modified>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <Modified>2015-06-25T15:07:57.085</Modified>
+=======
+      <Modified>2015-06-25T15:28:02.814</Modified>
+>>>>>>> curran_maps
+=======
+      <Modified>2015-06-25T15:28:02.814</Modified>
+>>>>>>> chart
+>>>>>>> master_origin
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\login\login.css">
       <PackagePath>pages\login\login.css</PackagePath>
@@ -78,11 +130,31 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\js\data.js">
       <PackagePath>js\data.js</PackagePath>
+<<<<<<< HEAD
       <Modified>2015-06-25T20:02:24.690</Modified>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <Modified>2015-06-25T18:59:16.423</Modified>
+=======
+      <Modified>2015-06-25T14:53:35.582</Modified>
+>>>>>>> curran_maps
+>>>>>>> master_origin
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\js\default.js">
       <PackagePath>js\default.js</PackagePath>
+<<<<<<< HEAD
       <Modified>2015-06-25T14:55:37.198</Modified>
+=======
+      <Modified>2015-06-25T16:48:38.335</Modified>
+=======
+      <Modified>2015-06-25T14:53:35.582</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2015-06-25T16:21:17.330</Modified>
+>>>>>>> chart
+>>>>>>> master_origin
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\js\navigator.js">
       <PackagePath>js\navigator.js</PackagePath>
@@ -90,11 +162,31 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\chart\chart.js">
       <PackagePath>pages\chart\chart.js</PackagePath>
+<<<<<<< HEAD
       <Modified>2015-06-25T14:29:58.212</Modified>
+=======
+<<<<<<< HEAD
+      <Modified>2015-06-25T16:48:38.350</Modified>
+>>>>>>> master_origin
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\itemDetail\itemDetail.js">
       <PackagePath>pages\itemDetail\itemDetail.js</PackagePath>
+<<<<<<< HEAD
       <Modified>2015-06-25T21:00:30.229</Modified>
+=======
+<<<<<<< HEAD
+      <Modified>2015-06-25T18:48:21.332</Modified>
+=======
+      <Modified>2015-06-18T20:16:55.950</Modified>
+>>>>>>> curran_maps
+=======
+      <Modified>2015-06-25T16:41:02.605</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\itemDetail\itemDetail.js">
+      <PackagePath>pages\itemDetail\itemDetail.js</PackagePath>
+      <Modified>2015-06-18T20:16:55.950</Modified>
+>>>>>>> chart
+>>>>>>> master_origin
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\groupDetail\groupDetail.js">
       <PackagePath>pages\groupDetail\groupDetail.js</PackagePath>
@@ -106,6 +198,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\login\login.js">
       <PackagePath>pages\login\login.js</PackagePath>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master_origin
       <Modified>2015-06-25T17:40:35.601</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\map\map.js">
@@ -114,7 +211,22 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\chart\chart.html">
       <PackagePath>pages\chart\chart.html</PackagePath>
+<<<<<<< HEAD
       <Modified>2015-06-25T14:29:58.210</Modified>
+=======
+      <Modified>2015-06-25T16:48:38.349</Modified>
+=======
+      <Modified>2015-06-25T14:53:35.694</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\map\map.js">
+      <PackagePath>pages\map\map.js</PackagePath>
+      <Modified>2015-06-25T14:53:35.772</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\chart\chart.html">
+      <PackagePath>pages\chart\chart.html</PackagePath>
+      <Modified>2015-06-25T16:24:47.600</Modified>
+>>>>>>> chart
+>>>>>>> master_origin
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\chart\chart_container.html">
       <PackagePath>pages\chart\chart_container.html</PackagePath>
@@ -122,7 +234,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\itemDetail\itemDetail.html">
       <PackagePath>pages\itemDetail\itemDetail.html</PackagePath>
+<<<<<<< HEAD
       <Modified>2015-06-25T19:36:50.375</Modified>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <Modified>2015-06-25T19:06:40.223</Modified>
+=======
+      <Modified>2015-06-18T20:16:55.133</Modified>
+>>>>>>> curran_maps
+=======
+      <Modified>2015-06-18T20:16:55.133</Modified>
+>>>>>>> chart
+>>>>>>> master_origin
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\groupDetail\groupDetail.html">
       <PackagePath>pages\groupDetail\groupDetail.html</PackagePath>
@@ -134,7 +258,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\default.html">
       <PackagePath>default.html</PackagePath>
+<<<<<<< HEAD
       <Modified>2015-06-25T17:40:35.391</Modified>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <Modified>2015-06-25T17:40:35.391</Modified>
+=======
+      <Modified>2015-06-25T16:15:58.204</Modified>
+>>>>>>> curran_maps
+=======
+      <Modified>2015-06-25T16:15:58.204</Modified>
+>>>>>>> chart
+>>>>>>> master_origin
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\login\login.html">
       <PackagePath>pages\login\login.html</PackagePath>
@@ -142,7 +278,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\map\map.html">
       <PackagePath>pages\map\map.html</PackagePath>
+<<<<<<< HEAD
       <Modified>2015-06-25T18:58:32.446</Modified>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <Modified>2015-06-25T18:58:32.446</Modified>
+=======
+      <Modified>2015-06-25T14:53:35.717</Modified>
+>>>>>>> curran_maps
+=======
+      <Modified>2015-06-25T14:53:35.717</Modified>
+>>>>>>> chart
+>>>>>>> master_origin
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\pages\map\map_container.html">
       <PackagePath>pages\map\map_container.html</PackagePath>

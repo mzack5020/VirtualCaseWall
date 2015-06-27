@@ -71,7 +71,6 @@
                 document.getElementById("JSON").innerText = "Incorrect Credentials";
             });            
 
-            //nav.navigate("pages/groupedItems/groupedItems.html");
         }
     });
 })();

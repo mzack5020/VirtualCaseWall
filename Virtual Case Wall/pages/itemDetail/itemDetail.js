@@ -22,34 +22,31 @@
             //now people is a map that can be accessed by casenumber
             var person = WinJS.Application.sessionState.people[item.title];
 
-            // Add photo to document
-            var img = document.createElement("img");
-            img.src = "data:images/png;base64," + person.photo;
-            img.alt = "Profile Image";
-            
-            document.getElementById("photo").style.backgroundImage = "url(" + img.src + ")";
+
+            //set profile photo
+            document.getElementById("photo").style.backgroundImage = "url(data:images/png;base64," + person.photo + ")";
             document.getElementById("photo").style.backgroundSize = "100%"
 
             // Add details to right panel div
           
-            var text = "<h4>Aliases: ";
-            if (person.aliases[0] != "")
-                text += person.aliases[0] + ", ";
-            if (person.aliases[1] != "")
-                text += person.aliases[1] + ", ";
-            if (person.aliases[2] != "")
-                text += person.aliases[2] + "</h4>";            
+            //var text = "<h4>Aliases: ";
+            //if (person.aliases[0] != "")
+            //    text += person.aliases[0] + ", ";
+            //if (person.aliases[1] != "")
+            //    text += person.aliases[1] + ", ";
+            //if (person.aliases[2] != "")
+            //    text += person.aliases[2] + "</h4>";            
 
-            text += "<h4>Sex: Male</h4>";
-            text += "<h4>Race: White</h4>";
-            text += "<h4>Date of Birth: June 14, 1980</h4>";
-            text += "<h4>Place of Birth: Queens, NY</h4>";
-            text += "<h4>Height: 5' 10\"</h4>";
-            text += "<h4>Weight: 165 lbs</h4>";
-            text += "<h4>Eyes: Green</h4>";
-            text += "<h4>Hair: Brown</h4>";
-            text += "<h4>Skintone: Light</h4>";
-            document.getElementById("rightText").innerHTML = text;
+            //text += "<h4>Sex: Male</h4>";
+            //text += "<h4>Race: White</h4>";
+            //text += "<h4>Date of Birth: June 14, 1980</h4>";
+            //text += "<h4>Place of Birth: Queens, NY</h4>";
+            //text += "<h4>Height: 5' 10\"</h4>";
+            //text += "<h4>Weight: 165 lbs</h4>";
+            //text += "<h4>Eyes: Green</h4>";
+            //text += "<h4>Hair: Brown</h4>";
+            //text += "<h4>Skintone: Light</h4>";
+            //document.getElementById("rightText").innerHTML = text;
         },
     });
 })();

@@ -19,16 +19,20 @@
             var item = Data.resolveItemReference(options.item);
             element.querySelector(".titlearea .pagetitle").textContent = item.title;
 
-            //for (var i = 1; i < WinJS.Application.sessionState.people.length + 1; i++) {
-            //    if (item.title == WinJS.Application.sessionState.people.casenumber) {
-            //        fillDetails(WinJS.Application.sessionState.people);
+            var person = "";
+            console.log(item.title);
+            //find correct person
+            //for (var i = 0; i < WinJS.Application.sessionState.people.length; i++) {
+            //    console.log("Case number: " + WinJS.Application.sessionState.people[i].casenumber);
+            //    if (item.title == WinJS.Application.sessionState.people[i].casenumber) {
+            //        person = WinJS.Application.sessionState.people[i];
             //    }
             //}
-
-            // TODO: Initialize the page here.
-            
-
-            var person = WinJS.Application.sessionState.people;
+            person = WinJS.Application.sessionState.people[item.title];
+            console.log(person);
+            if (person == "") {
+                console.log("person not found");
+            }
 
             // Add photo to document
             var img = document.createElement("img");

@@ -19,16 +19,8 @@
             var item = Data.resolveItemReference(options.item);
             element.querySelector(".titlearea .pagetitle").textContent = item.title;
 
-            //for (var i = 1; i < WinJS.Application.sessionState.people.length + 1; i++) {
-            //    if (item.title == WinJS.Application.sessionState.people.casenumber) {
-            //        fillDetails(WinJS.Application.sessionState.people);
-            //    }
-            //}
-
-            // TODO: Initialize the page here.
-            
-
-            var person = WinJS.Application.sessionState.people;
+            //now people is a map that can be accessed by casenumber
+            var person = WinJS.Application.sessionState.people[item.title];
 
             // Add photo to document
             var img = document.createElement("img");

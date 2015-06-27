@@ -3,10 +3,6 @@
 
     var sessionSettings = WinJS.Application.sessionState;
 
-    //holds data for
-    //virtual case is much more complex than this unfortunately
-    //rename this to person, also, we need to make sure we are getting ALL of the data from Grails
-
     var event = {
         date: "",
         type: "",
@@ -25,6 +21,15 @@
         photo: ""
     };
 
+    var personList = {};
+
+    //every time we get a new person we should put them into this list if they are not already there
+    //in this list I would like to basically store like in a Map<String,Person>, so I want the key to be caseNumber and the value to be the personData object that was found
+    //I want to do this so I can lookup if one exists beforehand
+    var listOfPeople = new WinJS.Binding.List();
+    listOfPeople.setAt("five", "hello");
+    var itemRetrieved = listOfPeople.getItemFromKey("five");
+    console.log(itemRetrieved + "NOt UNDEFINED");
     var list = new WinJS.Binding.List();
     var groupedItems = list.createGrouped(
         function groupKeySelector(item) { return item.group.key; },
@@ -36,12 +41,8 @@
     //Generate sample data has the "sample items, which are generated in the generateSampleData function, this is where they are actually pushed onto the list
     //so we need to make sure we can get our items into the "sample items"
     generateSampleData().forEach(function (item) {
-        //we basically need to have everything wait for the XMLHttpRequest to go through
-        //maybe we can push this on manually
-        //What is an item?
         list.push(item);
     });
-
     WinJS.Namespace.define("Data", {
         items: groupedItems,
         groups: groupedItems.groups,
@@ -107,7 +108,7 @@
         //our problem is that this takes a long time, so it actually might finish after the page is already rendered
         WinJS.xhr({
             type: "GET",
-            url: "http://156.80.138.153:8090/VirtualCaseWall/api/person",
+            url: "http://192.168.1.19:8090/VirtualCaseWall/api/person",
             headers: { "X-Auth-Header": WinJS.Application.sessionState.securityToken },
             responseType: "String",
         }).done(function (result) {
@@ -146,17 +147,13 @@
                         group: sampleGroups[0], title: personData.casenumber, subtitle: personData.casenumber,    //changed this because we don't know how many aliases there will be
                         description: itemDescription, content: itemContent, backgroundImage: "data:image/png;base64," + personData.photo,
                     }
-                    //push item onto list so it can be loaded into page, the rest of the details for the person (newItem) will need to be stored in the session
+                    //I wonder if grails gets called again if there will be duplicate people
                     list.push(newPerson);
+                    //the personList should not contain duplicates
+                     personList[personData.casenumber] = personData;
                 }
-
             }
-
-            sessionSettings.people = personData;   //yeah...this is going to have to be all of the people
-
-            //I want to see all of this object, we may need to make the event object because it is more complex
-            console.log(personData.events.length);
-            console.log(personData.events[0])
+            sessionSettings.people = personList;
 
         }, function error(result) {
             //I think this is what gets called when 

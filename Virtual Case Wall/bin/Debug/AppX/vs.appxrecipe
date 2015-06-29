@@ -78,11 +78,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\js\data.js">
       <PackagePath>js\data.js</PackagePath>
-      <Modified>2015-06-27T00:24:37.606</Modified>
+      <Modified>2015-06-27T19:38:44.994</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2015-06-26T23:24:19.380</Modified>
+      <Modified>2015-06-27T19:24:39.240</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\js\navigator.js">
       <PackagePath>js\navigator.js</PackagePath>
@@ -90,31 +90,31 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\chart\chart.js">
       <PackagePath>pages\chart\chart.js</PackagePath>
-      <Modified>2015-06-27T01:55:01.092</Modified>
+      <Modified>2015-06-27T19:42:19.104</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\itemDetail\itemDetail.js">
       <PackagePath>pages\itemDetail\itemDetail.js</PackagePath>
-      <Modified>2015-06-27T01:25:29.692</Modified>
+      <Modified>2015-06-27T19:41:44.108</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\groupDetail\groupDetail.js">
       <PackagePath>pages\groupDetail\groupDetail.js</PackagePath>
-      <Modified>2015-06-26T23:24:19.398</Modified>
+      <Modified>2015-06-27T19:41:59.556</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\groupedItems\groupedItems.js">
       <PackagePath>pages\groupedItems\groupedItems.js</PackagePath>
-      <Modified>2015-06-26T23:24:19.401</Modified>
+      <Modified>2015-06-27T19:43:24.184</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\login\login.js">
       <PackagePath>pages\login\login.js</PackagePath>
-      <Modified>2015-06-27T01:35:54.557</Modified>
+      <Modified>2015-06-27T19:43:01.627</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\map\map.js">
       <PackagePath>pages\map\map.js</PackagePath>
-      <Modified>2015-06-26T23:24:19.528</Modified>
+      <Modified>2015-06-27T19:42:34.488</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\chart\chart.html">
       <PackagePath>pages\chart\chart.html</PackagePath>
-      <Modified>2015-06-27T01:25:55.405</Modified>
+      <Modified>2015-06-27T19:25:50.460</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\chart\chart_container.html">
       <PackagePath>pages\chart\chart_container.html</PackagePath>

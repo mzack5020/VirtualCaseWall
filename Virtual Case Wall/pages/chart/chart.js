@@ -1,24 +1,31 @@
 ﻿(function () {
-        "use strict";
+    "use strict";
+    console.log("in chart.js");
+
     // Load the Visualization API and the piechart package.
     google.load('visualization', '1.0', { 'packages': ['corechart'] });
     google.setOnLoadCallback(drawLineChart);//have this call something that loads the events, then when finished does the drawLineChart
+
+    var sessionSettings = WinJS.Application.sessionState;
 
     WinJS.UI.Pages.define("/pages/chart/chart.html", {
 
         ready: function (element, options) {
             //we might be losing this somehow.
-            var sessionStatePeople = WinJS.Application.sessionState.people;
-            console.log(sessionStatePeople);
-            var person = WinJS.Application.sessionState.people['Richard Matt'];
-            consle.log(person.casenumber);
+            //var sessionStatePeople = WinJS.Application.sessionState.people;
+            //console.log(sessionStatePeople);
+            //var person = WinJS.Application.sessionState.people['Richard Matt'];
+            //consle.log(person.casenumber);
             //get the events
             //get everything we need from the events
             //draw chart with event data
+            //console.log("this was called");
+            var person = WinJS.Application.sessionState.people['Richard Matt'];
+            console.log(person.casenumber);
 
-        },
+        }
     });
-
+})();
     function drawLineChart() {
         var data = new google.visualization.DataTable();
         data.addColumn('string', 'Months');
@@ -50,4 +57,3 @@
         plot.draw(data, properties);
 
     }
-})();

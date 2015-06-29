@@ -1,8 +1,8 @@
 ﻿(function () {
     "use strict";
 
-    var sessionSettings = WinJS.Application.sessionState;
-
+    var sessionSettings = WinJS.Application.sessionState;   //might want to try making this global....dang crazy though
+    console.log("in data.js");
     var event = {
         date: "",
         type: "",
@@ -26,10 +26,6 @@
     //every time we get a new person we should put them into this list if they are not already there
     //in this list I would like to basically store like in a Map<String,Person>, so I want the key to be caseNumber and the value to be the personData object that was found
     //I want to do this so I can lookup if one exists beforehand
-    var listOfPeople = new WinJS.Binding.List();
-    listOfPeople.setAt("five", "hello");
-    var itemRetrieved = listOfPeople.getItemFromKey("five");
-    console.log(itemRetrieved + "NOt UNDEFINED");
     var list = new WinJS.Binding.List();
     var groupedItems = list.createGrouped(
         function groupKeySelector(item) { return item.group.key; },
@@ -104,12 +100,10 @@
         var sampleGroups = [
             { key: "poi", title: "Persons of Interest", subtitle: "Persons Under Investigation", backgroundImage: darkGray, description: groupDescription[0] },
         ];
-
-        //our problem is that this takes a long time, so it actually might finish after the page is already rendered
         WinJS.xhr({
             type: "GET",
             url: "http://192.168.1.19:8090/VirtualCaseWall/api/person",
-            headers: { "X-Auth-Header": WinJS.Application.sessionState.securityToken },
+            headers: { "X-Auth-Header": WinJS.Application.sessionState.securityToken }, //this I don't think is even there brah
             responseType: "String",
         }).done(function (result) {
             //we probably want this to be people, then have to iterate through and add person

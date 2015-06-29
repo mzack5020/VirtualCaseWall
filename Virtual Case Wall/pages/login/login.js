@@ -2,7 +2,7 @@
 // http://go.microsoft.com/fwlink/?LinkId=232511
 (function () {
     "use strict";
-
+    console.log("in login.js");
     var nav = WinJS.Navigation;
     var roamingSettings = Windows.Storage.ApplicationData.current.roamingSettings;
     var sessionSettings = WinJS.Application.sessionState;
@@ -14,7 +14,6 @@
             // TODO: Initialize the page here.
             var submitButton = document.getElementById("submitButton");
             submitButton.addEventListener("click", this.terminateLoginScreen, false);
-            
             var username = roamingSettings.values["user"];
             if(username)
                 document.getElementById("username").innerText = username;
@@ -60,7 +59,7 @@
                 else {
                     sessionSettings.user = user.username;
                     roamingSettings.values["user"] = user.username;
-                    sessionSettings.securityToken = user.secToken;
+                    sessionSettings.securityToken = user.secToken;  //here it sets that token, I don't think it will ever be seen
                     nav.navigate("pages/groupedItems/groupedItems.html");
                     document.getElementById("topRight").hidden = false;
                     document.getElementById("profile").innerText = user.username;

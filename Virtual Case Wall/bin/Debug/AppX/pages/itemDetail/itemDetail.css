@@ -22,6 +22,7 @@
 	width: 100%;
 	height: 305px;
 	top: 325px;
+	bottom: 0px;
 }
 
 #mapPanel {
@@ -46,9 +47,9 @@
 #bottomText {
 	position: relative;
 	height: 156px;
-	width: 663px;
+	width: 673px;
 	top: 164px;
-	left: 10px;
+	left: 0px;
 }
 
 #rightText h4 {

@@ -78,7 +78,7 @@
 
     // Returns an array of sample data that can be added to the application's
     // data list. 
-    //This is hwat gets us our sample data!!!
+    // This is what gets us our sample data!!!
     function generateSampleData() {
         var itemContent = "<p>Sample Case</p>";
         var itemDescription = "";
@@ -102,7 +102,7 @@
         ];
         WinJS.xhr({
             type: "GET",
-            url: "http://192.168.1.19:8090/VirtualCaseWall/api/person",
+            url: "http://156.80.138.153:8090/VirtualCaseWall/api/person",
             headers: { "X-Auth-Header": WinJS.Application.sessionState.securityToken }, //this I don't think is even there brah
             responseType: "String",
         }).done(function (result) {

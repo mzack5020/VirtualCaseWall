@@ -10,7 +10,7 @@
   <Identity Name="381e36cb-6858-4514-8c60-57c574ddb770" Version="1.0.0.0" Publisher="CN=drzac" ProcessorArchitecture="neutral" />
   <Properties>
     <DisplayName>Virtual Case Wall</DisplayName>
-    <PublisherDisplayName>drzac</PublisherDisplayName>
+    <PublisherDisplayName>Matthew Zackschewski</PublisherDisplayName>
     <Logo>images\storelogo.png</Logo>
   </Properties>
   <Prerequisites>

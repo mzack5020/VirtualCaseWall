@@ -25,7 +25,7 @@
 
         }
     });
-})();
+
     function drawLineChart() {
         var data = new google.visualization.DataTable();
         data.addColumn('string', 'Months');
@@ -53,7 +53,8 @@
         };
 
         var plot = new google.visualization.LineChart(document.getElementById('lineChart'));
-  
-        plot.draw(data, properties);
 
+        plot.draw(data, properties);
     }
+})();
+    

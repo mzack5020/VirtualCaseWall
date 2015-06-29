@@ -22,13 +22,14 @@
 	width: 100%;
 	height: 305px;
 	top: 325px;
+	bottom: 0px;
 }
 
 #mapPanel {
 	position: absolute;
 	width: 100%;
-	left: 0px;
-	top: 454.13px;
+	left: -9.97px;
+	top: 448px;
 }
 
 #photo {
@@ -46,9 +47,9 @@
 #bottomText {
 	position: relative;
 	height: 156px;
-	width: 663px;
+	width: 673px;
 	top: 164px;
-	left: 10px;
+	left: 0px;
 }
 
 #rightText h4 {

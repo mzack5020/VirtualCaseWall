@@ -104,7 +104,7 @@
 
         //WinJS.xhr({
         //    type: "GET",
-        //    url: "http://10.201.26.157:8090/VirtualCaseWall/api/person",
+        //    url: "http://10.201.28.91:8090/VirtualCaseWall/api/person",
         //    headers: { "X-Auth-Header": WinJS.Application.sessionState.securityToken},
         //    responseType: "String",
         //}).done(function (result) {

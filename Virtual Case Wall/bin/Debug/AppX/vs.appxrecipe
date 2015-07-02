@@ -20,7 +20,7 @@
     <AppXManifest Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-06-25T16:48:38.306</Modified>
+      <Modified>2015-07-02T14:03:49.506</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -30,11 +30,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\chart\chart.css">
       <PackagePath>pages\chart\chart.css</PackagePath>
-      <Modified>2015-06-25T16:48:38.340</Modified>
+      <Modified>2015-07-02T14:03:49.636</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\itemDetail\itemDetail.css">
       <PackagePath>pages\itemDetail\itemDetail.css</PackagePath>
-      <Modified>2015-06-25T14:53:35.641</Modified>
+      <Modified>2015-07-02T14:03:49.673</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\groupDetail\groupDetail.css">
       <PackagePath>pages\groupDetail\groupDetail.css</PackagePath>
@@ -78,11 +78,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\js\data.js">
       <PackagePath>js\data.js</PackagePath>
-      <Modified>2015-06-25T14:53:35.582</Modified>
+      <Modified>2015-07-02T14:39:59.860</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2015-06-25T16:48:38.335</Modified>
+      <Modified>2015-07-02T14:03:49.632</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\js\navigator.js">
       <PackagePath>js\navigator.js</PackagePath>
@@ -90,11 +90,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\chart\chart.js">
       <PackagePath>pages\chart\chart.js</PackagePath>
-      <Modified>2015-06-25T16:48:38.350</Modified>
+      <Modified>2015-07-02T14:03:49.657</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\itemDetail\itemDetail.js">
       <PackagePath>pages\itemDetail\itemDetail.js</PackagePath>
-      <Modified>2015-06-18T20:16:55.950</Modified>
+      <Modified>2015-07-02T14:03:49.966</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\groupDetail\groupDetail.js">
       <PackagePath>pages\groupDetail\groupDetail.js</PackagePath>
@@ -106,15 +106,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\login\login.js">
       <PackagePath>pages\login\login.js</PackagePath>
-      <Modified>2015-06-25T14:53:35.694</Modified>
+      <Modified>2015-07-02T14:38:00.704</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\map\map.js">
       <PackagePath>pages\map\map.js</PackagePath>
-      <Modified>2015-06-25T19:05:47.689</Modified>
+      <Modified>2015-07-02T16:45:04.569</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\chart\chart.html">
       <PackagePath>pages\chart\chart.html</PackagePath>
-      <Modified>2015-06-25T16:48:38.349</Modified>
+      <Modified>2015-07-02T14:03:49.649</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\chart\chart_container.html">
       <PackagePath>pages\chart\chart_container.html</PackagePath>
@@ -122,7 +122,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\itemDetail\itemDetail.html">
       <PackagePath>pages\itemDetail\itemDetail.html</PackagePath>
-      <Modified>2015-06-18T20:16:55.133</Modified>
+      <Modified>2015-07-02T14:03:49.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\groupDetail\groupDetail.html">
       <PackagePath>pages\groupDetail\groupDetail.html</PackagePath>

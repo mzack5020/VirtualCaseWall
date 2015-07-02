@@ -6,8 +6,10 @@ function initialize() {
   //  personLat = 39;
   // personLng = -77;
 
-    allLats = [39, 55, 45, 32, 88];
-    allLngs = [-77, 45, -100, 45, 30];
+    // Booz Allen locations (testing)
+   
+    allLats = [38.95, 38.92, 38.89, 38.90];
+    allLngs = [-77.40, -77.23, -77.01, -77.033];
 
     latSum = 0;
     lngSum = 0;
@@ -23,8 +25,10 @@ function initialize() {
     meanLat = latSum / allLats.length;
     meanLng = lngSum / allLngs.length;
 
+    console.log(meanLat);
+    console.log(meanLng);
     map = new google.maps.Map(document.getElementById('mapdisplay'), {
-        zoom: 3,
+        zoom: 13,
         center: new google.maps.LatLng(meanLat, meanLng),
         mapTypeId: google.maps.MapTypeId.TERRAIN
     });

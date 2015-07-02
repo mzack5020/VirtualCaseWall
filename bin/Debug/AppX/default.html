@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Virtual_Case_Wall</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+
+    <!-- Virtual_Case_Wall references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/data.js"></script>
+    <script src="/js/navigator.js"></script>
+    <script src="/js/default.js"></script>
+
+</head>
+<body>
+    <div id="homeScreen">        
+        <div id="topRight">
+            <h1 id="profile"></h1>
+            <button type="button" id="maps">My Maps</button>
+            <button type="button" id="logoutLink">Log Out</button>
+        </div>
+        <div id="contenthost" data-win-control="Application.PageControlNavigator" data-win-options="{home: '/pages/login/login.html'}"></div>
+        <div id="appbar" data-win-control="WinJS.UI.AppBar" data-win-options="{placement: 'top'}">
+            <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'home', label:'Home', icon:'home'}" type="button"></button>
+            <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'myCases', label:'My Cases', icon:'page'}" type="button" ></button>
+            <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'maps', label:'Maps', icon:'page'}" type="button"></button>
+        </div>
+    </div>
+</body>
+</html>

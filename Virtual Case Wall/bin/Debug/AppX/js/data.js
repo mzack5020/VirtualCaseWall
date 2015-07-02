@@ -1,36 +1,6 @@
 ﻿(function () {
     "use strict";
     console.log("in data.js");
-    var people;
-    var applicationData = Windows.Storage.ApplicationData.current;
-    var localFolder = applicationData.localFolder;
-
-    // Write data to a file
-    function writePeople(json) {
-        console.log("writePeople");
-        localFolder.createFileAsync("people.txt", Windows.Storage.CreationCollisionOption.replaceExisting)
-           .then(function (peopleFile) {
-               return Windows.Storage.FileIO.writeTextAsync(peopleFile, JSON.stringify(json));
-           }).done(function () {
-               console.log("donewriting");
-           });
-    }
-
-    function readPeople(callback) {
-        console.log("readPeople");
-        localFolder.getFileAsync("people.txt")
-           .then(function (sampleFile) {
-               return Windows.Storage.FileIO.readTextAsync(sampleFile);
-           }).done(function (data) {
-               callback(data);
-           }, function () {
-               console.log("file could not found");
-           });
-    }
-
-    function doCrap(data) {
-        console.log("stuff" + JSON.stringify(data));
-    }
 
     var sessionSettings = WinJS.Application.sessionState;
     var event = {
@@ -141,54 +111,49 @@
             writePeople(json);//writes this stuff to a file
             if (json != "") {
                 
-                //    for (var i = 0; i < json.length; i++) {
+                    for (var i = 0; i < json.length; i++) {
 
-                //        personData.casenumber = json[i].person.caseNumber;
-                //        personData.photo = json[i].person.photo;
+                        personData.casenumber = json[i].person.caseNumber;
+                        personData.photo = json[i].person.photo;
 
-                //        for (var p = 0; p < json[i].person.locations.length; p++) {
-                //            personData.locations[p] = json[i].person.locations[p];
-                //        }
-                //        for (var p = 0; p < json[i].person.aliases.length; p++) {
-                //            personData.aliases[p] = json[i].person.aliases[p];
-                //        }
-                //        for (var p = 0; p < json[i].person.phoneNumbers.length; p++) {
-                //            personData.phoneNumbers[p] = json[i].person.phoneNumbers[p];
-                //        }
-                //        for (var p = 0; p < json[i].person.addresses.length; p++) {
-                //            personData.addresses[p] = json[i].person.addresses[p];
-                //        }
-                //        for (var p = 0; p < json[i].person.emailAddresses.length; p++) {
-                //            personData.emailAddresses[p] = json[i].person.emailAddresses[p];
-                //        }
-                //        for (var p = 0; p < json[i].person.events.length; p++) {
-                //            event.date = json[i].person.events[p].date;
-                //            event.type = json[i].person.events[p].type;
-                //            event.value = json[i].person.events[p].value;
-                //            event.toValue = json[i].person.events[p].toValue;
-                //            personData.events[p] = event;
-                //        }
+                        for (var p = 0; p < json[i].person.locations.length; p++) {
+                            personData.locations[p] = json[i].person.locations[p];
+                        }
+                        for (var p = 0; p < json[i].person.aliases.length; p++) {
+                            personData.aliases[p] = json[i].person.aliases[p];
+                        }
+                        for (var p = 0; p < json[i].person.phoneNumbers.length; p++) {
+                            personData.phoneNumbers[p] = json[i].person.phoneNumbers[p];
+                        }
+                        for (var p = 0; p < json[i].person.addresses.length; p++) {
+                            personData.addresses[p] = json[i].person.addresses[p];
+                        }
+                        for (var p = 0; p < json[i].person.emailAddresses.length; p++) {
+                            personData.emailAddresses[p] = json[i].person.emailAddresses[p];
+                        }
+                        for (var p = 0; p < json[i].person.events.length; p++) {
+                            event.date = json[i].person.events[p].date;
+                            event.type = json[i].person.events[p].type;
+                            event.value = json[i].person.events[p].value;
+                            event.toValue = json[i].person.events[p].toValue;
+                            personData.events[p] = event;
+                        }
 
-                //        var newPerson = {
-                //            group: sampleGroups[0], title: personData.casenumber, subtitle: personData.casenumber,    //changed this because we don't know how many aliases there will be
-                //            description: itemDescription, content: itemContent, backgroundImage: "data:image/png;base64," + personData.photo,
-                //        }
-                //        //I wonder if grails gets called again if there will be duplicate people
-                //        list.push(newPerson);
-                //        //the personList should not contain duplicates
-                //         personList[personData.casenumber] = personData;
-                //    }
+                        var newPerson = {
+                            group: sampleGroups[0], title: personData.casenumber, subtitle: personData.casenumber,    //changed this because we don't know how many aliases there will be
+                            description: itemDescription, content: itemContent, backgroundImage: "data:image/png;base64," + personData.photo,
+                        }
+                        //I wonder if grails gets called again if there will be duplicate people
+                        list.push(newPerson);
+                        personList[personData.casenumber] = personData;
+                    }
             }
-            //sessionSettings.people = personList;
+            sessionSettings.people = personList;
 
         }, function error(result) {
             //I think this is what gets called when 
         });
 
-        //we need to get our items before this sampleItems is created!
-        //each item in sampleItems will be a person!
-
-        //eventually get rid of these sampleItems, all of our data will be from Grails
         var sampleItems = [
             {
                 group: sampleGroups[0], title: "Donald Trump", subtitle: "Microsoft Founder", description: itemDescription,
@@ -203,7 +168,7 @@
                 content: itemContent, backgroundImage: obama
             },
         ];
-        readPeople(doCrap);
+        readPersonFromPeopleFile("Richard Matt", doPersonAction);
         return sampleItems;
     }
 })();

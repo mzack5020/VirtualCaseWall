@@ -66,6 +66,7 @@
     <Content Include="js\default.js" />
     <Content Include="js\js\Interactivity.1.1.js" />
     <Content Include="js\navigator.js" />
+    <Content Include="js\people_util.js" />
     <Content Include="pages\chart\chart.css" />
     <Content Include="pages\chart\chart.html" />
     <Content Include="pages\chart\chart.js" />

@@ -9,6 +9,7 @@ js\data.js
 js\default.js
 js\js\Interactivity.1.1.js
 js\navigator.js
+js\people_util.js
 pages\chart\chart.css
 pages\chart\chart.html
 pages\chart\chart.js

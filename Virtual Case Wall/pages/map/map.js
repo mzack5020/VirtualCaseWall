@@ -1,6 +1,9 @@
 ﻿var map;
 var dataResults;
 var marker;
+var overlay;
+
+addPersonOverlay.prototype = new google.maps.OverlayView();
 
 function initialize() {
   //  personLat = 39;
@@ -38,8 +41,16 @@ function initialize() {
 
     }
 
- 
-   // new google.maps.Marker({ position: { lat: personLat, lng: personLng }, map: map });
+    // Create image overlay on map -- 'Add a person of interest' 
+
+    var bottomLeft = new google.maps.LatLng(62.281819, -150.287132);
+    var topRight = new google.maps.LatLng(62.400471, -150.005608);
+
+    var bounds = new google.maps.LatLngBounds(bottomLeft, topRight);
+
+    var srcImage = "https://cdn4.iconfinder.com/data/icons/meBaze-Freebies/256/add-user.png"
+
+   // Define overlay //
 }
 
 eqfeed_callback = function (results) {

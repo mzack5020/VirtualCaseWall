@@ -64,6 +64,7 @@
     <Content Include="images\storelogo.scale-100.png" />
     <Content Include="js\data.js" />
     <Content Include="js\default.js" />
+    <Content Include="js\js\Interactivity.1.1.js" />
     <Content Include="js\navigator.js" />
     <Content Include="pages\chart\chart.css" />
     <Content Include="pages\chart\chart.html" />

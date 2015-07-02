@@ -1,8 +1,39 @@
 ﻿(function () {
     "use strict";
-
-    var sessionSettings = WinJS.Application.sessionState;   //might want to try making this global....dang crazy though
     console.log("in data.js");
+    var people;
+    var applicationData = Windows.Storage.ApplicationData.current;
+    var localFolder = applicationData.localFolder;
+
+    // Write data to a file
+    function writePeople(json) {
+        console.log("writePeople");
+        localFolder.createFileAsync("people.txt", Windows.Storage.CreationCollisionOption.replaceExisting)
+           .then(function (peopleFile) {
+               return Windows.Storage.FileIO.writeTextAsync(peopleFile, JSON.stringify(json));
+           }).done(function () {
+               console.log("donewriting");
+           });
+    }
+
+    function readPeople(callback, personName) {
+        console.log("readPeople");
+        localFolder.getFileAsync("people.txt")
+           .then(function (sampleFile) {
+               return Windows.Storage.FileIO.readTextAsync(sampleFile);
+           }).done(function (data) {
+               callback(data, personName);
+           }, function () {
+               console.log("file could not found");
+           });
+    }
+
+    function doAction(data, personName) {
+        if (typeof myVariable === 'undefined') { myVariable = 'default'; }
+        console.log("finding " + personName + JSON.stringify(data));
+    }
+
+    var sessionSettings = WinJS.Application.sessionState;
     var event = {
         date: "",
         type: "",
@@ -102,52 +133,54 @@
         ];
         WinJS.xhr({
             type: "GET",
-            url: "http://192.168.1.19:8090/VirtualCaseWall/api/person",
+            url: "http://10.201.28.91:8090/VirtualCaseWall/api/person",
             headers: { "X-Auth-Header": WinJS.Application.sessionState.securityToken }, //this I don't think is even there brah
             responseType: "String",
         }).done(function (result) {
             //we probably want this to be people, then have to iterate through and add person
             var json = JSON.parse(result.responseText);
+            writePeople(json);//writes this stuff to a file
             if (json != "") {
-                for (var i = 0; i < json.length; i++) {
+                
+                //    for (var i = 0; i < json.length; i++) {
 
-                    personData.casenumber = json[i].person.caseNumber;
-                    personData.photo = json[i].person.photo;
+                //        personData.casenumber = json[i].person.caseNumber;
+                //        personData.photo = json[i].person.photo;
 
-                    for (var p = 0; p < json[i].person.locations.length; p++) {
-                        personData.locations[p] = json[i].person.locations[p];
-                    }
-                    for (var p = 0; p < json[i].person.aliases.length; p++) {
-                        personData.aliases[p] = json[i].person.aliases[p];
-                    }
-                    for (var p = 0; p < json[i].person.phoneNumbers.length; p++) {
-                        personData.phoneNumbers[p] = json[i].person.phoneNumbers[p];
-                    }
-                    for (var p = 0; p < json[i].person.addresses.length; p++) {
-                        personData.addresses[p] = json[i].person.addresses[p];
-                    }
-                    for (var p = 0; p < json[i].person.emailAddresses.length; p++) {
-                        personData.emailAddresses[p] = json[i].person.emailAddresses[p];
-                    }
-                    for (var p = 0; p < json[i].person.events.length; p++) {
-                        event.date = json[i].person.events[p].date;
-                        event.type = json[i].person.events[p].type;
-                        event.value = json[i].person.events[p].value;
-                        event.toValue = json[i].person.events[p].toValue;
-                        personData.events[p] = event;
-                    }
+                //        for (var p = 0; p < json[i].person.locations.length; p++) {
+                //            personData.locations[p] = json[i].person.locations[p];
+                //        }
+                //        for (var p = 0; p < json[i].person.aliases.length; p++) {
+                //            personData.aliases[p] = json[i].person.aliases[p];
+                //        }
+                //        for (var p = 0; p < json[i].person.phoneNumbers.length; p++) {
+                //            personData.phoneNumbers[p] = json[i].person.phoneNumbers[p];
+                //        }
+                //        for (var p = 0; p < json[i].person.addresses.length; p++) {
+                //            personData.addresses[p] = json[i].person.addresses[p];
+                //        }
+                //        for (var p = 0; p < json[i].person.emailAddresses.length; p++) {
+                //            personData.emailAddresses[p] = json[i].person.emailAddresses[p];
+                //        }
+                //        for (var p = 0; p < json[i].person.events.length; p++) {
+                //            event.date = json[i].person.events[p].date;
+                //            event.type = json[i].person.events[p].type;
+                //            event.value = json[i].person.events[p].value;
+                //            event.toValue = json[i].person.events[p].toValue;
+                //            personData.events[p] = event;
+                //        }
 
-                    var newPerson = {
-                        group: sampleGroups[0], title: personData.casenumber, subtitle: personData.casenumber,    //changed this because we don't know how many aliases there will be
-                        description: itemDescription, content: itemContent, backgroundImage: "data:image/png;base64," + personData.photo,
-                    }
-                    //I wonder if grails gets called again if there will be duplicate people
-                    list.push(newPerson);
-                    //the personList should not contain duplicates
-                     personList[personData.casenumber] = personData;
-                }
+                //        var newPerson = {
+                //            group: sampleGroups[0], title: personData.casenumber, subtitle: personData.casenumber,    //changed this because we don't know how many aliases there will be
+                //            description: itemDescription, content: itemContent, backgroundImage: "data:image/png;base64," + personData.photo,
+                //        }
+                //        //I wonder if grails gets called again if there will be duplicate people
+                //        list.push(newPerson);
+                //        //the personList should not contain duplicates
+                //         personList[personData.casenumber] = personData;
+                //    }
             }
-            sessionSettings.people = personList;
+            //sessionSettings.people = personList;
 
         }, function error(result) {
             //I think this is what gets called when 
@@ -171,7 +204,7 @@
                 content: itemContent, backgroundImage: obama
             },
         ];
-
+        readPeople(doAction);
         return sampleItems;
     }
 })();

@@ -6,6 +6,8 @@
     google.load('visualization', '1.0', { 'packages': ['corechart'] });
     google.setOnLoadCallback(drawLineChart);//have this call something that loads the events, then when finished does the drawLineChart
 
+    //readPersonFromPeopleFile("Richard Matt", doPersonAction);
+
     var sessionSettings = WinJS.Application.sessionState;
 
     WinJS.UI.Pages.define("/pages/chart/chart.html", {

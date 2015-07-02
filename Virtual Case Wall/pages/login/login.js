@@ -7,6 +7,7 @@
     var roamingSettings = Windows.Storage.ApplicationData.current.roamingSettings;
     var sessionSettings = WinJS.Application.sessionState;
 
+
     WinJS.UI.Pages.define("/pages/login/login.html", {
         // This function is called whenever a user navigates to this page. It
         // populates the page elements with the app's data.

@@ -168,7 +168,7 @@
                 content: itemContent, backgroundImage: obama
             },
         ];
-        readPersonFromPeopleFile("Richard Matt", doPersonAction);
+        //readPersonFromPeopleFile("Richard Matt", doPersonAction);
         return sampleItems;
     }
 })();

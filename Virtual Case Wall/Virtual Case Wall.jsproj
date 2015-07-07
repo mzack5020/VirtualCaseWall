@@ -71,6 +71,9 @@
     <Content Include="pages\chart\chart.html" />
     <Content Include="pages\chart\chart.js" />
     <Content Include="pages\chart\chart_container.html" />
+    <Content Include="pages\forgotPassword\forgotPassword.css" />
+    <Content Include="pages\forgotPassword\forgotPassword.html" />
+    <Content Include="pages\forgotPassword\forgotPassword.js" />
     <Content Include="pages\itemDetail\itemDetail.css" />
     <Content Include="pages\itemDetail\itemDetail.html" />
     <Content Include="pages\itemDetail\itemDetail.js" />

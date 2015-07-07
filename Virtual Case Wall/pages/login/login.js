@@ -15,6 +15,10 @@
             // TODO: Initialize the page here.
             var submitButton = document.getElementById("submitButton");
             submitButton.addEventListener("click", this.terminateLoginScreen, false);
+
+            var forgotButton = document.getElementById("forgotPassword");
+            forgotButton.addEventListener("click", this.getCreds, false);
+
             var username = roamingSettings.values["user"];
             if(username)
                 document.getElementById("username").innerText = username;

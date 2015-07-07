@@ -22,6 +22,9 @@
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\VisualCaseWall\Virtual Case Wall\pages\chart\chart.css">
       <PackagePath>pages\chart\chart.css</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\VisualCaseWall\Virtual Case Wall\pages\forgotPassword\forgotPassword.css">
+      <PackagePath>pages\forgotPassword\forgotPassword.css</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\VisualCaseWall\Virtual Case Wall\pages\itemDetail\itemDetail.css">
       <PackagePath>pages\itemDetail\itemDetail.css</PackagePath>
     </AppxPackagedFile>
@@ -74,6 +77,9 @@
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\VisualCaseWall\Virtual Case Wall\pages\chart\chart.js">
       <PackagePath>pages\chart\chart.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\VisualCaseWall\Virtual Case Wall\pages\forgotPassword\forgotPassword.js">
+      <PackagePath>pages\forgotPassword\forgotPassword.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\VisualCaseWall\Virtual Case Wall\pages\itemDetail\itemDetail.js">
       <PackagePath>pages\itemDetail\itemDetail.js</PackagePath>
     </AppxPackagedFile>
@@ -94,6 +100,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\VisualCaseWall\Virtual Case Wall\pages\chart\chart_container.html">
       <PackagePath>pages\chart\chart_container.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\VisualCaseWall\Virtual Case Wall\pages\forgotPassword\forgotPassword.html">
+      <PackagePath>pages\forgotPassword\forgotPassword.html</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\VisualCaseWall\Virtual Case Wall\pages\itemDetail\itemDetail.html">
       <PackagePath>pages\itemDetail\itemDetail.html</PackagePath>

@@ -1,13 +1,19 @@
 ﻿(function () {
     "use strict";
+    console.log("in data.js");
 
+<<<<<<< Updated upstream
     var sessionSettings = WinJS.Application.sessionState;   //might want to try making this global....dang crazy though
     console.log("in data.js");
+=======
+    var sessionSettings = WinJS.Application.sessionState;
+>>>>>>> Stashed changes
     var event = {
         date: "",
         type: "",
         value: "",
         toValue: ""
+<<<<<<< Updated upstream
     };
 
     var personData = {
@@ -19,6 +25,8 @@
         emailAddresses: [],
         events: [],//I think we can just make these events?
         photo: ""
+=======
+>>>>>>> Stashed changes
     };
 
     var personList = {};
@@ -108,9 +116,28 @@
         }).done(function (result) {
             //we probably want this to be people, then have to iterate through and add person
             var json = JSON.parse(result.responseText);
+<<<<<<< Updated upstream
             if (json != "") {
                 for (var i = 0; i < json.length; i++) {
 
+=======
+            //writePeople(json);//writes this stuff to a file
+            if (json != "") {
+
+                for (var i = 0; i < json.length; i++) {
+
+                    var personData = {
+                        casenumber: "",
+                        locations: [],
+                        aliases: [],
+                        phoneNumbers: [],
+                        addresses: [],
+                        emailAddresses: [],
+                        events: [],//I think we can just make these events?
+                        photo: ""
+                    };
+
+>>>>>>> Stashed changes
                     personData.casenumber = json[i].person.caseNumber;
                     personData.photo = json[i].person.photo;
 
@@ -143,8 +170,12 @@
                     }
                     //I wonder if grails gets called again if there will be duplicate people
                     list.push(newPerson);
+<<<<<<< Updated upstream
                     //the personList should not contain duplicates
                      personList[personData.casenumber] = personData;
+=======
+                    personList[personData.casenumber] = personData;
+>>>>>>> Stashed changes
                 }
             }
             sessionSettings.people = personList;
@@ -153,10 +184,13 @@
             //I think this is what gets called when 
         });
 
+<<<<<<< Updated upstream
         //we need to get our items before this sampleItems is created!
         //each item in sampleItems will be a person!
 
         //eventually get rid of these sampleItems, all of our data will be from Grails
+=======
+>>>>>>> Stashed changes
         var sampleItems = [
             {
                 group: sampleGroups[0], title: "Donald Trump", subtitle: "Microsoft Founder", description: itemDescription,
@@ -171,7 +205,11 @@
                 content: itemContent, backgroundImage: obama
             },
         ];
+<<<<<<< Updated upstream
 
+=======
+        //readPersonFromPeopleFile("Richard Matt", doPersonAction);
+>>>>>>> Stashed changes
         return sampleItems;
     }
 })();

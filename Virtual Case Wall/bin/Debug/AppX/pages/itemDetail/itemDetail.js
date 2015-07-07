@@ -37,6 +37,40 @@
             text += "<h4>Hair: Brown</h4>";
             text += "<h4>Skintone: Light</h4>";
             document.getElementById("rightText").innerHTML = text;
+
+            text = "<h2>News Feed</h2>";
+
+            for (var i = 0; i < person.events.length; i++) {
+                switch (person.events[i].type) {
+                    case text:
+                        {
+                            text += "<h4>" + person.casenumber + " texted " + person.events[i].toValue + " from " + person.events[i].value + " on " + person.events[i].date + "</h4>";
+                            break;
+                        }
+                    case call:
+                        {
+                            text += "<h4>" + person.casenumber + " called " + person.events[i].toValue + " from " + person.events[i].value + " on " + person.events[i].date + "</h4>";
+                            break;
+                        }
+                    case email:
+                        {
+                            text += "<h4>" + person.casenumber + " emailed " + person.events[i].toValue + " from " + person.events[i].value + " on " + person.events[i].date + "</h4>";
+                            break;
+                        }
+                    case location:
+                        {
+                            text += "<h4>" + person.casenumber + " was spotted at " + person.events[i].value + " on " + person.events[i].date + "</h4>";
+                            break;
+                        }
+                    default:
+                        {
+                            text += "<h4>Uncategorized event occured - To: " + person.events[i].toValue + "; From: " + person.events[i].value + "; on " + person.events[i].date + "</h4>";
+                            break;
+                        }
+                }
+            }
+
+            document.getElementById("newsFeed").innerHTML = text;
         },
     });
 })();

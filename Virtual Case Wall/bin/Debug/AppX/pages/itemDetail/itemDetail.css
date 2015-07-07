@@ -15,6 +15,9 @@
 	width: 50%;
 	height: 50%;
 	float: right;
+	top: 128px;
+	left: 663px;
+	right: 10px;
 }
 
 #map {
@@ -22,34 +25,39 @@
 	width: 100%;
 	height: 305px;
 	top: 325px;
-	bottom: 0px;
+	right: 10px;
+	bottom: 10px;
 }
 
 #mapPanel {
 	position: absolute;
 	width: 100%;
-	left: 0px;
-	top: 454.13px;
+	left: 663px;
+	top: 516px;
+	overflow: hidden;
 }
 
 #photo {
 	float: left;
-	height: 154px;
-	width: 170px;
+	position: relative;
+	height: 196px;
+	width: 227px;
+	left: 10px;
 }
 
 #rightText {
 	float:right;
-	height: 154px;
-	width: 513px;
+	height: 196px;
+	width: 385px;
 }
 
-#bottomText {
+#newsFeed {
 	position: relative;
-	height: 156px;
-	width: 673px;
-	top: 164px;
-	left: 0px;
+	height: 417px;
+	width: 644px;
+	top: 234px;
+	left: 10px;
+    overflow: scroll;
 }
 
 #rightText h4 {

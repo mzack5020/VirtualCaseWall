@@ -10,17 +10,6 @@
         toValue: ""
     };
 
-    var personData = {
-        casenumber: "",
-        locations: [],
-        aliases: [],
-        phoneNumbers: [],
-        addresses: [],
-        emailAddresses: [],
-        events: [],//I think we can just make these events?
-        photo: ""
-    };
-
     var personList = {};
 
     //every time we get a new person we should put them into this list if they are not already there
@@ -102,14 +91,26 @@
         ];
         WinJS.xhr({
             type: "GET",
-            url: "http://10.201.28.91:8090/VirtualCaseWall/api/person",
+            url: "http://156.80.138.153:8090/VirtualCaseWall/api/person",
             headers: { "X-Auth-Header": WinJS.Application.sessionState.securityToken }, //this I don't think is even there brah
             responseType: "String",
         }).done(function (result) {
             //we probably want this to be people, then have to iterate through and add person
             var json = JSON.parse(result.responseText);
+
             if (json != "") {
                 for (var i = 0; i < json.length; i++) {
+
+                    var personData = {
+                        casenumber: "",
+                        locations: [],
+                        aliases: [],
+                        phoneNumbers: [],
+                        addresses: [],
+                        emailAddresses: [],
+                        events: [],//I think we can just make these events?
+                        photo: ""
+                    };
 
                     personData.casenumber = json[i].person.caseNumber;
                     personData.photo = json[i].person.photo;

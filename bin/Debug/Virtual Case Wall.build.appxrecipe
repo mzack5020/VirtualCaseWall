@@ -56,6 +56,9 @@
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\images\private-investigator-e1346535078419.jpg">
       <PackagePath>images\private-investigator-e1346535078419.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\js\appbar.js">
+      <PackagePath>js\appbar.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\Visual Studio 2013\Projects\Virtual Case Wall\Virtual Case Wall\js\data.js">
       <PackagePath>js\data.js</PackagePath>
     </AppxPackagedFile>

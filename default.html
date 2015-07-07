@@ -14,6 +14,7 @@
     <script src="/js/data.js"></script>
     <script src="/js/navigator.js"></script>
     <script src="/js/default.js"></script>
+    <!--<script src="/js/appbar.js"></script>-->
 
 </head>
 <body>
@@ -25,9 +26,9 @@
         </div>
         <div id="contenthost" data-win-control="Application.PageControlNavigator" data-win-options="{home: '/pages/login/login.html'}"></div>
         <div id="appbar" data-win-control="WinJS.UI.AppBar" data-win-options="{placement: 'top'}">
-            <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'home', label:'Home', icon:'home'}" type="button"></button>
-            <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'myCases', label:'My Cases', icon:'page'}" type="button" ></button>
-            <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'maps', label:'Maps', icon:'page'}" type="button"></button>
+            <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'home', label:'Home', icon:'home', tooltip:'My Criminals Page'}" type="button"></button>            
+            <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'appBarMap', label:'Maps', icon:'page'}" type="button"></button>
+            <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'logout', label:'Log Out', icon:'remove', tooltip:'Log Out of Virtual Case Wall'}" type="button"></button>
         </div>
     </div>
 </body>

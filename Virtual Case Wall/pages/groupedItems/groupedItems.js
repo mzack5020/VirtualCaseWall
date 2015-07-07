@@ -1,9 +1,8 @@
 ﻿(function () {
     "use strict";
-
+    console.log("groupedItems.js");
     var nav = WinJS.Navigation;
     var ui = WinJS.UI;
-    
     ui.Pages.define("/pages/groupedItems/groupedItems.html", {
         // This function is called to initialize the page.
         init: function (element, options) {
@@ -23,12 +22,11 @@
 
             // TODO: Respond to changes in layout.
         },
-
+        //so these are basically event handlers that handle navigation
         _groupHeaderInvoked: function (args) {
             var group = Data.groups.getAt(args.detail.groupHeaderIndex);
             nav.navigate("/pages/groupDetail/groupDetail.html", { groupKey: group.key });
         },
-
         _itemInvoked: function (args) {
             var item = Data.items.getAt(args.detail.itemIndex);
             nav.navigate("/pages/itemDetail/itemDetail.html", { item: Data.getItemReference(item) });

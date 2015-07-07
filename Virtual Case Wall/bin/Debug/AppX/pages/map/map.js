@@ -1,7 +1,7 @@
 ﻿var map;
 var dataResults;
 var marker;
-
+console.log("map.js");
 function initialize() {
   //  personLat = 39;
   // personLng = -77;

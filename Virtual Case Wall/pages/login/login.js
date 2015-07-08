@@ -75,6 +75,11 @@
                 document.getElementById("JSON").innerText = "Incorrect Credentials";
             });            
 
+        },
+
+        getCreds: function()
+        {
+            nav.navigate("pages/forgotPassword/forgotPassword.html");
         }
     });
 })();

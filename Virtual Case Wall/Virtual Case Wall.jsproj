@@ -64,11 +64,16 @@
     <Content Include="images\storelogo.scale-100.png" />
     <Content Include="js\data.js" />
     <Content Include="js\default.js" />
+    <Content Include="js\js\Interactivity.1.1.js" />
     <Content Include="js\navigator.js" />
+    <Content Include="js\people_util.js" />
     <Content Include="pages\chart\chart.css" />
     <Content Include="pages\chart\chart.html" />
     <Content Include="pages\chart\chart.js" />
     <Content Include="pages\chart\chart_container.html" />
+    <Content Include="pages\forgotPassword\forgotPassword.css" />
+    <Content Include="pages\forgotPassword\forgotPassword.html" />
+    <Content Include="pages\forgotPassword\forgotPassword.js" />
     <Content Include="pages\itemDetail\itemDetail.css" />
     <Content Include="pages\itemDetail\itemDetail.html" />
     <Content Include="pages\itemDetail\itemDetail.js" />

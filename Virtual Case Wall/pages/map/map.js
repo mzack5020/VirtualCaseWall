@@ -4,6 +4,7 @@ var marker;
 var overlay;
 
 addPersonOverlay.prototype = new google.maps.OverlayView();
+console.log("map.js");
 
 function initialize() {
   //  personLat = 39;

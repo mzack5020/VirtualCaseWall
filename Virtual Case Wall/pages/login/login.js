@@ -2,10 +2,11 @@
 // http://go.microsoft.com/fwlink/?LinkId=232511
 (function () {
     "use strict";
-
+    console.log("in login.js");
     var nav = WinJS.Navigation;
     var roamingSettings = Windows.Storage.ApplicationData.current.roamingSettings;
     var sessionSettings = WinJS.Application.sessionState;
+
 
     WinJS.UI.Pages.define("/pages/login/login.html", {
         // This function is called whenever a user navigates to this page. It
@@ -14,7 +15,10 @@
             // TODO: Initialize the page here.
             var submitButton = document.getElementById("submitButton");
             submitButton.addEventListener("click", this.terminateLoginScreen, false);
-            
+
+            var forgotButton = document.getElementById("forgotPassword");
+            forgotButton.addEventListener("click", this.getCreds, false);
+
             var username = roamingSettings.values["user"];
             if(username)
                 document.getElementById("username").innerText = username;
@@ -47,7 +51,7 @@
             
             WinJS.xhr({
                 type: "POST",
-                url: "http://10.201.28.91:8090/VirtualCaseWall/api/login",
+                url: "http://192.168.1.17:8090/VirtualCaseWall/api/login",
                 data: loginStr,
                 responseType: "String",
             }).done(function (result) {
@@ -60,9 +64,10 @@
                 else {
                     sessionSettings.user = user.username;
                     roamingSettings.values["user"] = user.username;
-                    sessionSettings.securityToken = user.secToken;
+                    sessionSettings.securityToken = user.secToken;  //here it sets that token, I don't think it will ever be seen
                     nav.navigate("pages/groupedItems/groupedItems.html");
                     document.getElementById("topRight").hidden = false;
+                    document.getElementById("appbar").hidden = false;
                     document.getElementById("profile").innerText = user.username;
                     document.body.style.backgroundColor = "red";
                 }
@@ -71,7 +76,11 @@
                 document.getElementById("JSON").innerText = "Incorrect Credentials";
             });            
 
-            //nav.navigate("pages/groupedItems/groupedItems.html");
+        },
+
+        getCreds: function()
+        {
+            nav.navigate("pages/forgotPassword/forgotPassword.html");
         }
     });
 })();

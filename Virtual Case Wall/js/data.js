@@ -78,7 +78,7 @@
 
     // Returns an array of sample data that can be added to the application's
     // data list. 
-    //This is hwat gets us our sample data!!!
+    //This is what gets us our sample data!!!
     function generateSampleData() {
         var itemContent = "<p>Sample Case</p>";
         var itemDescription = "";
@@ -102,7 +102,7 @@
         ];
         WinJS.xhr({
             type: "GET",
-            url: "http://10.201.28.91:8090/VirtualCaseWall/api/person",
+            url: "http://156.80.138.153:8090/VirtualCaseWall/api/person",
             headers: { "X-Auth-Header": WinJS.Application.sessionState.securityToken }, //this I don't think is even there brah
             responseType: "String",
         }).done(function (result) {
@@ -112,6 +112,17 @@
             if (json != "") {
                 
                     for (var i = 0; i < json.length; i++) {
+
+                        var personData = {
+                            casenumber: "",
+                            locations: [],
+                            aliases: [],
+                            phoneNumbers: [],
+                            addresses: [],
+                            emailAddresses: [],
+                            events: [],//I think we can just make these events?
+                            photo: ""
+                        };
 
                         personData.casenumber = json[i].person.caseNumber;
                         personData.photo = json[i].person.photo;
@@ -132,10 +143,13 @@
                             personData.emailAddresses[p] = json[i].person.emailAddresses[p];
                         }
                         for (var p = 0; p < json[i].person.events.length; p++) {
-                            event.date = json[i].person.events[p].date;
-                            event.type = json[i].person.events[p].type;
-                            event.value = json[i].person.events[p].value;
-                            event.toValue = json[i].person.events[p].toValue;
+                            var event = {
+                                date: json[i].person.events[p].date,
+                                type: json[i].person.events[p].type,
+                                value: json[i].person.events[p].value,
+                                toValue: json[i].person.events[p].toValue
+                            };
+                            
                             personData.events[p] = event;
                         }
 

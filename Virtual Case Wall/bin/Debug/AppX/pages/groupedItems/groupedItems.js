@@ -13,8 +13,16 @@
         // This function is called whenever a user navigates to this page.
 
         ready: function (element, options) {           
-
+            var appbar = document.getElementById("appbar");
+            var refreshButton = document.createElement("BUTTON");
+            refreshButton.setAttribute("data-win-control", "WinJS.UI.AppBarCommand");
+            refreshButton.setAttribute("data-win-options", "{id:'refresh', label:'Refresh', icon:'refresh', tooltip:'Refresh Page'}");
             
+            document.getElementById("appbar").appendChild(refreshButton);
+            var temp = document.childNodes[document.childNodes.length];
+            document.childNodes[document.childNodes.length] = document.childNodes[(document.childNodes.length - 1)];
+            document.childNodes[(document.childNodes.length - 1)] = temp;
+            WinJS.UI.process(refreshButton);
         },
 
         updateLayout: function (element) {

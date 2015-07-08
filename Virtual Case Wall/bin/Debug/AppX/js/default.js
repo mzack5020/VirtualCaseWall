@@ -34,12 +34,18 @@
 
             args.setPromise(p);
 
-           var submitButton = document.getElementById("logoutLink");
-           submitButton.addEventListener("click", terminateLoginScreen, false);
-           document.getElementById("topRight").hidden = true;
+            var submitButton = document.getElementById("logoutLink");
+            submitButton.addEventListener("click", terminateLoginScreen, false);
+            document.getElementById("topRight").hidden = true;            
 
-           var map = document.getElementById("maps");
-           map.addEventListener("click", viewPage, false);
+            // App Bar Button Variables
+            var homeButton = document.getElementById("home");            
+            var logoutButton = document.getElementById("logout");
+
+            homeButton.addEventListener("click", goHome, false);            
+            logoutButton.addEventListener("click", terminateLoginScreen, false);
+
+            document.getElementById("appbar").hidden = true;
         }
     });
 
@@ -54,13 +60,13 @@
     function terminateLoginScreen()
     {
         document.getElementById("topRight").hidden = true;
+        document.getElementById("appbar").hidden = true;
         WinJS.Application.sessionState.securityToken = "";        
         nav.navigate("pages/login/login.html");        
     }
 
-    function viewPage()
-    {
-        nav.navigate("pages/chart/chart_container.html");
+    function goHome() {
+        nav.navigate("pages/groupedItems/groupedItems.html");
     }
 
     app.start();

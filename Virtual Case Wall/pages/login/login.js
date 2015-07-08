@@ -51,7 +51,7 @@
             
             WinJS.xhr({
                 type: "POST",
-                url: "http://10.201.28.91:8090/VirtualCaseWall/api/login",
+                url: "http://156.80.138.153:8090/VirtualCaseWall/api/login",
                 data: loginStr,
                 responseType: "String",
             }).done(function (result) {
@@ -67,6 +67,7 @@
                     sessionSettings.securityToken = user.secToken;  //here it sets that token, I don't think it will ever be seen
                     nav.navigate("pages/groupedItems/groupedItems.html");
                     document.getElementById("topRight").hidden = false;
+                    document.getElementById("appbar").hidden = false;
                     document.getElementById("profile").innerText = user.username;
                     document.body.style.backgroundColor = "red";
                 }

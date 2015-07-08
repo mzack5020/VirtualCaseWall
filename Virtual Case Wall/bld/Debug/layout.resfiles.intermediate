@@ -7,11 +7,16 @@ images\splashscreen.scale-100.png
 images\storelogo.scale-100.png
 js\data.js
 js\default.js
+js\js\Interactivity.1.1.js
 js\navigator.js
+js\people_util.js
 pages\chart\chart.css
 pages\chart\chart.html
 pages\chart\chart.js
 pages\chart\chart_container.html
+pages\forgotPassword\forgotPassword.css
+pages\forgotPassword\forgotPassword.html
+pages\forgotPassword\forgotPassword.js
 pages\groupDetail\groupDetail.css
 pages\groupDetail\groupDetail.html
 pages\groupDetail\groupDetail.js

@@ -19,9 +19,7 @@
             refreshButton.setAttribute("data-win-options", "{id:'refresh', label:'Refresh', icon:'refresh', tooltip:'Refresh Page'}");
             
             document.getElementById("appbar").appendChild(refreshButton);
-            var temp = document.childNodes[document.childNodes.length];
-            document.childNodes[document.childNodes.length] = document.childNodes[(document.childNodes.length - 1)];
-            document.childNodes[(document.childNodes.length - 1)] = temp;
+
             WinJS.UI.process(refreshButton);
         },
 

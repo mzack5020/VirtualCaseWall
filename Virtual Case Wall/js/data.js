@@ -3,23 +3,6 @@
     console.log("in data.js");
 
     var sessionSettings = WinJS.Application.sessionState;
-    var event = {
-        date: "",
-        type: "",
-        value: "",
-        toValue: ""
-    };
-
-    var personData = {
-        casenumber: "",
-        locations: [],
-        aliases: [],
-        phoneNumbers: [],
-        addresses: [],
-        emailAddresses: [],
-        events: [],//I think we can just make these events?
-        photo: ""
-    };
 
     var personList = {};
 

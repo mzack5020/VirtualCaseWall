@@ -102,7 +102,7 @@
         ];
         WinJS.xhr({
             type: "GET",
-            url: "http://156.80.138.153:8090/VirtualCaseWall/api/person",
+            url: "http://192.168.1.17:8090/VirtualCaseWall/api/person",
             headers: { "X-Auth-Header": WinJS.Application.sessionState.securityToken }, //this I don't think is even there brah
             responseType: "String",
         }).done(function (result) {
@@ -120,12 +120,31 @@
                             phoneNumbers: [],
                             addresses: [],
                             emailAddresses: [],
-                            events: [],//I think we can just make these events?
-                            photo: ""
+                            events: [],
+                            photo: "",
+                            sex: "",
+                            race: "",
+                            dateOfBirth: "",
+                            placeOfBirth: "",
+                            height: "",
+                            weight: "",
+                            eyeColor: "",
+                            hairColor: "",
+                            skinTone: ""
                         };
 
                         personData.casenumber = json[i].person.caseNumber;
                         personData.photo = json[i].person.photo;
+                        personData.sex = json[i].person.sex;
+                        personData.race = json[i].person.race;
+                        personData.dateOfBirth = json[i].person.dateOfBirth;
+                        personData.placeOfBirth = json[i].person.placeOfBirth;
+                        personData.height = json[i].person.height;
+                        personData.weight = json[i].person.weight;
+                        personData.eyeColor = json[i].person.eyeColor;
+                        personData.hairColor = json[i].person.hairColor;
+                        personData.skinTone = json[i].person.skinTone;
+
 
                         for (var p = 0; p < json[i].person.locations.length; p++) {
                             personData.locations[p] = json[i].person.locations[p];

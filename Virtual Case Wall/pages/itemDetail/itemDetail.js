@@ -27,15 +27,15 @@
             if (person.aliases[2] != "")
                 text += ", " + person.aliases[2] + "</h4>";
 
-            text += "<h4>Sex: Male</h4>";
-            text += "<h4>Race: White</h4>";
-            text += "<h4>Date of Birth: June 14, 1980</h4>";
-            text += "<h4>Place of Birth: Queens, NY</h4>";
-            text += "<h4>Height: 5' 10\"</h4>";
-            text += "<h4>Weight: 165 lbs</h4>";
-            text += "<h4>Eyes: Green</h4>";
-            text += "<h4>Hair: Brown</h4>";
-            text += "<h4>Skintone: Light</h4>";
+            text += "<h4>Sex: " + person.sex + "</h4>";
+            text += "<h4>Race: " + person.race + "</h4>";
+            text += "<h4>Date of Birth: " + person.dateOfBirth + "</h4>";
+            text += "<h4>Place of Birth: " + person.placeOfBirth + "</h4>";
+            text += "<h4>Height: "+ person.height + "</h4>";
+            text += "<h4>Weight: " + person.weight + "</h4>";
+            text += "<h4>Eyes: " + person.eyeColor + "</h4>";
+            text += "<h4>Hair: " + person.hairColor + "</h4>";
+            text += "<h4>Skintone: " + person.skinTone + "</h4>";
             document.getElementById("rightText").innerHTML = text;
 
             text = "<h1 id='title'>News Feed</h1>";

@@ -5,7 +5,7 @@
 
 #data {
 	position: relative;
-	width: 54.32%;
+	width: 51.61%;
 	height: 100.15%;
 	float: left;
 }
@@ -31,7 +31,7 @@
 #mapPanel {
 	position: absolute;
 	left: 723px;
-	top: 462px;
+	top: 543px;
 	width: 100%;
 	bottom: 10px;
 	right: 10px;
@@ -48,15 +48,16 @@
 #rightText {
 	float:right;
 	height: 190px;
-	width: 477px;
+	width: 414px;
+	text-wrap: normal;
 }
 
 #newsFeed {
 	position: relative;
-	height: 413px;
+	height: 453px;
 	width: 672px;
-	top: 39px;
-	left: 34px;
+	top: 65px;
+	left: 10px;
     overflow: scroll;
 }
 

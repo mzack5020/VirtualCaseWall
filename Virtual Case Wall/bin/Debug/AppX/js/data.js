@@ -65,7 +65,7 @@
     function generateSampleData() {
         var itemContent = "<p>Sample Case</p>";
         var itemDescription = "";
-        var groupDescription = ["Cases you are involved in", "Public Figures", "Test", "Social media trends and hashtags"];
+        var groupDescription = ["Cases you are involved in", "Public Figures", "Test", "Social media trends and hashtags", "World Events"];
 
         // These three strings encode placeholder images. You will want to set the
         // backgroundImage property in your real data to be URLs to images.
@@ -87,7 +87,7 @@
             { key: "1", title: "NY Escapee POI", subtitle: "Persons Under Investigation", backgroundImage: personOfInterestImage, description: groupDescription[0] },
             { key: "2", title: "Public Figures", subtitle: "Public Figures", backgroundImage: opencases, description: groupDescription[1] },
             { key: "3", title: "Cases", subtitle: "Current Cases", backgroundImage: social, description: groupDescription[2] },
-            { key: "4", title: "Social Media Trends", subtitle: "Trending Now", backgroundImage: social, description: groupDescription[3] }
+            { key: "5", title: "Social Media Trends", subtitle: "Trending Now", backgroundImage: social, description: groupDescription[4] },
         ];
         WinJS.xhr({
             type: "GET",
@@ -205,6 +205,18 @@
 
             {
                 group: sampleGroups[3], title: "#PopularTrend", subtitle: "This is a popular topic", description: itemDescription, content: itemContent, backgroundImage: social
+            },
+
+            {
+                group: sampleGroups[4], title: "Case: 77JJD9", subtitle: "Fraud", description: itemDescription, content: itemContent, backgroundImage: social
+            },
+
+            {
+                group: sampleGroups[4], title: "Case: 987JEK", subtitle: "Burgulary", description: itemDescription, content: itemContent, backgroundImage: darkGray
+            },
+
+            {
+                group: sampleGroups[4], title: "#PopularTrend", subtitle: "This is a popular topic", description: itemDescription, content: itemContent, backgroundImage: social
             },
         ];
         //readPersonFromPeopleFile("Richard Matt", doPersonAction);

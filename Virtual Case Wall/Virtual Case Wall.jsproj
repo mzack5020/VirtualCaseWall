@@ -91,6 +91,9 @@
     <Content Include="pages\map\map.html" />
     <Content Include="pages\map\map.js" />
     <Content Include="pages\map\map_container.html" />
+    <Content Include="pages\profile\profile.css" />
+    <Content Include="pages\profile\profile.html" />
+    <Content Include="pages\profile\profile.js" />
     <None Include="Virtual Case Wall_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>

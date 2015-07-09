@@ -33,3 +33,6 @@ pages\map\map.css
 pages\map\map.html
 pages\map\map.js
 pages\map\map_container.html
+pages\profile\profile.css
+pages\profile\profile.html
+pages\profile\profile.js

@@ -8,7 +8,7 @@
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>381e36cb-6858-4514-8c60-57c574ddb770</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\districtuser2\Documents\VirtualCaseWall\Virtual Case Wall\bld\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>11A646ED872C2FBA96C0B31949C66B3AC75B9B522DB5A4F9A5F05B5C9B63170C</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>581209CF8671A2BE4C6B54248AEDB820B134E89DB067BEDC6E37C10D30BC8885</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>381e36cb-6858-4514-8c60-57c574ddb770_1.0.0.0_neutral__97h71xxxcpm32</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>381e36cb-6858-4514-8c60-57c574ddb770_97h71xxxcpm32!App</RegisteredUserModeAppID>
     <RegisteredPackageID>381e36cb-6858-4514-8c60-57c574ddb770</RegisteredPackageID>
@@ -20,7 +20,7 @@
     <AppXManifest Include="C:\Users\districtuser2\Documents\VirtualCaseWall\Virtual Case Wall\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-07-09T14:33:27.871</Modified>
+      <Modified>2015-07-09T14:59:07.886</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -46,7 +46,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\districtuser2\Documents\VirtualCaseWall\Virtual Case Wall\pages\groupedItems\groupedItems.css">
       <PackagePath>pages\groupedItems\groupedItems.css</PackagePath>
-      <Modified>2015-07-09T14:33:27.923</Modified>
+      <Modified>2015-07-09T14:52:40.082</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\districtuser2\Documents\VirtualCaseWall\Virtual Case Wall\pages\login\login.css">
       <PackagePath>pages\login\login.css</PackagePath>
@@ -55,6 +55,10 @@
     <AppxPackagedFile Include="C:\Users\districtuser2\Documents\VirtualCaseWall\Virtual Case Wall\pages\map\map.css">
       <PackagePath>pages\map\map.css</PackagePath>
       <Modified>2015-07-08T22:15:49.708</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\districtuser2\Documents\VirtualCaseWall\Virtual Case Wall\pages\profile\profile.css">
+      <PackagePath>pages\profile\profile.css</PackagePath>
+      <Modified>2015-07-09T15:24:09.698</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\districtuser2\Documents\VirtualCaseWall\Virtual Case Wall\images\logo.scale-100.png">
       <PackagePath>images\logo.scale-100.png</PackagePath>
@@ -82,7 +86,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\districtuser2\Documents\VirtualCaseWall\Virtual Case Wall\js\data.js">
       <PackagePath>js\data.js</PackagePath>
-      <Modified>2015-07-09T14:39:20.389</Modified>
+      <Modified>2015-07-09T14:48:32.139</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\districtuser2\Documents\VirtualCaseWall\Virtual Case Wall\js\default.js">
       <PackagePath>js\default.js</PackagePath>
@@ -110,7 +114,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\districtuser2\Documents\VirtualCaseWall\Virtual Case Wall\pages\itemDetail\itemDetail.js">
       <PackagePath>pages\itemDetail\itemDetail.js</PackagePath>
-      <Modified>2015-07-09T14:33:27.930</Modified>
+      <Modified>2015-07-09T15:30:59.174</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\districtuser2\Documents\VirtualCaseWall\Virtual Case Wall\pages\groupDetail\groupDetail.js">
       <PackagePath>pages\groupDetail\groupDetail.js</PackagePath>
@@ -118,7 +122,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\districtuser2\Documents\VirtualCaseWall\Virtual Case Wall\pages\groupedItems\groupedItems.js">
       <PackagePath>pages\groupedItems\groupedItems.js</PackagePath>
-      <Modified>2015-07-09T14:33:27.925</Modified>
+      <Modified>2015-07-09T15:41:19.700</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\districtuser2\Documents\VirtualCaseWall\Virtual Case Wall\pages\login\login.js">
       <PackagePath>pages\login\login.js</PackagePath>
@@ -127,6 +131,10 @@
     <AppxPackagedFile Include="C:\Users\districtuser2\Documents\VirtualCaseWall\Virtual Case Wall\pages\map\map.js">
       <PackagePath>pages\map\map.js</PackagePath>
       <Modified>2015-07-08T22:15:49.710</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\districtuser2\Documents\VirtualCaseWall\Virtual Case Wall\pages\profile\profile.js">
+      <PackagePath>pages\profile\profile.js</PackagePath>
+      <Modified>2015-07-09T14:57:54.212</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\districtuser2\Documents\VirtualCaseWall\Virtual Case Wall\pages\chart\chart.html">
       <PackagePath>pages\chart\chart.html</PackagePath>
@@ -168,9 +176,13 @@
       <PackagePath>pages\map\map_container.html</PackagePath>
       <Modified>2015-07-08T22:15:49.712</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\districtuser2\Documents\VirtualCaseWall\Virtual Case Wall\pages\profile\profile.html">
+      <PackagePath>pages\profile\profile.html</PackagePath>
+      <Modified>2015-07-09T15:28:13.999</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\districtuser2\Documents\VirtualCaseWall\Virtual Case Wall\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-07-09T14:33:42.002</Modified>
+      <Modified>2015-07-09T14:59:07.761</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

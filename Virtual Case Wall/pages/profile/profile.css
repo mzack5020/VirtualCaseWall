@@ -1,0 +1,45 @@
+﻿.profile section {
+	margin: auto 120px;
+}
+
+.phone .profile .page-section {
+	margin: auto 24px;
+}
+
+.phone .profile .page-header .titlearea {
+	-ms-grid-column: 1;
+	margin-top: 37px;
+	margin-left: 24px;
+	font-size: 28pt;
+	width: calc(100vw - 20px);
+}
+
+.phone .profile .back-button {
+	display: none;
+}
+
+.fragment {
+	-ms-grid-columns: 1fr;
+	-ms-grid-rows: 128px 1fr;
+	display: -ms-grid;
+	height: 100%;
+	width: 100%;
+}
+
+	.fragment section[role=main] {
+		-ms-grid-row: 2;
+		height: 100%;
+	}
+
+#photo, #casenumber, #locations, #aliases, #phone, #address, #email, #sex, #race,
+#dob, #pob, #height, #weight, #eye, #hair, #skin {
+	position: relative;
+}
+
+#photo {
+	height: 180px;
+	width: 230px;
+	left: -41px;
+	top: -24px;
+    background-image: url("C:\Users\districtuser2\Documents\VirtualCaseWall\images\1352236885442170385Add Symbol.svg.med.png");
+}

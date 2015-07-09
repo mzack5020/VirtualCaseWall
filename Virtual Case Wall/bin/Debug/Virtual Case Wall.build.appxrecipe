@@ -40,6 +40,9 @@
     <AppxPackagedFile Include="C:\Users\districtuser2\Documents\VirtualCaseWall\Virtual Case Wall\pages\map\map.css">
       <PackagePath>pages\map\map.css</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\districtuser2\Documents\VirtualCaseWall\Virtual Case Wall\pages\profile\profile.css">
+      <PackagePath>pages\profile\profile.css</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\districtuser2\Documents\VirtualCaseWall\Virtual Case Wall\images\logo.scale-100.png">
       <PackagePath>images\logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -95,6 +98,9 @@
     <AppxPackagedFile Include="C:\Users\districtuser2\Documents\VirtualCaseWall\Virtual Case Wall\pages\map\map.js">
       <PackagePath>pages\map\map.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\districtuser2\Documents\VirtualCaseWall\Virtual Case Wall\pages\profile\profile.js">
+      <PackagePath>pages\profile\profile.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\districtuser2\Documents\VirtualCaseWall\Virtual Case Wall\pages\chart\chart.html">
       <PackagePath>pages\chart\chart.html</PackagePath>
     </AppxPackagedFile>
@@ -124,6 +130,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\districtuser2\Documents\VirtualCaseWall\Virtual Case Wall\pages\map\map_container.html">
       <PackagePath>pages\map\map_container.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\districtuser2\Documents\VirtualCaseWall\Virtual Case Wall\pages\profile\profile.html">
+      <PackagePath>pages\profile\profile.html</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\districtuser2\Documents\VirtualCaseWall\Virtual Case Wall\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>

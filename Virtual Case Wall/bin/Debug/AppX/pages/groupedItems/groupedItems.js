@@ -35,7 +35,15 @@
         },
         _itemInvoked: function (args) {
             var item = Data.items.getAt(args.detail.itemIndex);
-            nav.navigate("/pages/itemDetail/itemDetail.html", { item: Data.getItemReference(item) });
+            if (item.title == "Add Profile")
+            {                
+                nav.navigate("pages/profile/profile.html", {item: Data.getItemReference(item) });
+            }
+
+            else
+            {
+                nav.navigate("/pages/itemDetail/itemDetail.html", { item: Data.getItemReference(item) });
+            }
         },
 
         logout: function()

@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
+<<<<<<< Updated upstream
     <ReferenceCachePath>C:\Users\districtuser2\AppData\Local\Temp\dnyipr0b_Virtual Case Wall_refcache</ReferenceCachePath>
+=======
+    <ReferenceCachePath>C:\Users\curranprasad\AppData\Local\Temp\4rsov2la_Virtual Case Wall_refcache</ReferenceCachePath>
+>>>>>>> Stashed changes
   </PropertyGroup>
 </Project>

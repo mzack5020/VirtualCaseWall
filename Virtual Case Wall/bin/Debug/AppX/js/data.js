@@ -87,7 +87,8 @@
             { key: "1", title: "NY Escapee POI", subtitle: "Persons Under Investigation", backgroundImage: personOfInterestImage, description: groupDescription[0] },
             { key: "2", title: "Public Figures", subtitle: "Public Figures", backgroundImage: opencases, description: groupDescription[1] },
             { key: "3", title: "Cases", subtitle: "Current Cases", backgroundImage: social, description: groupDescription[2] },
-            { key: "5", title: "Social Media Trends", subtitle: "Trending Now", backgroundImage: social, description: groupDescription[4] },
+            { key: "4", title: "World Events", subtitle: "Happening Now", backgroundImage: social, description: groupDescription[3] },
+            { key: "5", title: "Social Media Trends", subtitle: "Trending Now", backgroundImage: social, description: groupDescription[4] }
         ];
         WinJS.xhr({
             type: "GET",

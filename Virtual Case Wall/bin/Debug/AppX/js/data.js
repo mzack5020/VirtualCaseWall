@@ -65,7 +65,7 @@
     function generateSampleData() {
         var itemContent = "<p>Sample Case</p>";
         var itemDescription = "";
-        var groupDescription = ["Cases you are involved in", "Most popular cases viewed by the Agency", "Social media trends and hashtags"];
+        var groupDescription = ["Cases you are involved in", "Public Figures", "Test", "Social media trends and hashtags"];
 
         // These three strings encode placeholder images. You will want to set the
         // backgroundImage property in your real data to be URLs to images.
@@ -84,9 +84,10 @@
         // separately.
 
         var sampleGroups = [
-            { key: "1", title: "Persons of Interest", subtitle: "Persons Under Investigation", backgroundImage: personOfInterestImage, description: groupDescription[0] },
-            { key: "2", title: "Popular Cases", subtitle: "Cases viewed recently", backgroundImage: opencases, description: groupDescription[1] },
-            { key: "3", title: "Social Media Trends", subtitle: "Popular hashtags", backgroundImage: social, description: groupDescription[2] }
+            { key: "1", title: "NY Escapee POI", subtitle: "Persons Under Investigation", backgroundImage: personOfInterestImage, description: groupDescription[0] },
+            { key: "2", title: "Public Figures", subtitle: "Public Figures", backgroundImage: opencases, description: groupDescription[1] },
+            { key: "3", title: "Cases", subtitle: "Current Cases", backgroundImage: social, description: groupDescription[2] },
+            { key: "4", title: "Social Media Trends", subtitle: "Trending Now", backgroundImage: social, description: groupDescription[3] }
         ];
         WinJS.xhr({
             type: "GET",
@@ -177,25 +178,34 @@
 
         var sampleItems = [
             {
-                group: sampleGroups[0], title: "Donald Trump", subtitle: "Microsoft Founder", description: itemDescription,
+                group: sampleGroups[1], title: "Donald Trump", subtitle: "Microsoft Founder", description: itemDescription,
                 content: itemContent, backgroundImage: trump
             },
             {
-                group: sampleGroups[0], title: "Jay-Z", subtitle: "Singer, business man, Beyonce's bae", description: itemDescription,
+                group: sampleGroups[1], title: "Jay-Z", subtitle: "Singer, business man, Beyonce's bae", description: itemDescription,
                 content: itemContent, backgroundImage: jayz
             },
+
             {
-                group: sampleGroups[0], title: "Barack Obama", subtitle: "President of the United States", description: itemDescription,
+                group: sampleGroups[1], title: "Barack Obama", subtitle: "President of the United States", description: itemDescription,
                 content: itemContent, backgroundImage: obama
             },
 
             {
-                group: sampleGroups[1], title: "Case: 432145", subtitle: "Burgulary", description: itemDescription, content: itemContent, backgroundImage: darkGray
+                group: sampleGroups[2], title: "Case: KKE88D", subtitle: "Armed Robbery", description: itemDescription, content: itemContent, backgroundImage: darkGray
             },
 
             {
-                group: sampleGroups[2], title: "#PopularTrend", subtitle: "This is a popular topic", description: itemDescription, content: itemContent, backgroundImage: social
-            }
+                group: sampleGroups[2], title: "Case: 77JJD9", subtitle: "Fraud", description: itemDescription, content: itemContent, backgroundImage: social
+            },
+
+            {
+                group: sampleGroups[2], title: "Case: 987JEK", subtitle: "Burgulary", description: itemDescription, content: itemContent, backgroundImage: darkGray
+            },
+
+            {
+                group: sampleGroups[3], title: "#PopularTrend", subtitle: "This is a popular topic", description: itemDescription, content: itemContent, backgroundImage: social
+            },
         ];
         //readPersonFromPeopleFile("Richard Matt", doPersonAction);
         return sampleItems;

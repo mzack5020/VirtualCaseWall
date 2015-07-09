@@ -3,6 +3,7 @@
     console.log("groupedItems.js");
     var nav = WinJS.Navigation;
     var ui = WinJS.UI;
+
     ui.Pages.define("/pages/groupedItems/groupedItems.html", {
         // This function is called to initialize the page.
         init: function (element, options) {

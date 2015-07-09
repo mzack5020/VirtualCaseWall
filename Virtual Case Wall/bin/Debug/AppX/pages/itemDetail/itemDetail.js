@@ -18,13 +18,12 @@
             document.getElementById("photo").style.backgroundSize = "100%"
 
             // Add details to right panel div
-
-            var text = "<h4>Aliases: ";
-            if (person.aliases[0] != "")
-                text += person.aliases[0];
-            if (person.aliases[1] != "")
+            
+            if (person.aliases[0] != null)
+                var text = "<h4>Aliases: " + person.aliases[0];
+            if (person.aliases[1] != null)
                 text += ", " + person.aliases[1];
-            if (person.aliases[2] != "")
+            if (person.aliases[2] != null)
                 text += ", " + person.aliases[2] + "</h4>";
 
             text += "<h4>Sex: Male</h4>";

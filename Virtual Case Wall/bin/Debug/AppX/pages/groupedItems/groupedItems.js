@@ -36,7 +36,13 @@
         },
         _itemInvoked: function (args) {
             var item = Data.items.getAt(args.detail.itemIndex);
-            nav.navigate("/pages/itemDetail/itemDetail.html", { item: Data.getItemReference(item) });
+            //here we can route this based on the group.key of the item that is invoked
+            if (item.group.key == 1) {
+                nav.navigate("/pages/itemDetail/itemDetail.html", { item: Data.getItemReference(item) });
+            } else {
+                nav.navigate("/pages/error/error.html", { item: Data.getItemReference(item) });
+            }
+            //console.log(item.group.key + " that was the group.key");
         },
 
         logout: function()

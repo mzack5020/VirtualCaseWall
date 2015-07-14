@@ -1,5 +1,7 @@
 css\default.css
 default.html
+images\1194994263582955302add.svg.med.png
+images\Facebook-Blank-Photo.jpg
 images\logo.scale-100.png
 images\private-investigator-e1346535078419.jpg
 images\smalllogo.scale-100.png
@@ -14,6 +16,9 @@ pages\chart\chart.css
 pages\chart\chart.html
 pages\chart\chart.js
 pages\chart\chart_container.html
+pages\error\error.css
+pages\error\error.html
+pages\error\error.js
 pages\forgotPassword\forgotPassword.css
 pages\forgotPassword\forgotPassword.html
 pages\forgotPassword\forgotPassword.js
@@ -33,3 +38,6 @@ pages\map\map.css
 pages\map\map.html
 pages\map\map.js
 pages\map\map_container.html
+pages\profile\profile.css
+pages\profile\profile.html
+pages\profile\profile.js

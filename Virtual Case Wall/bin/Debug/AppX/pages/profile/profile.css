@@ -1,0 +1,132 @@
+﻿.profile section {
+	margin: 0px 120px 30px;
+}
+
+.phone .profile .page-section {
+	margin: auto 24px;
+}
+
+#browse {	
+	width: 4px;
+}
+
+.phone .profile .page-header .titlearea {
+	-ms-grid-column: 1;
+	margin-top: 37px;
+	margin-left: 24px;
+	font-size: 28pt;
+	width: calc(100vw - 20px);
+}
+
+.phone .profile .back-button {
+	display: none;
+}
+
+.fragment {
+	-ms-grid-columns: 1fr;
+	-ms-grid-rows: 128px 1fr;
+	display: -ms-grid;
+	height: 93.16%;
+	width: 100%;
+}
+
+#lists {
+	position: relative;
+	top: -62px;
+	left: 0px;
+}
+
+	.fragment section[role=main] {
+		-ms-grid-row: 2;
+		height: 94.81%;
+	}
+
+#photo, #casenumber, #locations, #aliases, #phone, #address, #email, #sex, #race,
+#dob, #pob, #height, #weight, #eye, #hair, #skin, #previewPhoto, #previewCasenumber,
+#previewDOB, #previewPOB, #previewSex, #previewHeight, #previewWeight, #previewEye,
+#previewHair, #previewSkin, h4 {
+	position: relative;
+}
+
+#photo {
+	height: 200px;
+	width: 210px;
+	left: -40px;
+	top: -46px;
+    background-image: url("../../images/1194994263582955302add.svg.med.png");
+    background-size: 100% 100%;
+    border: dotted;    
+}
+
+#rightText{
+    position: relative;
+    width: 341px;
+    left: 178px;
+    top: -241px;
+}
+
+#bottomText {
+	position: relative;
+	top: -198px;
+	left: -37px;
+	height: 500px;
+	width: 500px;
+}
+
+#addPanel {
+	height:50px;
+	width:469px;
+	position: relative;
+	float: right;
+	top: -123px;
+	left: 174px;
+}
+
+#newProfilePreview {
+	position: relative;
+	height: 223px;
+	top: -735px;
+	left: 635px;
+	width: 700.1px;
+}
+
+#personalDetails {
+	height: 100%;
+	width: 48.31%;
+    z-index:0;
+}
+
+#previewPhoto {
+	background-image: url("../../images/Facebook-Blank-Photo.jpg");
+    background-size: 100% 100%;
+	height: 192px;
+	width: 210px;
+	top: -90px;
+	left: 0px;
+}
+
+#save {
+	position: absolute;
+	top: 698.01px;
+	left: 1133px;	
+}
+
+#finish {
+	position: absolute;
+	left: 1257px;
+	top: 698.02px;
+}
+
+#previewCasenumber, #previewRace h4, #previewDOB h4, #previewPOB h4, #previewSex h4,
+#previewHeight h4, #previewWeight h4, #previewEye h4, #previewHair h4, #previewSkin h4{
+	float: right;	
+	left: -66px;
+	top: -284px;
+	width: 409px;
+}
+
+#buttons {
+	position: relative;
+	left: 752px;
+	top: -19.99px;
+}

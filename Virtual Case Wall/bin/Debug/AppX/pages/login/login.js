@@ -25,6 +25,9 @@
             var securityToken = sessionSettings.securityToken;
             if(securityToken)
                 nav.navigate("pages/groupedItems/groupedItems.html");
+
+            var test = document.getElementById("test");
+            test.addEventListener("click", this.test, false);
         },
 
         unload: function () {
@@ -37,6 +40,11 @@
             // TODO: Respond to changes in layout.
         },                
                
+        test: function()
+        {
+            nav.navigate("pages/profile/profile.html");
+        },
+
         terminateLoginScreen: function() 
         {
             var user = {
@@ -51,7 +59,7 @@
             
             WinJS.xhr({
                 type: "POST",
-                url: "http://10.201.27.203:8090/VirtualCaseWall/api/login",
+                url: "http://192.168.1.17:8090/VirtualCaseWall/api/login",
                 data: loginStr,
                 responseType: "String",
             }).done(function (result) {

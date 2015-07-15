@@ -14,6 +14,9 @@ pages\chart\chart.css
 pages\chart\chart.html
 pages\chart\chart.js
 pages\chart\chart_container.html
+pages\error\error.css
+pages\error\error.html
+pages\error\error.js
 pages\forgotPassword\forgotPassword.css
 pages\forgotPassword\forgotPassword.html
 pages\forgotPassword\forgotPassword.js

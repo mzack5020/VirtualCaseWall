@@ -93,7 +93,11 @@
         ];
         WinJS.xhr({
             type: "GET",
+<<<<<<< HEAD
             url: "http://156.80.138.110:8090/VirtualCaseWall/api/person",
+=======
+            url: "http://192.168.1.17:8090/VirtualCaseWall/api/person",
+>>>>>>> master
             headers: { "X-Auth-Header": WinJS.Application.sessionState.securityToken }, //this I don't think is even there brah
             responseType: "String",
         }).done(function (result) {

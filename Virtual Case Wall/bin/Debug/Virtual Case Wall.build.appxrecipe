@@ -22,10 +22,17 @@
     <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\chart\chart.css">
       <PackagePath>pages\chart\chart.css</PackagePath>
     </AppxPackagedFile>
+<<<<<<< HEAD
     <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\error\error.css">
       <PackagePath>pages\error\error.css</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\forgotPassword\forgotPassword.css">
+=======
+    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\error\error.css">
+      <PackagePath>pages\error\error.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\forgotPassword\forgotPassword.css">
+>>>>>>> master
       <PackagePath>pages\forgotPassword\forgotPassword.css</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\itemDetail\itemDetail.css">
@@ -89,10 +96,17 @@
     <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\chart\chart.js">
       <PackagePath>pages\chart\chart.js</PackagePath>
     </AppxPackagedFile>
+<<<<<<< HEAD
     <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\error\error.js">
       <PackagePath>pages\error\error.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\forgotPassword\forgotPassword.js">
+=======
+    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\error\error.js">
+      <PackagePath>pages\error\error.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\forgotPassword\forgotPassword.js">
+>>>>>>> master
       <PackagePath>pages\forgotPassword\forgotPassword.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\itemDetail\itemDetail.js">
@@ -119,10 +133,17 @@
     <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\chart\chart_container.html">
       <PackagePath>pages\chart\chart_container.html</PackagePath>
     </AppxPackagedFile>
+<<<<<<< HEAD
     <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\error\error.html">
       <PackagePath>pages\error\error.html</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\forgotPassword\forgotPassword.html">
+=======
+    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\error\error.html">
+      <PackagePath>pages\error\error.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\forgotPassword\forgotPassword.html">
+>>>>>>> master
       <PackagePath>pages\forgotPassword\forgotPassword.html</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\itemDetail\itemDetail.html">

@@ -23,12 +23,8 @@
   <Applications>
     <Application Id="App" StartPage="default.html">
       <m2:VisualElements DisplayName="Virtual Case Wall" Description="Virtual Case Wall" ForegroundText="light" BackgroundColor="#464646" Square150x150Logo="images\UNcover icon_150x150.png" Square30x30Logo="images\UNcover icon_30x30.png">
-        <m2:DefaultTile Wide310x150Logo="images\UNcover icon_310x150.png" Square70x70Logo="images\UNcover icon_70x70.png">
-          <m2:ShowNameOnTiles>
-            <m2:ShowOn Tile="square150x150Logo" />
-          </m2:ShowNameOnTiles>
-        </m2:DefaultTile>
-        <m2:SplashScreen Image="images\UNcover Logo_620x300.png" BackgroundColor="black" />
+        <m2:DefaultTile Wide310x150Logo="images\UNcover icon_310x150.png" Square70x70Logo="images\UNcover icon_70x70.png"></m2:DefaultTile>
+        <m2:SplashScreen Image="images\UNcover Logo_1116x540.png" BackgroundColor="black" />
         <m2:InitialRotationPreference>
           <m2:Rotation Preference="landscape" />
           <m2:Rotation Preference="landscapeFlipped" />

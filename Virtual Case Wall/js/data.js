@@ -103,85 +103,83 @@
             var json = JSON.parse(result.responseText);
             writePeople(json);//writes this stuff to a file
             if (json != "") {
-                
-                    for (var i = 0; i < json.length; i++) {                        
 
-                        var personData = {
-                            casenumber: "",
-                            locations: [],
-                            aliases: [],
-                            phoneNumbers: [],
-                            addresses: [],
-                            emailAddresses: [],
-                            events: [],
-                            photo: "",
-                            sex: "",
-                            race: "",
-                            dateOfBirth: "",
-                            placeOfBirth: "",
-                            height: "",
-                            weight: "",
-                            eyeColor: "",
-                            hairColor: "",
-                            skinTone: ""
+                for (var i = 0; i < json.length; i++) {
+
+                    var personData = {
+                        casenumber: "",
+                        locations: [],
+                        aliases: [],
+                        phoneNumbers: [],
+                        addresses: [],
+                        emailAddresses: [],
+                        events: [],
+                        photo: "",
+                        sex: "",
+                        race: "",
+                        dateOfBirth: "",
+                        placeOfBirth: "",
+                        height: "",
+                        weight: "",
+                        eyeColor: "",
+                        hairColor: "",
+                        skinTone: ""
+                    };
+
+                    personData.casenumber = json[i].person.caseNumber;
+                    personData.photo = json[i].person.photo;
+                    personData.sex = json[i].person.sex;
+                    personData.race = json[i].person.race;
+                    personData.dateOfBirth = json[i].person.dateOfBirth;
+                    personData.placeOfBirth = json[i].person.placeOfBirth;
+                    personData.height = json[i].person.height;
+                    personData.weight = json[i].person.weight;
+                    personData.eyeColor = json[i].person.eyeColor;
+                    personData.hairColor = json[i].person.hairColor;
+                    personData.skinTone = json[i].person.skinTone;
+
+
+                    for (var p = 0; p < json[i].person.locations.length; p++) {
+                        personData.locations[p] = json[i].person.locations[p];
+                    }
+                    for (var p = 0; p < json[i].person.aliases.length; p++) {
+                        personData.aliases[p] = json[i].person.aliases[p];
+                    }
+                    for (var p = 0; p < json[i].person.phoneNumbers.length; p++) {
+                        personData.phoneNumbers[p] = json[i].person.phoneNumbers[p];
+                    }
+                    for (var p = 0; p < json[i].person.addresses.length; p++) {
+                        personData.addresses[p] = json[i].person.addresses[p];
+                    }
+                    for (var p = 0; p < json[i].person.emailAddresses.length; p++) {
+                        personData.emailAddresses[p] = json[i].person.emailAddresses[p];
+                    }
+                    for (var p = 0; p < json[i].person.events.length; p++) {
+                        var event = {
+                            date: json[i].person.events[p].date,
+                            type: json[i].person.events[p].type,
+                            value: json[i].person.events[p].value,
+                            toValue: json[i].person.events[p].toValue
                         };
 
-                        personData.casenumber = json[i].person.caseNumber;
-                        personData.photo = json[i].person.photo;
-                        personData.sex = json[i].person.sex;
-                        personData.race = json[i].person.race;
-                        personData.dateOfBirth = json[i].person.dateOfBirth;
-                        personData.placeOfBirth = json[i].person.placeOfBirth;
-                        personData.height = json[i].person.height;
-                        personData.weight = json[i].person.weight;
-                        personData.eyeColor = json[i].person.eyeColor;
-                        personData.hairColor = json[i].person.hairColor;
-                        personData.skinTone = json[i].person.skinTone;
-
-
-                        for (var p = 0; p < json[i].person.locations.length; p++) {
-                            personData.locations[p] = json[i].person.locations[p];
-                        }
-                        for (var p = 0; p < json[i].person.aliases.length; p++) {
-                            personData.aliases[p] = json[i].person.aliases[p];
-                        }
-                        for (var p = 0; p < json[i].person.phoneNumbers.length; p++) {
-                            personData.phoneNumbers[p] = json[i].person.phoneNumbers[p];
-                        }
-                        for (var p = 0; p < json[i].person.addresses.length; p++) {
-                            personData.addresses[p] = json[i].person.addresses[p];
-                        }
-                        for (var p = 0; p < json[i].person.emailAddresses.length; p++) {
-                            personData.emailAddresses[p] = json[i].person.emailAddresses[p];
-                        }
-                        for (var p = 0; p < json[i].person.events.length; p++) {
-                            var event = {
-                                date: json[i].person.events[p].date,
-                                type: json[i].person.events[p].type,
-                                value: json[i].person.events[p].value,
-                                toValue: json[i].person.events[p].toValue
-                            };
-                            
-                            personData.events[p] = event;
-                        }
-
-                        var newPerson = {
-                            group: sampleGroups[0], title: personData.casenumber, subtitle: personData.casenumber,    //changed this because we don't know how many aliases there will be
-                            description: itemDescription, content: itemContent, backgroundImage: "data:image/png;base64," + personData.photo,
-                        }
-                        //I wonder if grails gets called again if there will be duplicate people
-                        list.push(newPerson);
-                        personList[personData.casenumber] = personData;
+                        personData.events[p] = event;
                     }
-            }
 
+                    var newPerson = {
+                        group: sampleGroups[0], title: personData.casenumber, subtitle: personData.casenumber,    //changed this because we don't know how many aliases there will be
+                        description: itemDescription, content: itemContent, backgroundImage: "data:image/png;base64," + personData.photo,
+                    }
+                    //I wonder if grails gets called again if there will be duplicate people
+                    list.push(newPerson);
+                    personList[personData.casenumber] = personData;
+                }
+            }
             var newPerson = {
                 group: sampleGroups[0], title: "Add Profile", subtitle: "Add a new criminal profile",    //changed this because we don't know how many aliases there will be
-                description: itemDescription, content: itemContent, backgroundImage: plus,
+                description: itemDescription, content: itemContent, backgroundImage: plus
             }
-            //I wonder if grails gets called again if there will be duplicate people
-            list.push(newPerson);
 
+            list.push(newPerson);
             sessionSettings.people = personList;
 
         }, function error(result) {

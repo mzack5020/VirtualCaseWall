@@ -14,9 +14,10 @@ images\UNcover icon_310x150.png
 images\UNcover icon_50x50.png
 images\UNcover icon_70x70.png
 images\UNcover Logo.png
-images\UNcover Logo_1116x540.png
+images\UNcover Logo_1116x540.scale-140.png
+images\UNcover Logo_1116x540.scale-180.png
 images\UNcover Logo_620x300.scale-140.png
-images\UNcover Logo_868x420.png
+images\UNcover Logo_868x420.scale-140.png
 js\data.js
 js\default.js
 js\js\Interactivity.1.1.js

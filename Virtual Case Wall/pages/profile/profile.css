@@ -107,14 +107,14 @@
 
 #save {
 	position: absolute;
-	top: 698.01px;
-	left: 1133px;	
+	top: 587px;
+	right: 10px;	
 }
 
 #finish {
 	position: absolute;
-	left: 1257px;
-	top: 698.02px;
+	left: 1490px;
+	top: 587px;
 }
 
 #previewCasenumber, #previewRace h4, #previewDOB h4, #previewPOB h4, #previewSex h4,
@@ -129,4 +129,10 @@
 	position: relative;
 	left: 752px;
 	top: -19.99px;
+}
+
+#eventInfo {
+	position: relative;
+	top: -280px;
+	left: 206px;
 }

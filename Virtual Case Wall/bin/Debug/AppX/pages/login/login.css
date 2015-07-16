@@ -12,7 +12,7 @@
 
 .page-section {
     position: relative;
-    top: 454px;        
+    top: 15%;        
 }
 
 .phone .login .page-header .titlearea {
@@ -37,10 +37,5 @@
 
 	.fragment section[role=main] {
 		-ms-grid-row: 2;
-		height: 100.07%;
+		height: 100%;
 	}
-
-#loginScreen {
-	position: relative;
-	top: -378px;
-}

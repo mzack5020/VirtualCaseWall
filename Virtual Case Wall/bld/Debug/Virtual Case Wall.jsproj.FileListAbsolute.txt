@@ -118,33 +118,18 @@ C:\Users\districtuser2\Documents\VirtualCaseWall-LayoutReorganization\VirtualCas
 C:\Users\districtuser2\Documents\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\Virtual Case Wall\bld\Debug\qualifiers.txt.intermediate
 C:\Users\districtuser2\Documents\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\Virtual Case Wall\bld\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\districtuser2\Documents\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\Virtual Case Wall\bld\Debug\ProjectArchitectures.txt
-C:\Users\drzac\Downloads\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\Virtual Case Wall\bin\Debug\ReverseMap\resources.pri
-C:\Users\drzac\Downloads\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\Virtual Case Wall\bin\Debug\AppxManifest.xml
-C:\Users\drzac\Downloads\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\Virtual Case Wall\bin\Debug\Virtual Case Wall.build.appxrecipe
-C:\Users\drzac\Downloads\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\Virtual Case Wall\bld\Debug\priconfig.xml
-C:\Users\drzac\Downloads\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\Virtual Case Wall\bld\Debug\priconfig.xml.intermediate
-C:\Users\drzac\Downloads\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\Virtual Case Wall\bld\Debug\layout.resfiles
-C:\Users\drzac\Downloads\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\Virtual Case Wall\bld\Debug\layout.resfiles.intermediate
-C:\Users\drzac\Downloads\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\Virtual Case Wall\bld\Debug\resources.resfiles
-C:\Users\drzac\Downloads\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\Virtual Case Wall\bld\Debug\resources.resfiles.intermediate
-C:\Users\drzac\Downloads\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\Virtual Case Wall\bld\Debug\pri.resfiles
-C:\Users\drzac\Downloads\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\Virtual Case Wall\bld\Debug\pri.resfiles.intermediate
-C:\Users\drzac\Downloads\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\Virtual Case Wall\bld\Debug\qualifiers.txt
-C:\Users\drzac\Downloads\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\Virtual Case Wall\bld\Debug\qualifiers.txt.intermediate
-C:\Users\drzac\Downloads\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\Virtual Case Wall\bld\Debug\MultipleQualifiersPerDimensionFound.txt
-C:\Users\drzac\Downloads\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\Virtual Case Wall\bld\Debug\ProjectArchitectures.txt
-C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\bin\Debug\ReverseMap\resources.pri
-C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\bin\Debug\AppxManifest.xml
-C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\bin\Debug\Virtual Case Wall.build.appxrecipe
-C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\bld\Debug\priconfig.xml
-C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\bld\Debug\priconfig.xml.intermediate
-C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\bld\Debug\layout.resfiles
-C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\bld\Debug\layout.resfiles.intermediate
-C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\bld\Debug\resources.resfiles
-C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\bld\Debug\resources.resfiles.intermediate
-C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\bld\Debug\pri.resfiles
-C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\bld\Debug\pri.resfiles.intermediate
-C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\bld\Debug\qualifiers.txt
-C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\bld\Debug\qualifiers.txt.intermediate
-C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\bld\Debug\MultipleQualifiersPerDimensionFound.txt
-C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\bld\Debug\ProjectArchitectures.txt
+C:\Users\drzac\Documents\VirtualCaseWall-LayoutReorganization (3)\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\Virtual Case Wall\bin\Debug\ReverseMap\resources.pri
+C:\Users\drzac\Documents\VirtualCaseWall-LayoutReorganization (3)\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\Virtual Case Wall\bin\Debug\AppxManifest.xml
+C:\Users\drzac\Documents\VirtualCaseWall-LayoutReorganization (3)\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\Virtual Case Wall\bin\Debug\Virtual Case Wall.build.appxrecipe
+C:\Users\drzac\Documents\VirtualCaseWall-LayoutReorganization (3)\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\Virtual Case Wall\bld\Debug\priconfig.xml
+C:\Users\drzac\Documents\VirtualCaseWall-LayoutReorganization (3)\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\Virtual Case Wall\bld\Debug\priconfig.xml.intermediate
+C:\Users\drzac\Documents\VirtualCaseWall-LayoutReorganization (3)\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\Virtual Case Wall\bld\Debug\layout.resfiles
+C:\Users\drzac\Documents\VirtualCaseWall-LayoutReorganization (3)\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\Virtual Case Wall\bld\Debug\layout.resfiles.intermediate
+C:\Users\drzac\Documents\VirtualCaseWall-LayoutReorganization (3)\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\Virtual Case Wall\bld\Debug\resources.resfiles
+C:\Users\drzac\Documents\VirtualCaseWall-LayoutReorganization (3)\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\Virtual Case Wall\bld\Debug\resources.resfiles.intermediate
+C:\Users\drzac\Documents\VirtualCaseWall-LayoutReorganization (3)\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\Virtual Case Wall\bld\Debug\pri.resfiles
+C:\Users\drzac\Documents\VirtualCaseWall-LayoutReorganization (3)\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\Virtual Case Wall\bld\Debug\pri.resfiles.intermediate
+C:\Users\drzac\Documents\VirtualCaseWall-LayoutReorganization (3)\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\Virtual Case Wall\bld\Debug\qualifiers.txt
+C:\Users\drzac\Documents\VirtualCaseWall-LayoutReorganization (3)\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\Virtual Case Wall\bld\Debug\qualifiers.txt.intermediate
+C:\Users\drzac\Documents\VirtualCaseWall-LayoutReorganization (3)\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\Virtual Case Wall\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\drzac\Documents\VirtualCaseWall-LayoutReorganization (3)\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\Virtual Case Wall\bld\Debug\ProjectArchitectures.txt

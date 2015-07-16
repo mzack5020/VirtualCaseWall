@@ -26,8 +26,6 @@
 
             var saveButton = document.getElementById("save");
             saveButton.addEventListener("click", this.saveProgress, false);
-            var finishButton = document.getElementById("finish");
-            finishButton.addEventListener("click", this.submitProgress, false);
 
             document.getElementById("newProfilePreview").hidden = true;
             document.getElementById("newInput").hidden = true;
@@ -39,6 +37,7 @@
             document.getElementById("previewEmail").hidden = true;
             document.getElementById("previewEvent").hidden = true;
 
+            document.getElementById("eventInfo").hidden = true;
             //var casenumber = document.getElementById("casenumberInput");
             //casenumber.addEventListener("click", casenumber.innerText = "", false);
         },
@@ -115,7 +114,7 @@
             else
                 document.getElementById("previewSkin").innerHTML = "<h4>Skin Tone: " + document.getElementById("skinInput").value + "</h4>";
 
-            if (document.getElementById("newInput").value != "") {
+            if (!document.getElementById("newInput").hidden && document.getElementById("newInput").value != "") {
                 switch (document.getElementById("newInput").className) {
                     case "location":
                         {
@@ -157,17 +156,38 @@
                             document.getElementById("emailList").add(temp);
                             break;
                         }
-                    case "event":
-                        {
-                            document.getElementById("previewEvent").hidden = false;
-                            var temp = document.createElement("option");
-                            temp.text = document.getElementById("newInput").value;
-                            document.getElementById("eventList").add(temp);
-                            break;
-                        }
+                    //case "event":
+                    //    {
+                    //        document.getElementById("previewEvent").hidden = false;
+                    //        var temp = document.createElement("option");
+                    //        temp.text = document.getElementById("newInput").value;
+                    //        document.getElementById("eventList").add(temp);
+                    //        break;
+                    //    }
                     default:
                         break;
                 }
+            }
+
+            else if (document.getElementById("newInput").hidden && !document.getElementById("eventInfo").hidden)
+            {
+                var year = document.getElementById("eventYear").value;
+                var month = document.getElementById("eventMonth").value;
+                var day = document.getElementById("eventDay").value;
+                var hour = document.getElementById("eventHour").value;
+                var minute = document.getElementById("eventMinute").value;
+
+                var event = {
+                    date: new Date(year, month, day, hour, minute, 0, 0),
+                    type: document.getElementById("typeList").value,
+                    value: document.getElementById("eventValue").value,
+                    toValue: document.getElementById("eventToValue").value
+                };
+
+                document.getElementById("previewEvent").hidden = false;
+                var temp = document.createElement("option");
+                temp.text = event.type + " to " + event.toValue;
+                document.getElementById("eventList").add(temp);
             }
 
             document.getElementById("addAlias").disabled = false;
@@ -176,10 +196,11 @@
             document.getElementById("addAddress").disabled = false;
             document.getElementById("addEmail").disabled = false;
             document.getElementById("addEvent").disabled = false;
-            document.getElementById("finish").disabled = false;
+            document.getElementById("finish").disabled = false;            
 
             document.getElementById("newInput").value = "Enter Here";
             document.getElementById("newInput").hidden = true;
+            document.getElementById("eventInfo").hidden = true;
         },
 
         newLocation: function () {
@@ -257,21 +278,31 @@
             document.getElementById("addEvent").disabled = "disabled";
             document.getElementById("finish").disabled = "disabled";
 
-            document.getElementById("newInput").hidden = false;
-            document.getElementById("newInput").className = "event";
+            document.getElementById("eventInfo").hidden = false;            
         },
 
         newPhoto: function () {
+            //console.log("zophie");
+            //if (this.files && this.files[0]) {
+            //    var FR = new FileReader();
+            //    FR.onload = function (e) {
+            //        el("photo").style.backgroundImage = "'url(" + e.target.result + "')";
+            //        el("photo").innerHTML = e.target.result;
+            //    };
+            //    FR.readAsDataURL(this.files[0]);
+            //}
+
             var openPicker = new Windows.Storage.Pickers.FileOpenPicker();
             openPicker.viewMode = Windows.Storage.Pickers.PickerViewMode.thumbnail;
             openPicker.suggestedStartLocation = Windows.Storage.Pickers.PickerLocationId.picturesLibrary;
             openPicker.fileTypeFilter.replaceAll([".png", ".jpg", ".jpeg"]);
 
             openPicker.pickSingleFileAsync().then(function (file) {
-                document.getElementById("photo").style.backgroundColor = "white";
-                document.getElementById("previewPhoto").style.backgroundColor = "white";
-                document.getElementById("photo").style.backgroundImage = "url(" + file.path + ")";
-                document.getElementById("previewPhoto").style.backgroundImage = "url(" + file.path + ")";
+                document.getElementById("photo").style.backgroundImage = "url('" + file.path + "')";
+                document.getElementById("previewPhoto").style.backgroundImage = "url('" + file.path + "')";
+                document.getElementById("photo").style.opacity = "1";
+                console.log("url(" + file.path + ")");
+                
             });
 
             //var filePicker = new Windows.Storage.Pickers.FileOpenPicker();
@@ -296,43 +327,40 @@
             //    //document.getElementById("photo").style.backgroundImage = "url('../../images/logo.scale-100.png')";
             //});
         },
+        
+        submitProgress: function () {
+            var person = {
+                casenumber: document.getElementById("previewCasenumber").value,
+                locations: [],
+                aliases: [],
+                phoneNumbers: [],
+                addresses: [],
+                emailAddresses: [],
+                events: [],
+                photo: document.getElementById("previewPhoto").value,
+                sex: document.getElementById("previewSex").value,
+                race: document.getElementById("previewRace").value,
+                dateOfBirth: document.getElementById("previewDOB").value,
+                placeOfBirth: document.getElementById("previewPOB").value,
+                height: document.getElementById("previewHeight").value,
+                weight: document.getElementById("previewWeight").value,
+                eyeColor: document.getElementById("previewEye").value,
+                hairColor: document.getElementById("previewHair").value,
+                skinTone: document.getElementById("previewSkin").value
+            };
 
-        submitProgress: function()
-        {
-            //var person = {
-            //    casenumber: document.getElementById("previewCasenumber").value,
-            //    locations: [],
-            //    aliases: [],
-            //    phoneNumbers: [],
-            //    addresses: [],
-            //    emailAddresses: [],
-            //    events: [],
-            //    photo: document.getElementById("previewPhoto").value,
-            //    sex: document.getElementById("previewSex").value,
-            //    race: document.getElementById("previewRace").value,
-            //    dateOfBirth: document.getElementById("previewDOB").value,
-            //    placeOfBirth: document.getElementById("previewPOB").value,
-            //    height: document.getElementById("previewHeight").value,
-            //    weight: document.getElementById("previewWeight").value,
-            //    eyeColor: document.getElementById("previewEye").value,
-            //    hairColor: document.getElementById("previewHair").value,
-            //    skinTone: document.getElementById("previewSkin").value
-            //};
-
-            //for(var i = 0; i < document.getElementById("locationList").length; i++)
-            //    person.locations[i] = document.getElementById("locationList")[i].value;
-            //for (var i = 0; i < document.getElementById("aliasList").length; i++)
-            //    person.aliases[i] = document.getElementById("aliasList")[i].value;
-            //for (var i = 0; i < document.getElementById("phoneList").length; i++)
-            //    person.phoneNumbers[i] = document.getElementById("phoneList")[i].value;
-            //for (var i = 0; i < document.getElementById("addressList").length; i++)
-            //    person.addresses[i] = document.getElementById("addressList")[i].value;
-            //for (var i = 0; i < document.getElementById("emailList").length; i++)
-            //    person.emailAddresses[i] = document.getElementById("emailList")[i].value;
-            //for (var i = 0; i < document.getElementById("eventList").length; i++)
-            //    person.events[i] = document.getElementById("eventList")[i].value;            
-
-            document.getElementById("photo").innerText = document.getElementById("newDate").winControl.current + " " + document.getElementById("newTime").winControl.current;
+            for(var i = 0; i < document.getElementById("locationList").length; i++)
+                person.locations[i] = document.getElementById("locationList")[i].value;
+            for (var i = 0; i < document.getElementById("aliasList").length; i++)
+                person.aliases[i] = document.getElementById("aliasList")[i].value;
+            for (var i = 0; i < document.getElementById("phoneList").length; i++)
+                person.phoneNumbers[i] = document.getElementById("phoneList")[i].value;
+            for (var i = 0; i < document.getElementById("addressList").length; i++)
+                person.addresses[i] = document.getElementById("addressList")[i].value;
+            for (var i = 0; i < document.getElementById("emailList").length; i++)
+                person.emailAddresses[i] = document.getElementById("emailList")[i].value;
+            for (var i = 0; i < document.getElementById("eventList").length; i++)
+                person.events[i] = document.getElementById("eventList")[i].value;            
         }
     });
 })();

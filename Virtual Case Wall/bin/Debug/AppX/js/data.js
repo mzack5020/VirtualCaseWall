@@ -1,6 +1,6 @@
 ﻿(function () {
     "use strict";
-    console.log("in data.js");
+    //console.log("in data.js");
 
     var sessionSettings = WinJS.Application.sessionState;
 
@@ -93,7 +93,7 @@
         ];
         WinJS.xhr({
             type: "GET",
-            url: "http://192.168.1.15:8090/VirtualCaseWall/api/person",
+            url: "http://10.201.28.156:8090/VirtualCaseWall/api/person",
             headers: { "X-Auth-Header": WinJS.Application.sessionState.securityToken }, //this I don't think is even there brah
             responseType: "String",
         }).done(function (result) {

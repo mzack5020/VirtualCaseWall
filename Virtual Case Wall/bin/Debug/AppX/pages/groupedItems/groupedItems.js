@@ -39,9 +39,16 @@
             //here we can route this based on the group.key of the item that is invoked
             if (item.group.key == 1) {
                 nav.navigate("/pages/itemDetail/itemDetail.html", { item: Data.getItemReference(item) });
-            } else {
+            } else if (item.group.key==2) {
                 nav.navigate("/pages/error/error.html", { item: Data.getItemReference(item) });
             }
+
+            else if (item.group.key == 3) {
+                nav.navigate("/pages/itemDetail/public_figures.html")
+              
+            }
+
+
             //console.log(item.group.key + " that was the group.key");
         },
 

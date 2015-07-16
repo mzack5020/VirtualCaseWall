@@ -69,3 +69,18 @@
 #title {
     text-align: center;
 }
+
+.politicianImg{
+    height: 300px;
+    width: 300px;
+}
+
+.politicianProfile{
+    width: 300px;
+    font-size: 24px;
+}
+
+#names{
+    font-size:30px;
+    color: gray;
+}

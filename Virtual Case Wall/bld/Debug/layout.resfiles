@@ -31,6 +31,8 @@ pages\groupedItems\groupedItems.js
 pages\itemDetail\itemDetail.css
 pages\itemDetail\itemDetail.html
 pages\itemDetail\itemDetail.js
+pages\itemDetail\public_figures.html
+pages\itemDetail\world_events.html
 pages\login\login.css
 pages\login\login.html
 pages\login\login.js

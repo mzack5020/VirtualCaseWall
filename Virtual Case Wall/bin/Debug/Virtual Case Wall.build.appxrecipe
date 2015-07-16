@@ -1,176 +1,161 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>WIN-8103U5ES33R</Machine>
-    <WindowsUser>drzac</WindowsUser>
+    <Machine>WIN-7ATD3FMLU74</Machine>
+    <WindowsUser>curranprasad</WindowsUser>
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>381e36cb-6858-4514-8c60-57c574ddb770</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\bld\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\bld\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\css\default.css">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\css\default.css">
       <PackagePath>css\default.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\chart\chart.css">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\chart\chart.css">
       <PackagePath>pages\chart\chart.css</PackagePath>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\error\error.css">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\error\error.css">
       <PackagePath>pages\error\error.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\forgotPassword\forgotPassword.css">
-=======
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\error\error.css">
-      <PackagePath>pages\error\error.css</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\forgotPassword\forgotPassword.css">
->>>>>>> master
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\forgotPassword\forgotPassword.css">
       <PackagePath>pages\forgotPassword\forgotPassword.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\itemDetail\itemDetail.css">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\itemDetail\itemDetail.css">
       <PackagePath>pages\itemDetail\itemDetail.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\groupDetail\groupDetail.css">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\groupDetail\groupDetail.css">
       <PackagePath>pages\groupDetail\groupDetail.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\groupedItems\groupedItems.css">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\groupedItems\groupedItems.css">
       <PackagePath>pages\groupedItems\groupedItems.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\login\login.css">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\login\login.css">
       <PackagePath>pages\login\login.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\map\map.css">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\map\map.css">
       <PackagePath>pages\map\map.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\profile\profile.css">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\profile\profile.css">
       <PackagePath>pages\profile\profile.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\images\1194994263582955302add.svg.med.png">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\images\1194994263582955302add.svg.med.png">
       <PackagePath>images\1194994263582955302add.svg.med.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\images\logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\images\logo.scale-100.png">
       <PackagePath>images\logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\images\smalllogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\images\smalllogo.scale-100.png">
       <PackagePath>images\smalllogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\images\splashscreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\images\splashscreen.scale-100.png">
       <PackagePath>images\splashscreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\images\storelogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\images\storelogo.scale-100.png">
       <PackagePath>images\storelogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\images\Facebook-Blank-Photo.jpg">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\images\Facebook-Blank-Photo.jpg">
       <PackagePath>images\Facebook-Blank-Photo.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\images\private-investigator-e1346535078419.jpg">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\images\private-investigator-e1346535078419.jpg">
       <PackagePath>images\private-investigator-e1346535078419.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\js\data.js">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\js\data.js">
       <PackagePath>js\data.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\js\default.js">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\js\default.js">
       <PackagePath>js\default.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\js\js\Interactivity.1.1.js">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\js\js\Interactivity.1.1.js">
       <PackagePath>js\js\Interactivity.1.1.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\js\navigator.js">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\js\navigator.js">
       <PackagePath>js\navigator.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\js\people_util.js">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\js\people_util.js">
       <PackagePath>js\people_util.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\chart\chart.js">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\chart\chart.js">
       <PackagePath>pages\chart\chart.js</PackagePath>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\error\error.js">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\error\error.js">
       <PackagePath>pages\error\error.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\forgotPassword\forgotPassword.js">
-=======
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\error\error.js">
-      <PackagePath>pages\error\error.js</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\forgotPassword\forgotPassword.js">
->>>>>>> master
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\forgotPassword\forgotPassword.js">
       <PackagePath>pages\forgotPassword\forgotPassword.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\itemDetail\itemDetail.js">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\itemDetail\itemDetail.js">
       <PackagePath>pages\itemDetail\itemDetail.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\groupDetail\groupDetail.js">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\groupDetail\groupDetail.js">
       <PackagePath>pages\groupDetail\groupDetail.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\groupedItems\groupedItems.js">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\groupedItems\groupedItems.js">
       <PackagePath>pages\groupedItems\groupedItems.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\login\login.js">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\login\login.js">
       <PackagePath>pages\login\login.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\map\map.js">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\map\map.js">
       <PackagePath>pages\map\map.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\profile\profile.js">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\profile\profile.js">
       <PackagePath>pages\profile\profile.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\chart\chart.html">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\chart\chart.html">
       <PackagePath>pages\chart\chart.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\chart\chart_container.html">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\chart\chart_container.html">
       <PackagePath>pages\chart\chart_container.html</PackagePath>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\error\error.html">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\error\error.html">
       <PackagePath>pages\error\error.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\forgotPassword\forgotPassword.html">
-=======
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\error\error.html">
-      <PackagePath>pages\error\error.html</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\forgotPassword\forgotPassword.html">
->>>>>>> master
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\forgotPassword\forgotPassword.html">
       <PackagePath>pages\forgotPassword\forgotPassword.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\itemDetail\itemDetail.html">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\itemDetail\itemDetail.html">
       <PackagePath>pages\itemDetail\itemDetail.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\groupDetail\groupDetail.html">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\groupDetail\groupDetail.html">
       <PackagePath>pages\groupDetail\groupDetail.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\groupedItems\groupedItems.html">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\groupedItems\groupedItems.html">
       <PackagePath>pages\groupedItems\groupedItems.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\default.html">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\default.html">
       <PackagePath>default.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\login\login.html">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\itemDetail\public_figures.html">
+      <PackagePath>pages\itemDetail\public_figures.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\itemDetail\world_events.html">
+      <PackagePath>pages\itemDetail\world_events.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\login\login.html">
       <PackagePath>pages\login\login.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\map\map.html">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\map\map.html">
       <PackagePath>pages\map\map.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\map\map_container.html">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\map\map_container.html">
       <PackagePath>pages\map\map_container.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\profile\profile.html">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\profile\profile.html">
       <PackagePath>pages\profile\profile.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\bin\Debug\ReverseMap\resources.pri">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

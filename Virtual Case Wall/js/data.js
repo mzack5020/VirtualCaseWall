@@ -95,7 +95,7 @@
         ];
         WinJS.xhr({
             type: "GET",
-            url: "http://156.80.138.110:8090/VirtualCaseWall/api/person",
+            url: "http://10.201.28.156:8090/VirtualCaseWall/api/person",
             headers: { "X-Auth-Header": WinJS.Application.sessionState.securityToken }, //this I don't think is even there brah
             responseType: "String",
         }).done(function (result) {
@@ -105,6 +105,7 @@
             if (json != "") {
                 
                     for (var i = 0; i < json.length; i++) {
+                        console.log(JSON);
 
                         var personData = {
                             casenumber: "",
@@ -174,6 +175,14 @@
                         personList[personData.casenumber] = personData;
                     }
             }
+
+            var newPerson = {
+                group: sampleGroups[0], title: "Add Profile", subtitle: "Add a new criminal profile",    //changed this because we don't know how many aliases there will be
+                description: itemDescription, content: itemContent, backgroundImage: plus,
+            }
+            //I wonder if grails gets called again if there will be duplicate people
+            list.push(newPerson);
+
             sessionSettings.people = personList;
 
         }, function error(result) {

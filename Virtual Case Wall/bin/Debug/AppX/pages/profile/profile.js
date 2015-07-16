@@ -26,6 +26,8 @@
 
             var saveButton = document.getElementById("save");
             saveButton.addEventListener("click", this.saveProgress, false);
+            var finishButton = document.getElementById("finish");
+            finishButton.addEventListener("click", this.submitProgress, false);
 
             document.getElementById("newProfilePreview").hidden = true;
             document.getElementById("newInput").hidden = true;
@@ -293,6 +295,35 @@
 
             //    //document.getElementById("photo").style.backgroundImage = "url('../../images/logo.scale-100.png')";
             //});
+        },
+
+        submitProgress: function()
+        {
+            console.log(document.getElementById("locationList")[0].value);
+            //var person = {
+            //    casenumber: document.getElementById("previewCasenumber").value,
+            //    locations: [],
+            //    aliases: [],
+            //    phoneNumbers: [],
+            //    addresses: [],
+            //    emailAddresses: [],
+            //    events: [],
+            //    photo: document.getElementById("previewPhoto").value,
+            //    sex: document.getElementById("previewSex").value,
+            //    race: document.getElementById("previewRace").value,
+            //    dateOfBirth: document.getElementById("previewDOB").value,
+            //    placeOfBirth: document.getElementById("previewPOB").value,
+            //    height: document.getElementById("previewHeight").value,
+            //    weight: document.getElementById("previewWeight").value,
+            //    eyeColor: document.getElementById("previewEye").value,
+            //    hairColor: document.getElementById("previewHair").value,
+            //    skinTone: document.getElementById("previewSkin").value
+            //};
+
+            //for(var i = 0; i < document.getElementById("locationList").length; i++)
+            //{
+            //    person.locations[i] = document.getElementById("locationList")[i].value;
+            //}
         }
     });
 })();

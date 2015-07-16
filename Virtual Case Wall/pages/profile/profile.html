@@ -32,7 +32,22 @@
                 <div id="photo"></div>
                 <div id="rightText">
                     <div id="casenumber">
-                        <input type="text" id="casenumberInput" value="Case Number" />
+                        <input type="text" id="casenumberInput" value="Case Number" />                                      
+                    </div>
+                    <div id="event">
+                        <select id="typeList">
+                            <option>- Type of Event -</option>
+                            <option value="phone">Phone Call</option>
+                            <option value="text">Text</option>
+                            <option value="email">Email</option>
+                            <option value="location">Location</option>
+                        </select>
+                       
+                        <div data-win-control="WinJS.UI.DatePicker" id="newDate"></div>
+                        <div data-win-control="WinJS.UI.TimePicker" id="newTime"></div>
+
+                        <input type="text" id="eventToValue" />
+                        <input type="text" id="eventValue" />                        
                     </div>
                     <div id="race">
                         <select id="raceValue" value="raceValue">

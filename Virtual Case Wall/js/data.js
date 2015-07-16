@@ -104,8 +104,7 @@
             writePeople(json);//writes this stuff to a file
             if (json != "") {
                 
-                    for (var i = 0; i < json.length; i++) {
-                        console.log(JSON);
+                    for (var i = 0; i < json.length; i++) {                        
 
                         var personData = {
                             casenumber: "",

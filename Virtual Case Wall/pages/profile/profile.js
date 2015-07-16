@@ -299,38 +299,40 @@
 
         submitProgress: function()
         {
-            var person = {
-                casenumber: document.getElementById("previewCasenumber").value,
-                locations: [],
-                aliases: [],
-                phoneNumbers: [],
-                addresses: [],
-                emailAddresses: [],
-                events: [],
-                photo: document.getElementById("previewPhoto").value,
-                sex: document.getElementById("previewSex").value,
-                race: document.getElementById("previewRace").value,
-                dateOfBirth: document.getElementById("previewDOB").value,
-                placeOfBirth: document.getElementById("previewPOB").value,
-                height: document.getElementById("previewHeight").value,
-                weight: document.getElementById("previewWeight").value,
-                eyeColor: document.getElementById("previewEye").value,
-                hairColor: document.getElementById("previewHair").value,
-                skinTone: document.getElementById("previewSkin").value
-            };
+            //var person = {
+            //    casenumber: document.getElementById("previewCasenumber").value,
+            //    locations: [],
+            //    aliases: [],
+            //    phoneNumbers: [],
+            //    addresses: [],
+            //    emailAddresses: [],
+            //    events: [],
+            //    photo: document.getElementById("previewPhoto").value,
+            //    sex: document.getElementById("previewSex").value,
+            //    race: document.getElementById("previewRace").value,
+            //    dateOfBirth: document.getElementById("previewDOB").value,
+            //    placeOfBirth: document.getElementById("previewPOB").value,
+            //    height: document.getElementById("previewHeight").value,
+            //    weight: document.getElementById("previewWeight").value,
+            //    eyeColor: document.getElementById("previewEye").value,
+            //    hairColor: document.getElementById("previewHair").value,
+            //    skinTone: document.getElementById("previewSkin").value
+            //};
 
-            for(var i = 0; i < document.getElementById("locationList").length; i++)
-                person.locations[i] = document.getElementById("locationList")[i].value;
-            for (var i = 0; i < document.getElementById("aliasList").length; i++)
-                person.aliases[i] = document.getElementById("aliasList")[i].value;
-            for (var i = 0; i < document.getElementById("phoneList").length; i++)
-                person.phoneNumbers[i] = document.getElementById("phoneList")[i].value;
-            for (var i = 0; i < document.getElementById("addressList").length; i++)
-                person.addresses[i] = document.getElementById("addressList")[i].value;
-            for (var i = 0; i < document.getElementById("emailList").length; i++)
-                person.emailAddresses[i] = document.getElementById("emailList")[i].value;
-            for (var i = 0; i < document.getElementById("eventList").length; i++)
-                person.events[i] = document.getElementById("eventList")[i].value;
+            //for(var i = 0; i < document.getElementById("locationList").length; i++)
+            //    person.locations[i] = document.getElementById("locationList")[i].value;
+            //for (var i = 0; i < document.getElementById("aliasList").length; i++)
+            //    person.aliases[i] = document.getElementById("aliasList")[i].value;
+            //for (var i = 0; i < document.getElementById("phoneList").length; i++)
+            //    person.phoneNumbers[i] = document.getElementById("phoneList")[i].value;
+            //for (var i = 0; i < document.getElementById("addressList").length; i++)
+            //    person.addresses[i] = document.getElementById("addressList")[i].value;
+            //for (var i = 0; i < document.getElementById("emailList").length; i++)
+            //    person.emailAddresses[i] = document.getElementById("emailList")[i].value;
+            //for (var i = 0; i < document.getElementById("eventList").length; i++)
+            //    person.events[i] = document.getElementById("eventList")[i].value;            
+
+            document.getElementById("photo").innerText = document.getElementById("newDate").winControl.current + " " + document.getElementById("newTime").winControl.current;
         }
     });
 })();

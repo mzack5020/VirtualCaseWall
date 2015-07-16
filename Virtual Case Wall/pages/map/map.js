@@ -15,9 +15,22 @@ google.maps.event.addDomListener(window, 'message', initialize);
 
 function initialize() {
 
-    console.log(personObject.casenumber);
-    allLats = [39, 55, 45, 32, 88];
-    allLngs = [-77, 45, -100, 45, 30];
+    var allLats = []
+    var allLngs = []
+
+    //console.log(personObject);
+    for (var i = 0; i < personObject.events.length; i++) {
+        if (personObject.events[i].type == "location") {
+            var lat = parseInt((personObject.events[i].value).split(",")[0]);
+            var long = parseInt((personObject.events[i].value).split(",")[1]);
+
+            allLats[allLats.length] = lat;
+            allLngs[allLngs.length] = long;
+        }
+    }
+    
+    console.log(allLats);
+    console.log(allLngs);
 
     latSum = 0;
     lngSum = 0;

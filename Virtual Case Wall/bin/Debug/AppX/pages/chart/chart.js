@@ -43,13 +43,24 @@ function drawLineChart() {
     dayFreq["Friday"] = 0;
     dayFreq["Saturday"] = 0;
 
-    console.log("COUNT  " + dayFreq["Sunday"]);
-
-    console.log(personObject);
     for (var i = 0; i < personObject.events.length; i++) {
         var date = new Date(personObject.events[i].date);
-        console.log(dayMap[date.getDay()]);
+        dayFreq[dayMap[date.getDay()]] = dayFreq[dayMap[date.getDay()]] + 1;
     }
+
+    var ONE_DAY_IN_MILLIS = 1000*60*60*24;
+    var curr = new Date();
+
+    var offset = curr.getDay() * ONE_DAY_IN_MILLIS;
+
+    // Date at the start of week; note that hours, minutes and seconds are != 0
+    var start = new Date( curr.getTime() - offset );
+
+    for( var i=0; i < 7; i++ ) {
+        var nextDay = new Date(start.getTime() - (i * ONE_DAY_IN_MILLIS));
+        console.log(dayMap[nextDay.getDay()]);
+    }
+
 
     var data = new google.visualization.DataTable();
     data.addColumn('string', 'Days');

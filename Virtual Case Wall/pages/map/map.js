@@ -7,7 +7,6 @@ var personObject;
 //so both of these catch a message event, it looks like one always catches it before the other one
 window.addEventListener("message", function (e) {
     personObject = e.data;
-    console.log("inside of map.js");
 });
 
 google.maps.event.addDomListener(window, 'message', initialize);
@@ -18,7 +17,6 @@ function initialize() {
     var allLats = []
     var allLngs = []
 
-    //console.log(personObject);
     for (var i = 0; i < personObject.events.length; i++) {
         if (personObject.events[i].type == "location") {
             var lat = parseInt((personObject.events[i].value).split(",")[0]);
@@ -28,9 +26,7 @@ function initialize() {
             allLngs[allLngs.length] = long;
         }
     }
-    
-    console.log(allLats);
-    console.log(allLngs);
+
 
     latSum = 0;
     lngSum = 0;

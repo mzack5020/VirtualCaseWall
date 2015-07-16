@@ -118,7 +118,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\chart\chart.js">
       <PackagePath>pages\chart\chart.js</PackagePath>
-      <Modified>2015-07-16T20:30:25.290</Modified>
+      <Modified>2015-07-16T20:50:50.237</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\error\error.js">
       <PackagePath>pages\error\error.js</PackagePath>
@@ -146,7 +146,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\map\map.js">
       <PackagePath>pages\map\map.js</PackagePath>
-      <Modified>2015-07-16T20:16:53.902</Modified>
+      <Modified>2015-07-16T20:51:37.254</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\profile\profile.js">
       <PackagePath>pages\profile\profile.js</PackagePath>

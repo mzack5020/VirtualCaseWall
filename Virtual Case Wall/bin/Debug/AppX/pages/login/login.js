@@ -26,8 +26,8 @@
             if(securityToken)
                 nav.navigate("pages/groupedItems/groupedItems.html");
 
-            //var test = document.getElementById("test");
-            //test.addEventListener("click", this.test, false);
+            var test = document.getElementById("test");
+            test.addEventListener("click", this.test, false);
         },
 
         unload: function () {
@@ -38,11 +38,11 @@
             /// <param name="element" domElement="true" />
 
             // TODO: Respond to changes in layout.
-        },                
-               
+        },                             
+
         test: function()
         {
-            nav.navigate("pages/profile/profile.html");
+            nav.navigate("/pages/profile/profile.html");
         },
 
         terminateLoginScreen: function() 

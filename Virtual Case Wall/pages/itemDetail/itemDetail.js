@@ -13,9 +13,10 @@
             var chartIframe = document.getElementById("chart");
 
             var chartDoc = document.getElementById("chart");
-
-            console.log("posting message");
             chartDoc.contentWindow.postMessage(person, "*");
+
+            var mapDoc = document.getElementById("mapPanel");
+            mapDoc.contentWindow.postMessage(person, "*");
 
             //set profile photo
             document.getElementById("photo").style.backgroundImage = "url(data:images/png;base64," + person.photo + ")";

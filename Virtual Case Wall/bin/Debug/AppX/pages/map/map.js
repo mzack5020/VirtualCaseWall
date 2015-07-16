@@ -1,11 +1,21 @@
 ﻿var map;
 var dataResults;
 var marker;
-//console.log("map.js");
-function initialize() {
-  //  personLat = 39;
-  // personLng = -77;
 
+var personObject;
+
+//so both of these catch a message event, it looks like one always catches it before the other one
+window.addEventListener("message", function (e) {
+    personObject = e.data;
+    console.log("inside of map.js");
+});
+
+google.maps.event.addDomListener(window, 'message', initialize);
+
+
+function initialize() {
+
+    console.log(personObject.casenumber);
     allLats = [39, 55, 45, 32, 88];
     allLngs = [-77, 45, -100, 45, 30];
 
@@ -37,9 +47,3 @@ function initialize() {
  
    // new google.maps.Marker({ position: { lat: personLat, lng: personLng }, map: map });
 }
-
-eqfeed_callback = function (results) {
-    dataResults = results;
-}
-
-google.maps.event.addDomListener(window, 'load', initialize);

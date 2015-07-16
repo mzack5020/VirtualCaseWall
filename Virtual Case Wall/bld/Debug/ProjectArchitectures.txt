@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 C:\Users\drzac\Documents\VirtualCaseWall-LayoutReorganization (3)\VirtualCaseWall-LayoutReorganization\VirtualCaseWall-LayoutReorganization\Virtual Case Wall\Virtual Case Wall.jsproj;neutral
+=======
+C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\Virtual Case Wall.jsproj;neutral
+>>>>>>> master

@@ -1,6 +1,6 @@
 ﻿(function () {
     "use strict";
-    console.log("in data.js");
+    //console.log("in data.js");
 
     var sessionSettings = WinJS.Application.sessionState;
 

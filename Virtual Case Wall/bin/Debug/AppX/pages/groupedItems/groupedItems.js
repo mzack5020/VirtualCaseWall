@@ -1,6 +1,6 @@
 ﻿(function () {
     "use strict";
-    console.log("groupedItems.js");
+    //console.log("groupedItems.js");
     var nav = WinJS.Navigation;
     var ui = WinJS.UI;
 

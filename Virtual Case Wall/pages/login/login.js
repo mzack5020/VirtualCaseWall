@@ -2,7 +2,7 @@
 // http://go.microsoft.com/fwlink/?LinkId=232511
 (function () {
     "use strict";
-    console.log("in login.js");
+    //console.log("in login.js");
     var nav = WinJS.Navigation;
     var roamingSettings = Windows.Storage.ApplicationData.current.roamingSettings;
     var sessionSettings = WinJS.Application.sessionState;

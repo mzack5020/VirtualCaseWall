@@ -349,6 +349,7 @@
                 skinTone: document.getElementById("previewSkin").value
             };
 
+
             for(var i = 0; i < document.getElementById("locationList").length; i++)
                 person.locations[i] = document.getElementById("locationList")[i].value;
             for (var i = 0; i < document.getElementById("aliasList").length; i++)

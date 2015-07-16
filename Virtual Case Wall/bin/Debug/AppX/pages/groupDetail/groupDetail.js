@@ -2,7 +2,7 @@
     "use strict";
 
     var ui = WinJS.UI;
-    console.log("groupDetail.js");
+    //console.log("groupDetail.js");
     ui.Pages.define("/pages/groupDetail/groupDetail.html", {
         /// <field type="WinJS.Binding.List" />
         _items: null,

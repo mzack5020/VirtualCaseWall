@@ -3,18 +3,18 @@ var localFolder = applicationData.localFolder;
 
 // write data to a file, this will write the Grails JSON response
 function writePeople(json) {
-    console.log("writePeople");
+    //console.log("writePeople");
     localFolder.createFileAsync("people.txt", Windows.Storage.CreationCollisionOption.replaceExisting)
        .then(function (peopleFile) {
            return Windows.Storage.FileIO.writeTextAsync(peopleFile, JSON.stringify(json));
        }).done(function () {
-           console.log("donewriting");
+           //console.log("donewriting");
        });
 }
 
 //responsible for reading the file and passing the person object to the callback function
 function readPersonFromPeopleFile(personName, personAction) {
-    console.log("readPeople");
+    //console.log("readPeople");
     localFolder.getFileAsync("people.txt")
        .then(function (sampleFile) {
            return Windows.Storage.FileIO.readTextAsync(sampleFile);

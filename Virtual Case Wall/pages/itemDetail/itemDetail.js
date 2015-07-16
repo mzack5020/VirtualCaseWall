@@ -1,17 +1,21 @@
 ﻿(function () {
     "use strict";
-    console.log("itemDetail.js");
+
 
     WinJS.UI.Pages.define("/pages/itemDetail/itemDetail.html", {
-        // This function is called whenever a user navigates to this page. It
-        // populates the page elements with the app's data.
+
         ready: function (element, options) {
+
             var item = Data.resolveItemReference(options.item);
             element.querySelector(".titlearea .pagetitle").textContent = item.title;
-
             //now people is a map that can be accessed by casenumber
             var person = WinJS.Application.sessionState.people[item.title];
+            var chartIframe = document.getElementById("chart");
 
+            var chartDoc = document.getElementById("chart");
+
+            console.log("posting message");
+            chartDoc.contentWindow.postMessage(person, "*");
 
             //set profile photo
             document.getElementById("photo").style.backgroundImage = "url(data:images/png;base64," + person.photo + ")";

@@ -2,7 +2,7 @@
 // http://go.microsoft.com/fwlink/?LinkId=232511
 (function () {
     "use strict";
-    console.log("in login.js");
+    //console.log("in login.js");
     var nav = WinJS.Navigation;
     var roamingSettings = Windows.Storage.ApplicationData.current.roamingSettings;
     var sessionSettings = WinJS.Application.sessionState;
@@ -59,7 +59,7 @@
             
             WinJS.xhr({
                 type: "POST",
-                url: "http://192.168.1.15:8090/VirtualCaseWall/api/login",
+                url: "http://10.201.28.156:8090/VirtualCaseWall/api/login",
                 data: loginStr,
                 responseType: "String",
             }).done(function (result) {

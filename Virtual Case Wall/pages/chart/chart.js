@@ -43,36 +43,41 @@ function drawLineChart() {
     dayFreq["Friday"] = 0;
     dayFreq["Saturday"] = 0;
 
+    //this increments the frequencies for the days
     for (var i = 0; i < personObject.events.length; i++) {
         var date = new Date(personObject.events[i].date);
         dayFreq[dayMap[date.getDay()]] = dayFreq[dayMap[date.getDay()]] + 1;
     }
 
-    //var ONE_DAY_IN_MILLIS = 1000*60*60*24;
-    //var curr = new Date();
+    //create a date for the current date
+    //get the day for the current date, use the dayMap to get the name, then add that name to a list of last 7 days
+    //decrement current date by however many milliseconds a day is
+    //repeat process
 
-    //var offset = curr.getDay() * ONE_DAY_IN_MILLIS;
+    var DAY_IN_MILLIS = 86400000;
+    var currentDate = new Date();
+    var currentDateMillis = currentDate.getTime();
+    var lastSevenDays = [];
 
-    //// Date at the start of week; note that hours, minutes and seconds are != 0
-    //var start = new Date( curr.getTime() - offset );
+    for (var i = 0; i < 7; i++) {
+        currentDate.setTime(currentDateMillis - (i * DAY_IN_MILLIS));
+        var dayIndex = currentDate.getDay();
+        lastSevenDays[i] = dayMap[dayIndex];
+    }
 
-    //for(var i=0; i < 7; i++ ) {
-    //    var nextDay = new Date(start.getTime() - (i * ONE_DAY_IN_MILLIS));
-    //    console.log(dayMap[nextDay.getDay()]);
-    //}
 
 
     var data = new google.visualization.DataTable();
     data.addColumn('string', 'Days');
     data.addColumn('number', 'Events');
     data.addRows([
-        ['Thurs 9', 30],
-        ['Wed 8', 14],
-        ['Tues 7', 25],
-        ['Mon 6', 10],
-        ['Sun 5', 14],
-        ['Sat 4', 20],
-        ['Fri 3', 42]
+        [lastSevenDays[6], dayFreq[lastSevenDays[6]]],
+        [lastSevenDays[5], dayFreq[lastSevenDays[5]]],
+        [lastSevenDays[4], dayFreq[lastSevenDays[4]]],
+        [lastSevenDays[3], dayFreq[lastSevenDays[3]]],
+        [lastSevenDays[2], dayFreq[lastSevenDays[2]]],
+        [lastSevenDays[1], dayFreq[lastSevenDays[1]]],
+        [lastSevenDays[0], dayFreq[lastSevenDays[0]]]
 
     ]);
 

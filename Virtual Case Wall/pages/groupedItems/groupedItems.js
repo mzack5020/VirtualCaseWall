@@ -47,9 +47,9 @@
             } else if (item.group.key == 3) {
                 nav.navigate("/pages/itemDetail/public_figures.html")
 
-            } else {
-                nav.navigate("/pages/error/error.html", { item: Data.getItemReference(item) });
-            }
+            } else if (item.group.key == 4) {
+               nav.navigate("/pages/itemDetail/world_events.html", { item: Data.getItemReference(item) });
+                }
 
 
 

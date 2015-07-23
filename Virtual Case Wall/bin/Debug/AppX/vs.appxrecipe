@@ -1,24 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-<<<<<<< HEAD
     <Machine>WIN-7ATD3FMLU74</Machine>
     <WindowsUser>curranprasad</WindowsUser>
-=======
-    <Machine>WIN-6JADHEJUO81</Machine>
-    <WindowsUser>ryanp102694</WindowsUser>
->>>>>>> master
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>381e36cb-6858-4514-8c60-57c574ddb770</PackageIdentityName>
-<<<<<<< HEAD
-    <IntermediateOutputPath>C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\bld\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>A91E47DD48470C906A74BBD020B51879A3A979062E5847B6FB01275900256720</RegisteredManifestChecksum>
-=======
-    <IntermediateOutputPath>C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\bld\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>CA58346027B016BBBAEC300182A139DB106796C66FBD4B05090940B57549810D</RegisteredManifestChecksum>
->>>>>>> master
+    <IntermediateOutputPath>C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\bld\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>41C7DEAA30EF6A0FE5B8AC4B7750A77E9B291FF4991346C3672248F0AF05D3DA</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>381e36cb-6858-4514-8c60-57c574ddb770_1.0.0.0_neutral__97h71xxxcpm32</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>381e36cb-6858-4514-8c60-57c574ddb770_97h71xxxcpm32!App</RegisteredUserModeAppID>
     <RegisteredPackageID>381e36cb-6858-4514-8c60-57c574ddb770</RegisteredPackageID>
@@ -27,437 +17,247 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <AppXManifest Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-07-16T20:11:09.812</Modified>
+      <Modified>2015-07-23T15:41:00.435</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\css\default.css">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2015-07-09T21:26:17.385</Modified>
+      <Modified>2015-07-23T15:04:42.012</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\chart\chart.css">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\pages\chart\chart.css">
       <PackagePath>pages\chart\chart.css</PackagePath>
-      <Modified>2015-07-17T14:23:27.077</Modified>
-=======
-    <AppXManifest Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\bin\Debug\AppxManifest.xml">
-      <PackagePath>AppxManifest.xml</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-07-23T00:37:05.935</Modified>
-    </AppXManifest>
-  </ItemGroup>
-  <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\css\default.css">
-      <PackagePath>css\default.css</PackagePath>
-      <Modified>2015-07-22T23:56:26.542</Modified>
+      <Modified>2015-07-23T15:04:42.346</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\chart\chart.css">
-      <PackagePath>pages\chart\chart.css</PackagePath>
-      <Modified>2015-07-22T23:56:26.714</Modified>
->>>>>>> master
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\error\error.css">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\pages\error\error.css">
       <PackagePath>pages\error\error.css</PackagePath>
-<<<<<<< HEAD
-      <Modified>2015-07-09T21:26:17.754</Modified>
+      <Modified>2015-07-23T15:04:42.353</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\forgotPassword\forgotPassword.css">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\pages\forgotPassword\forgotPassword.css">
       <PackagePath>pages\forgotPassword\forgotPassword.css</PackagePath>
-      <Modified>2015-07-09T21:26:17.760</Modified>
+      <Modified>2015-07-23T15:04:42.358</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\itemDetail\itemDetail.css">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\pages\itemDetail\itemDetail.css">
       <PackagePath>pages\itemDetail\itemDetail.css</PackagePath>
-      <Modified>2015-07-16T19:56:18.468</Modified>
+      <Modified>2015-07-23T17:48:01.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\groupDetail\groupDetail.css">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\pages\groupDetail\groupDetail.css">
       <PackagePath>pages\groupDetail\groupDetail.css</PackagePath>
-      <Modified>2015-07-09T21:26:17.813</Modified>
+      <Modified>2015-07-23T15:04:42.373</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\groupedItems\groupedItems.css">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\pages\groupedItems\groupedItems.css">
       <PackagePath>pages\groupedItems\groupedItems.css</PackagePath>
-      <Modified>2015-07-09T21:26:17.916</Modified>
+      <Modified>2015-07-23T15:04:42.390</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\login\login.css">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\pages\login\login.css">
       <PackagePath>pages\login\login.css</PackagePath>
-      <Modified>2015-07-09T21:26:18.012</Modified>
+      <Modified>2015-07-23T15:04:42.451</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\map\map.css">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\pages\map\map.css">
       <PackagePath>pages\map\map.css</PackagePath>
-      <Modified>2015-07-09T21:26:18.037</Modified>
+      <Modified>2015-07-23T15:04:42.459</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\profile\profile.css">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\pages\profile\profile.css">
       <PackagePath>pages\profile\profile.css</PackagePath>
-      <Modified>2015-07-09T21:26:18.062</Modified>
+      <Modified>2015-07-23T15:04:42.466</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\images\1194994263582955302add.svg.med.png">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\images\1194994263582955302add.svg.med.png">
       <PackagePath>images\1194994263582955302add.svg.med.png</PackagePath>
-      <Modified>2015-07-09T21:26:17.396</Modified>
+      <Modified>2015-07-23T15:04:42.022</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\images\logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\images\logo.scale-100.png">
       <PackagePath>images\logo.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-07-09T21:26:17.444</Modified>
+      <Modified>2015-07-23T15:04:42.079</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\images\smalllogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\images\smalllogo.scale-100.png">
       <PackagePath>images\smalllogo.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-07-09T21:26:17.472</Modified>
+      <Modified>2015-07-23T15:04:42.112</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\images\splashscreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\images\splashscreen.scale-100.png">
       <PackagePath>images\splashscreen.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-07-09T21:26:17.474</Modified>
+      <Modified>2015-07-23T15:04:42.113</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\images\storelogo.scale-100.png">
-=======
-      <Modified>2015-07-22T23:56:26.717</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\forgotPassword\forgotPassword.css">
-      <PackagePath>pages\forgotPassword\forgotPassword.css</PackagePath>
-      <Modified>2015-07-22T23:56:26.720</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\itemDetail\itemDetail.css">
-      <PackagePath>pages\itemDetail\itemDetail.css</PackagePath>
-      <Modified>2015-07-22T23:56:26.731</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\groupDetail\groupDetail.css">
-      <PackagePath>pages\groupDetail\groupDetail.css</PackagePath>
-      <Modified>2015-07-22T23:56:26.724</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\groupedItems\groupedItems.css">
-      <PackagePath>pages\groupedItems\groupedItems.css</PackagePath>
-      <Modified>2015-07-22T23:56:26.728</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\login\login.css">
-      <PackagePath>pages\login\login.css</PackagePath>
-      <Modified>2015-07-22T23:56:26.735</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\map\map.css">
-      <PackagePath>pages\map\map.css</PackagePath>
-      <Modified>2015-07-22T23:56:26.738</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\profile\profile.css">
-      <PackagePath>pages\profile\profile.css</PackagePath>
-      <Modified>2015-07-23T00:34:47.287</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\images\1194994263582955302add.svg.med.png">
-      <PackagePath>images\1194994263582955302add.svg.med.png</PackagePath>
-      <Modified>2015-07-22T23:56:26.547</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\images\logo.scale-100.png">
-      <PackagePath>images\logo.scale-100.png</PackagePath>
-      <Modified>2015-07-22T23:56:26.562</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\images\smalllogo.scale-100.png">
-      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
-      <Modified>2015-07-22T23:56:26.582</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\images\splashscreen.scale-100.png">
-      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
-      <Modified>2015-07-22T23:56:26.583</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\images\storelogo.scale-100.png">
->>>>>>> master
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\images\storelogo.scale-100.png">
       <PackagePath>images\storelogo.scale-100.png</PackagePath>
-      <Modified>2015-07-22T23:56:26.583</Modified>
+      <Modified>2015-07-23T15:04:42.115</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\images\UNcover icon.png">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\images\UNcover icon.png">
       <PackagePath>images\UNcover icon.png</PackagePath>
-      <Modified>2015-07-23T00:34:47.132</Modified>
+      <Modified>2015-07-23T15:04:42.052</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\images\UNcover icon_150x150.png">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\images\UNcover icon_150x150.png">
       <PackagePath>images\UNcover icon_150x150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-07-23T00:34:47.135</Modified>
+      <Modified>2015-07-23T15:04:42.053</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\images\UNcover icon_30x30.png">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\images\UNcover icon_30x30.png">
       <PackagePath>images\UNcover icon_30x30.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-07-23T00:34:47.136</Modified>
+      <Modified>2015-07-23T15:04:42.058</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\images\UNcover icon_310x150.png">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\images\UNcover icon_310x150.png">
       <PackagePath>images\UNcover icon_310x150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-07-23T00:34:47.139</Modified>
+      <Modified>2015-07-23T15:04:42.060</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\images\UNcover icon_50x50.png">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\images\UNcover icon_50x50.png">
       <PackagePath>images\UNcover icon_50x50.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-<<<<<<< HEAD
-      <Modified>2015-07-09T21:26:17.475</Modified>
+      <Modified>2015-07-23T15:04:42.061</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\images\Facebook-Blank-Photo.jpg">
-      <PackagePath>images\Facebook-Blank-Photo.jpg</PackagePath>
-      <Modified>2015-07-09T21:26:17.419</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\images\private-investigator-e1346535078419.jpg">
-      <PackagePath>images\private-investigator-e1346535078419.jpg</PackagePath>
-      <Modified>2015-07-09T21:26:17.471</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\js\data.js">
-      <PackagePath>js\data.js</PackagePath>
-      <Modified>2015-07-16T16:25:41.712</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\js\default.js">
-      <PackagePath>js\default.js</PackagePath>
-      <Modified>2015-07-09T21:26:17.698</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\js\js\Interactivity.1.1.js">
-      <PackagePath>js\js\Interactivity.1.1.js</PackagePath>
-      <Modified>2015-07-09T21:26:17.719</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\js\navigator.js">
-      <PackagePath>js\navigator.js</PackagePath>
-      <Modified>2015-07-09T21:26:17.721</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\js\people_util.js">
-      <PackagePath>js\people_util.js</PackagePath>
-      <Modified>2015-07-09T21:26:17.736</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\chart\chart.js">
-      <PackagePath>pages\chart\chart.js</PackagePath>
-      <Modified>2015-07-17T14:23:27.087</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\error\error.js">
-      <PackagePath>pages\error\error.js</PackagePath>
-      <Modified>2015-07-09T21:26:17.757</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\forgotPassword\forgotPassword.js">
-      <PackagePath>pages\forgotPassword\forgotPassword.js</PackagePath>
-      <Modified>2015-07-09T21:26:17.806</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\itemDetail\itemDetail.js">
-      <PackagePath>pages\itemDetail\itemDetail.js</PackagePath>
-      <Modified>2015-07-09T21:26:17.999</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\groupDetail\groupDetail.js">
-      <PackagePath>pages\groupDetail\groupDetail.js</PackagePath>
-      <Modified>2015-07-09T21:26:17.886</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\groupedItems\groupedItems.js">
-      <PackagePath>pages\groupedItems\groupedItems.js</PackagePath>
-      <Modified>2015-07-16T16:58:33.529</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\login\login.js">
-      <PackagePath>pages\login\login.js</PackagePath>
-      <Modified>2015-07-16T16:25:05.210</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\map\map.js">
-      <PackagePath>pages\map\map.js</PackagePath>
-      <Modified>2015-07-09T21:26:18.050</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\profile\profile.js">
-      <PackagePath>pages\profile\profile.js</PackagePath>
-      <Modified>2015-07-09T21:26:18.089</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\chart\chart.html">
-      <PackagePath>pages\chart\chart.html</PackagePath>
-      <Modified>2015-07-09T21:26:17.749</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\chart\chart_container.html">
-      <PackagePath>pages\chart\chart_container.html</PackagePath>
-      <Modified>2015-07-09T21:26:17.752</Modified>
-=======
-      <Modified>2015-07-23T00:34:47.141</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\images\UNcover icon_70x70.png">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\images\UNcover icon_70x70.png">
       <PackagePath>images\UNcover icon_70x70.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-07-23T00:34:47.142</Modified>
+      <Modified>2015-07-23T15:04:42.063</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\images\UNcover Logo.png">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\images\UNcover Logo.png">
       <PackagePath>images\UNcover Logo.png</PackagePath>
-      <Modified>2015-07-23T00:34:47.114</Modified>
+      <Modified>2015-07-23T15:04:42.037</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\images\UNcover Logo_1116x540.scale-140.png">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\images\UNcover Logo_1116x540.scale-140.png">
       <PackagePath>images\UNcover Logo_1116x540.scale-140.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-07-23T00:34:47.116</Modified>
+      <Modified>2015-07-23T15:04:42.043</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\images\UNcover Logo_1116x540.scale-180.png">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\images\UNcover Logo_1116x540.scale-180.png">
       <PackagePath>images\UNcover Logo_1116x540.scale-180.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-07-23T00:34:47.118</Modified>
+      <Modified>2015-07-23T15:04:42.045</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\images\UNcover Logo_620x300.scale-140.png">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\images\UNcover Logo_620x300.scale-140.png">
       <PackagePath>images\UNcover Logo_620x300.scale-140.png</PackagePath>
-      <Modified>2015-07-23T00:34:47.128</Modified>
+      <Modified>2015-07-23T15:04:42.047</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\images\UNcover Logo_868x420.scale-140.png">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\images\UNcover Logo_868x420.scale-140.png">
       <PackagePath>images\UNcover Logo_868x420.scale-140.png</PackagePath>
-      <Modified>2015-07-23T00:34:47.131</Modified>
+      <Modified>2015-07-23T15:04:42.050</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\images\Facebook-Blank-Photo.jpg">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\images\Facebook-Blank-Photo.jpg">
       <PackagePath>images\Facebook-Blank-Photo.jpg</PackagePath>
-      <Modified>2015-07-22T23:56:26.550</Modified>
+      <Modified>2015-07-23T15:04:42.029</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\images\private-investigator-e1346535078419.jpg">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\images\private-investigator-e1346535078419.jpg">
       <PackagePath>images\private-investigator-e1346535078419.jpg</PackagePath>
-      <Modified>2015-07-22T23:56:26.580</Modified>
+      <Modified>2015-07-23T15:04:42.110</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\js\data.js">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\js\data.js">
       <PackagePath>js\data.js</PackagePath>
-      <Modified>2015-07-23T00:36:33.563</Modified>
+      <Modified>2015-07-23T15:20:57.902</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\js\default.js">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2015-07-22T23:56:26.691</Modified>
+      <Modified>2015-07-23T15:04:42.305</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\js\js\Interactivity.1.1.js">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\js\js\Interactivity.1.1.js">
       <PackagePath>js\js\Interactivity.1.1.js</PackagePath>
-      <Modified>2015-07-22T23:56:26.702</Modified>
+      <Modified>2015-07-23T15:04:42.325</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\js\navigator.js">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\js\navigator.js">
       <PackagePath>js\navigator.js</PackagePath>
-      <Modified>2015-07-22T23:56:26.703</Modified>
+      <Modified>2015-07-23T15:04:42.330</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\js\people_util.js">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\js\people_util.js">
       <PackagePath>js\people_util.js</PackagePath>
-      <Modified>2015-07-22T23:56:26.711</Modified>
+      <Modified>2015-07-23T15:04:42.339</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\chart\chart.js">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\pages\chart\chart.js">
       <PackagePath>pages\chart\chart.js</PackagePath>
-      <Modified>2015-07-23T00:36:33.348</Modified>
+      <Modified>2015-07-23T15:04:42.349</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\error\error.js">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\pages\error\error.js">
       <PackagePath>pages\error\error.js</PackagePath>
-      <Modified>2015-07-22T23:56:26.719</Modified>
+      <Modified>2015-07-23T15:04:42.356</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\forgotPassword\forgotPassword.js">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\pages\forgotPassword\forgotPassword.js">
       <PackagePath>pages\forgotPassword\forgotPassword.js</PackagePath>
-      <Modified>2015-07-22T23:56:26.723</Modified>
+      <Modified>2015-07-23T15:04:42.367</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\itemDetail\itemDetail.js">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\pages\itemDetail\itemDetail.js">
       <PackagePath>pages\itemDetail\itemDetail.js</PackagePath>
-      <Modified>2015-07-22T23:56:26.734</Modified>
+      <Modified>2015-07-23T15:04:42.414</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\groupDetail\groupDetail.js">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\pages\groupDetail\groupDetail.js">
       <PackagePath>pages\groupDetail\groupDetail.js</PackagePath>
-      <Modified>2015-07-22T23:56:26.726</Modified>
+      <Modified>2015-07-23T15:04:42.381</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\groupedItems\groupedItems.js">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\pages\groupedItems\groupedItems.js">
       <PackagePath>pages\groupedItems\groupedItems.js</PackagePath>
-      <Modified>2015-07-23T00:34:47.275</Modified>
+      <Modified>2015-07-23T15:17:30.913</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\login\login.js">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\pages\login\login.js">
       <PackagePath>pages\login\login.js</PackagePath>
-      <Modified>2015-07-23T00:36:33.365</Modified>
+      <Modified>2015-07-23T15:23:29.532</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\map\map.js">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\pages\map\map.js">
       <PackagePath>pages\map\map.js</PackagePath>
-      <Modified>2015-07-23T00:36:33.349</Modified>
+      <Modified>2015-07-23T15:04:42.462</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\profile\profile.js">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\pages\profile\profile.js">
       <PackagePath>pages\profile\profile.js</PackagePath>
-      <Modified>2015-07-23T00:34:47.305</Modified>
+      <Modified>2015-07-23T15:04:42.494</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\chart\chart.html">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\pages\chart\chart.html">
       <PackagePath>pages\chart\chart.html</PackagePath>
-      <Modified>2015-07-22T23:56:26.714</Modified>
+      <Modified>2015-07-23T15:04:42.348</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\chart\chart_container.html">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\pages\chart\chart_container.html">
       <PackagePath>pages\chart\chart_container.html</PackagePath>
-      <Modified>2015-07-22T23:56:26.716</Modified>
->>>>>>> master
+      <Modified>2015-07-23T15:04:42.351</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\error\error.html">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\pages\error\error.html">
       <PackagePath>pages\error\error.html</PackagePath>
-<<<<<<< HEAD
-      <Modified>2015-07-09T21:26:17.756</Modified>
+      <Modified>2015-07-23T15:04:42.354</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\forgotPassword\forgotPassword.html">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\pages\forgotPassword\forgotPassword.html">
       <PackagePath>pages\forgotPassword\forgotPassword.html</PackagePath>
-      <Modified>2015-07-09T21:26:17.768</Modified>
+      <Modified>2015-07-23T15:04:42.363</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\itemDetail\itemDetail.html">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\pages\itemDetail\itemDetail.html">
       <PackagePath>pages\itemDetail\itemDetail.html</PackagePath>
-      <Modified>2015-07-09T21:26:17.981</Modified>
+      <Modified>2015-07-23T15:04:42.411</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\groupDetail\groupDetail.html">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\pages\groupDetail\groupDetail.html">
       <PackagePath>pages\groupDetail\groupDetail.html</PackagePath>
-      <Modified>2015-07-09T21:26:17.823</Modified>
+      <Modified>2015-07-23T15:04:42.378</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\groupedItems\groupedItems.html">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\pages\groupedItems\groupedItems.html">
       <PackagePath>pages\groupedItems\groupedItems.html</PackagePath>
-      <Modified>2015-07-09T21:26:17.925</Modified>
+      <Modified>2015-07-23T15:04:42.395</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\default.html">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2015-07-09T21:26:17.387</Modified>
+      <Modified>2015-07-23T15:04:42.014</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\itemDetail\public_figures.html">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\pages\itemDetail\public_figures.html">
       <PackagePath>pages\itemDetail\public_figures.html</PackagePath>
-      <Modified>2015-07-16T19:50:27.776</Modified>
+      <Modified>2015-07-23T18:25:53.994</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\itemDetail\world_events.html">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\pages\itemDetail\world_events.html">
       <PackagePath>pages\itemDetail\world_events.html</PackagePath>
-      <Modified>2014-03-12T23:27:50.000</Modified>
+      <Modified>2015-07-23T17:43:55.523</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\login\login.html">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\pages\login\login.html">
       <PackagePath>pages\login\login.html</PackagePath>
-      <Modified>2015-07-09T21:26:18.014</Modified>
+      <Modified>2015-07-23T15:04:42.452</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\map\map.html">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\pages\map\map.html">
       <PackagePath>pages\map\map.html</PackagePath>
-      <Modified>2015-07-09T21:26:18.039</Modified>
+      <Modified>2015-07-23T15:04:42.461</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\map\map_container.html">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\pages\map\map_container.html">
       <PackagePath>pages\map\map_container.html</PackagePath>
-      <Modified>2015-07-09T21:26:18.051</Modified>
+      <Modified>2015-07-23T15:04:42.463</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\pages\profile\profile.html">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\pages\profile\profile.html">
       <PackagePath>pages\profile\profile.html</PackagePath>
-      <Modified>2015-07-09T21:26:18.069</Modified>
+      <Modified>2015-07-23T15:04:42.480</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\bin\Debug\ReverseMap\resources.pri">
+    <AppxPackagedFile Include="C:\Users\curranprasad\Documents\Visual Studio 2013\Projects\VirtualCaseWall2\Virtual Case Wall\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-07-16T20:11:09.262</Modified>
-=======
-      <Modified>2015-07-22T23:56:26.718</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\forgotPassword\forgotPassword.html">
-      <PackagePath>pages\forgotPassword\forgotPassword.html</PackagePath>
-      <Modified>2015-07-22T23:56:26.721</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\itemDetail\itemDetail.html">
-      <PackagePath>pages\itemDetail\itemDetail.html</PackagePath>
-      <Modified>2015-07-22T23:56:26.732</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\groupDetail\groupDetail.html">
-      <PackagePath>pages\groupDetail\groupDetail.html</PackagePath>
-      <Modified>2015-07-22T23:56:26.725</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\groupedItems\groupedItems.html">
-      <PackagePath>pages\groupedItems\groupedItems.html</PackagePath>
-      <Modified>2015-07-22T23:56:26.729</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\default.html">
-      <PackagePath>default.html</PackagePath>
-      <Modified>2015-07-22T23:56:26.542</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\login\login.html">
-      <PackagePath>pages\login\login.html</PackagePath>
-      <Modified>2015-07-23T00:34:47.278</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\map\map.html">
-      <PackagePath>pages\map\map.html</PackagePath>
-      <Modified>2015-07-22T23:56:26.738</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\map\map_container.html">
-      <PackagePath>pages\map\map_container.html</PackagePath>
-      <Modified>2015-07-22T23:56:26.741</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\profile\profile.html">
-      <PackagePath>pages\profile\profile.html</PackagePath>
-      <Modified>2015-07-23T00:34:47.295</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\bin\Debug\ReverseMap\resources.pri">
-      <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-07-23T00:37:05.871</Modified>
->>>>>>> master
+      <Modified>2015-07-23T15:41:00.357</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

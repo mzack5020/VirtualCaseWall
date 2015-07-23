@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>Twitter Streams: Crime</h1>
+
+    <div id="tweets">
+
+    </div>
+
+
+    <script>
+        $(document).ready(function () {
+
+            getCrimeTweets();
+
+        });
+
+        function getCrimeTweets() {
+            var originalURL = "https://twitter.com/search?q=crime&src=typd";
+            var jsonURL = "https://api.twitter.com/1.1/search/tweets.json?q=crime&src=typd"
+
+        };
+
+    </script>
+</body>
+</html>

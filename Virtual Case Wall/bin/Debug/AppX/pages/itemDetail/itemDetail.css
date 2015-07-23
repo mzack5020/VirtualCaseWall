@@ -75,12 +75,32 @@
     width: 300px;
 }
 
+.eventImg{
+    height: 300px;
+    width: 300px;
+}
 .politicianProfile{
     width: 300px;
     font-size: 24px;
+}
+
+.eventProfile{
+    width:300px;
+    font-size:24px;
 }
 
 #names{
     font-size:30px;
     color: gray;
 }
+
+#eventNames{
+    font-size:30px;
+    color: gray;
+}
+
+#caption{
+    font-size: 28px;
+    color: gray;
+}
+

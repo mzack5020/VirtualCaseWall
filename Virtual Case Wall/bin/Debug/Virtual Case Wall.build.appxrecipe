@@ -46,6 +46,54 @@
     <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\profile\profile.css">
       <PackagePath>pages\profile\profile.css</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\searchResults\searchResults.css">
+      <PackagePath>pages\searchResults\searchResults.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\chart\chart.html">
+      <PackagePath>pages\chart\chart.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\chart\chart_container.html">
+      <PackagePath>pages\chart\chart_container.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\error\error.html">
+      <PackagePath>pages\error\error.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\forgotPassword\forgotPassword.html">
+      <PackagePath>pages\forgotPassword\forgotPassword.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\itemDetail\itemDetail.html">
+      <PackagePath>pages\itemDetail\itemDetail.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\groupDetail\groupDetail.html">
+      <PackagePath>pages\groupDetail\groupDetail.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\groupedItems\groupedItems.html">
+      <PackagePath>pages\groupedItems\groupedItems.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\itemDetail\public_figures.html">
+      <PackagePath>pages\itemDetail\public_figures.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\itemDetail\world_events.html">
+      <PackagePath>pages\itemDetail\world_events.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\login\login.html">
+      <PackagePath>pages\login\login.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\map\map.html">
+      <PackagePath>pages\map\map.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\map\map_container.html">
+      <PackagePath>pages\map\map_container.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\profile\profile.html">
+      <PackagePath>pages\profile\profile.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\searchResults\searchResults.html">
+      <PackagePath>pages\searchResults\searchResults.html</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\images\1194994263582955302add.svg.med.png">
       <PackagePath>images\1194994263582955302add.svg.med.png</PackagePath>
     </AppxPackagedFile>
@@ -149,47 +197,8 @@
     <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\profile\profile.js">
       <PackagePath>pages\profile\profile.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\chart\chart.html">
-      <PackagePath>pages\chart\chart.html</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\chart\chart_container.html">
-      <PackagePath>pages\chart\chart_container.html</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\error\error.html">
-      <PackagePath>pages\error\error.html</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\forgotPassword\forgotPassword.html">
-      <PackagePath>pages\forgotPassword\forgotPassword.html</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\itemDetail\itemDetail.html">
-      <PackagePath>pages\itemDetail\itemDetail.html</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\groupDetail\groupDetail.html">
-      <PackagePath>pages\groupDetail\groupDetail.html</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\groupedItems\groupedItems.html">
-      <PackagePath>pages\groupedItems\groupedItems.html</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\default.html">
-      <PackagePath>default.html</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\itemDetail\public_figures.html">
-      <PackagePath>pages\itemDetail\public_figures.html</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\itemDetail\world_events.html">
-      <PackagePath>pages\itemDetail\world_events.html</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\login\login.html">
-      <PackagePath>pages\login\login.html</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\map\map.html">
-      <PackagePath>pages\map\map.html</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\map\map_container.html">
-      <PackagePath>pages\map\map_container.html</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\profile\profile.html">
-      <PackagePath>pages\profile\profile.html</PackagePath>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\searchResults\searchResults.js">
+      <PackagePath>pages\searchResults\searchResults.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>

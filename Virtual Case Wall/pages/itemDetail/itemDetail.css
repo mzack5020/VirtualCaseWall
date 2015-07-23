@@ -48,7 +48,7 @@
 #rightText {
 	float:right;
 	height: 190px;
-	width: 414px;
+	width: 276px;
 	text-wrap: normal;
 }
 
@@ -83,4 +83,22 @@
 #names{
     font-size:30px;
     color: gray;
+}
+
+#avButton {
+	position: relative;
+	top: -0.5px;
+	left: 426.99px;
+}
+
+#rightText {
+	position: relative;
+	left: -296px;
+	overflow: scroll;
+}
+
+#reports, #photos {
+	position: relative;
+	top: -0.75px;
+	left: 426.99px;
 }

@@ -159,15 +159,7 @@
                             temp.text = document.getElementById("newInput").value;
                             document.getElementById("emailList").add(temp);
                             break;
-                        }
-                    //case "event":
-                    //    {
-                    //        document.getElementById("previewEvent").hidden = false;
-                    //        var temp = document.createElement("option");
-                    //        temp.text = document.getElementById("newInput").value;
-                    //        document.getElementById("eventList").add(temp);
-                    //        break;
-                    //    }
+                        }        
                     default:
                         break;
                 }

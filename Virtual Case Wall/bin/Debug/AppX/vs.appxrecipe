@@ -20,7 +20,7 @@
     <AppXManifest Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-07-23T11:18:50.347</Modified>
+      <Modified>2015-07-23T18:29:33.004</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -42,7 +42,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\itemDetail\itemDetail.css">
       <PackagePath>pages\itemDetail\itemDetail.css</PackagePath>
-      <Modified>2015-07-23T11:15:45.887</Modified>
+      <Modified>2015-07-23T16:50:49.526</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\groupDetail\groupDetail.css">
       <PackagePath>pages\groupDetail\groupDetail.css</PackagePath>
@@ -50,7 +50,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\groupedItems\groupedItems.css">
       <PackagePath>pages\groupedItems\groupedItems.css</PackagePath>
-      <Modified>2015-07-11T16:42:16.000</Modified>
+      <Modified>2015-07-23T18:42:00.685</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\login\login.css">
       <PackagePath>pages\login\login.css</PackagePath>
@@ -63,6 +63,70 @@
     <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\profile\profile.css">
       <PackagePath>pages\profile\profile.css</PackagePath>
       <Modified>2015-07-23T11:15:46.221</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\searchResults\searchResults.css">
+      <PackagePath>pages\searchResults\searchResults.css</PackagePath>
+      <Modified>2015-07-23T18:27:23.668</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2015-07-11T16:42:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\chart\chart.html">
+      <PackagePath>pages\chart\chart.html</PackagePath>
+      <Modified>2015-07-11T16:42:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\chart\chart_container.html">
+      <PackagePath>pages\chart\chart_container.html</PackagePath>
+      <Modified>2015-07-11T16:42:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\error\error.html">
+      <PackagePath>pages\error\error.html</PackagePath>
+      <Modified>2015-07-23T11:15:45.780</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\forgotPassword\forgotPassword.html">
+      <PackagePath>pages\forgotPassword\forgotPassword.html</PackagePath>
+      <Modified>2015-07-23T15:03:51.596</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\itemDetail\itemDetail.html">
+      <PackagePath>pages\itemDetail\itemDetail.html</PackagePath>
+      <Modified>2015-07-23T16:47:12.604</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\groupDetail\groupDetail.html">
+      <PackagePath>pages\groupDetail\groupDetail.html</PackagePath>
+      <Modified>2015-07-11T16:42:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\groupedItems\groupedItems.html">
+      <PackagePath>pages\groupedItems\groupedItems.html</PackagePath>
+      <Modified>2015-07-23T18:12:29.972</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\itemDetail\public_figures.html">
+      <PackagePath>pages\itemDetail\public_figures.html</PackagePath>
+      <Modified>2015-07-23T11:15:45.945</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\itemDetail\world_events.html">
+      <PackagePath>pages\itemDetail\world_events.html</PackagePath>
+      <Modified>2015-07-23T11:15:45.953</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\login\login.html">
+      <PackagePath>pages\login\login.html</PackagePath>
+      <Modified>2015-07-23T11:15:45.957</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\map\map.html">
+      <PackagePath>pages\map\map.html</PackagePath>
+      <Modified>2015-07-11T16:42:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\map\map_container.html">
+      <PackagePath>pages\map\map_container.html</PackagePath>
+      <Modified>2015-07-11T16:42:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\profile\profile.html">
+      <PackagePath>pages\profile\profile.html</PackagePath>
+      <Modified>2015-07-23T13:54:06.604</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\searchResults\searchResults.html">
+      <PackagePath>pages\searchResults\searchResults.html</PackagePath>
+      <Modified>2015-07-23T18:40:10.522</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\images\1194994263582955302add.svg.med.png">
       <PackagePath>images\1194994263582955302add.svg.med.png</PackagePath>
@@ -185,7 +249,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\groupedItems\groupedItems.js">
       <PackagePath>pages\groupedItems\groupedItems.js</PackagePath>
-      <Modified>2015-07-23T11:20:09.141</Modified>
+      <Modified>2015-07-23T18:33:04.534</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\login\login.js">
       <PackagePath>pages\login\login.js</PackagePath>
@@ -197,67 +261,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\profile\profile.js">
       <PackagePath>pages\profile\profile.js</PackagePath>
-      <Modified>2015-07-23T15:43:24.813</Modified>
+      <Modified>2015-07-23T15:46:05.956</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\chart\chart.html">
-      <PackagePath>pages\chart\chart.html</PackagePath>
-      <Modified>2015-07-11T16:42:16.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\chart\chart_container.html">
-      <PackagePath>pages\chart\chart_container.html</PackagePath>
-      <Modified>2015-07-11T16:42:16.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\error\error.html">
-      <PackagePath>pages\error\error.html</PackagePath>
-      <Modified>2015-07-23T11:15:45.780</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\forgotPassword\forgotPassword.html">
-      <PackagePath>pages\forgotPassword\forgotPassword.html</PackagePath>
-      <Modified>2015-07-23T15:03:51.596</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\itemDetail\itemDetail.html">
-      <PackagePath>pages\itemDetail\itemDetail.html</PackagePath>
-      <Modified>2015-07-23T11:15:45.888</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\groupDetail\groupDetail.html">
-      <PackagePath>pages\groupDetail\groupDetail.html</PackagePath>
-      <Modified>2015-07-11T16:42:16.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\groupedItems\groupedItems.html">
-      <PackagePath>pages\groupedItems\groupedItems.html</PackagePath>
-      <Modified>2015-07-16T16:58:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\default.html">
-      <PackagePath>default.html</PackagePath>
-      <Modified>2015-07-11T16:42:16.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\itemDetail\public_figures.html">
-      <PackagePath>pages\itemDetail\public_figures.html</PackagePath>
-      <Modified>2015-07-23T11:15:45.945</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\itemDetail\world_events.html">
-      <PackagePath>pages\itemDetail\world_events.html</PackagePath>
-      <Modified>2015-07-23T11:15:45.953</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\login\login.html">
-      <PackagePath>pages\login\login.html</PackagePath>
-      <Modified>2015-07-23T11:15:45.957</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\map\map.html">
-      <PackagePath>pages\map\map.html</PackagePath>
-      <Modified>2015-07-11T16:42:16.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\map\map_container.html">
-      <PackagePath>pages\map\map_container.html</PackagePath>
-      <Modified>2015-07-11T16:42:16.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\profile\profile.html">
-      <PackagePath>pages\profile\profile.html</PackagePath>
-      <Modified>2015-07-23T13:54:06.604</Modified>
+    <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\searchResults\searchResults.js">
+      <PackagePath>pages\searchResults\searchResults.js</PackagePath>
+      <Modified>2015-07-23T18:40:10.383</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-07-23T11:18:50.189</Modified>
+      <Modified>2015-07-23T18:29:32.774</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

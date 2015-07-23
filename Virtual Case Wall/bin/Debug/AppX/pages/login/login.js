@@ -2,7 +2,7 @@
 // http://go.microsoft.com/fwlink/?LinkId=232511
 (function () {
     "use strict";
-    console.log("in login.js");
+    //console.log("in login.js");
     var nav = WinJS.Navigation;
     var roamingSettings = Windows.Storage.ApplicationData.current.roamingSettings;
     var sessionSettings = WinJS.Application.sessionState;
@@ -26,8 +26,8 @@
             if(securityToken)
                 nav.navigate("pages/groupedItems/groupedItems.html");
 
-            var test = document.getElementById("test");
-            test.addEventListener("click", this.test, false);
+            //var test = document.getElementById("test");
+            //test.addEventListener("click", this.test, false);
         },
 
         unload: function () {
@@ -59,7 +59,11 @@
             
             WinJS.xhr({
                 type: "POST",
+<<<<<<< HEAD
                 url: "http://10.201.28.156:8090/VirtualCaseWall/api/login",
+=======
+                url: "http://192.168.1.8:8090/VirtualCaseWall/api/login",
+>>>>>>> master
                 data: loginStr,
                 responseType: "String",
             }).done(function (result) {
@@ -83,7 +87,7 @@
             }, function error(result) {
                 document.getElementById("JSON").innerText = "Incorrect Credentials";
             });            
-
+            //nav.navigate("pages/groupedItems/groupedItems.html");
         },
 
         getCreds: function()

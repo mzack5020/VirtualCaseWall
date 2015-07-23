@@ -1,6 +1,6 @@
 ﻿(function () {
     "use strict";
-    console.log("groupedItems.js");
+    //console.log("groupedItems.js");
     var nav = WinJS.Navigation;
     var ui = WinJS.UI;
 
@@ -37,7 +37,12 @@
         _itemInvoked: function (args) {
             var item = Data.items.getAt(args.detail.itemIndex);
             //here we can route this based on the group.key of the item that is invoked
-            if (item.group.key == 1) {
+
+            if (item.title == "Add Profile") {
+                nav.navigate("/pages/profile/profile.html");
+            }
+
+            else if (item.group.key == 1) {
                 nav.navigate("/pages/itemDetail/itemDetail.html", { item: Data.getItemReference(item) });
             } else if (item.group.key == 3) {
                 nav.navigate("/pages/itemDetail/public_figures.html")

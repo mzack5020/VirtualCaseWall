@@ -13,15 +13,7 @@
 
         // This function is called whenever a user navigates to this page.
 
-        ready: function (element, options) {           
-            var appbar = document.getElementById("appbar");
-            var refreshButton = document.createElement("BUTTON");
-            refreshButton.setAttribute("data-win-control", "WinJS.UI.AppBarCommand");
-            refreshButton.setAttribute("data-win-options", "{id:'refresh', label:'Refresh', icon:'refresh', tooltip:'Refresh Page'}");
-            
-            document.getElementById("appbar").appendChild(refreshButton);
-
-            WinJS.UI.process(refreshButton);
+        ready: function (element, options) {                       
         },
 
         updateLayout: function (element) {
@@ -44,20 +36,13 @@
 
             else if (item.group.key == 1) {
                 nav.navigate("/pages/itemDetail/itemDetail.html", { item: Data.getItemReference(item) });
-<<<<<<< HEAD
-            } else if (item.group.key==2) {
-=======
-            }            
+            } else if (item.group.key == 3) {
+                nav.navigate("/pages/itemDetail/public_figures.html")
 
-            else {
->>>>>>> master
+            } else {
                 nav.navigate("/pages/error/error.html", { item: Data.getItemReference(item) });
             }
 
-            else if (item.group.key == 3) {
-                nav.navigate("/pages/itemDetail/public_figures.html")
-              
-            }
 
 
             //console.log(item.group.key + " that was the group.key");

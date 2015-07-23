@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-C:\Users\curranprasad\Documents\VirtualCaseWall2\Virtual Case Wall\Virtual Case Wall.jsproj;neutral
-=======
-C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\Virtual Case Wall.jsproj;neutral
->>>>>>> master
+C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\Virtual Case Wall.jsproj;neutral

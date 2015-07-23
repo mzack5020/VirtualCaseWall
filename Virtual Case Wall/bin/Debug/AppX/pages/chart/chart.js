@@ -22,9 +22,6 @@ window.addEventListener("message", function (e) {
         }
     });
 })();
-<<<<<<< HEAD
-function drawLineChart() {
-=======
 
 function drawLineChart() {
 
@@ -70,20 +67,10 @@ function drawLineChart() {
 
 
 
->>>>>>> master
     var data = new google.visualization.DataTable();
     data.addColumn('string', 'Days');
     data.addColumn('number', 'Events');
     data.addRows([
-<<<<<<< HEAD
-        ['Thurs 9', 30],
-        ['Wed 8', 14],
-        ['Tues 7', 25],
-        ['Mon 6', 10],
-        ['Sun 5', 14],
-        ['Sat 4', 20],
-        ['Fri 3', 42]
-=======
         [lastSevenDays[6], dayFreq[lastSevenDays[6]]],
         [lastSevenDays[5], dayFreq[lastSevenDays[5]]],
         [lastSevenDays[4], dayFreq[lastSevenDays[4]]],
@@ -91,7 +78,6 @@ function drawLineChart() {
         [lastSevenDays[2], dayFreq[lastSevenDays[2]]],
         [lastSevenDays[1], dayFreq[lastSevenDays[1]]],
         [lastSevenDays[0], dayFreq[lastSevenDays[0]]]
->>>>>>> master
 
     ]);
 
@@ -112,16 +98,6 @@ function drawLineChart() {
         curveType: 'none',
         legend: { position: 'left' },
         backgroundColor: '#D6D6C2'
-<<<<<<< HEAD
-
-    };
-
-    var plot = new google.visualization.LineChart(document.getElementById('lineChart'));
-
-    plot.draw(data, properties);
-
-}
-=======
     };
 
     var plot = new google.visualization.LineChart(document.getElementById('lineChart'));
@@ -129,4 +105,3 @@ function drawLineChart() {
     plot.draw(data, properties);
 }
 
->>>>>>> master

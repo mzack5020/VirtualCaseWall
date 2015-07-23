@@ -181,6 +181,70 @@
                 var hour = document.getElementById("eventHour").value;
                 var minute = document.getElementById("eventMinute").value;
 
+                switch(month)
+                {
+                    case "January":
+                        {
+                            month = 1;
+                            break;
+                        }
+                    case "February":
+                        {
+                            month = 2;
+                            break;
+                        }
+                    case "March":
+                        {
+                            month = 3;
+                            break;
+                        }
+                    case "April":
+                        {
+                            month = 4;
+                            break;
+                        }
+                    case "May":
+                        {
+                            month = 5;
+                            break;
+                        }
+                    case "June":
+                        {
+                            month = 6;
+                            break;
+                        }
+                    case "July":
+                        {
+                            month = 7;
+                            break;
+                        }
+                    case "August":
+                        {
+                            month = 8;
+                            break;
+                        }
+                    case "September":
+                        {
+                            month = 9;
+                            break;
+                        }
+                    case "October":
+                        {
+                            month = 10;
+                            break;
+                        }
+                    case "November":
+                        {
+                            month = 11;
+                            break;
+                        }
+                    default:
+                        {
+                            month = 12;
+                            break;
+                        }
+                }
+
                 var event = {
                     date: new Date(year, month, day, hour, minute, 0, 0),
                     type: document.getElementById("typeList").value,

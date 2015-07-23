@@ -26,7 +26,7 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2015-07-11T16:42:16.000</Modified>
+      <Modified>2015-07-23T15:03:51.580</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\chart\chart.css">
       <PackagePath>pages\chart\chart.css</PackagePath>
@@ -213,7 +213,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\forgotPassword\forgotPassword.html">
       <PackagePath>pages\forgotPassword\forgotPassword.html</PackagePath>
-      <Modified>2015-07-11T16:42:16.000</Modified>
+      <Modified>2015-07-23T15:03:51.596</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drzac\Documents\VirtualCaseWall\Virtual Case Wall\pages\itemDetail\itemDetail.html">
       <PackagePath>pages\itemDetail\itemDetail.html</PackagePath>

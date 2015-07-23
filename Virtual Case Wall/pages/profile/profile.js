@@ -3,6 +3,8 @@
 (function () {
     "use strict";
 
+    var tempEvents = [];
+
     WinJS.UI.Pages.define("/pages/profile/profile.html", {
         // This function is called whenever a user navigates to this page. It
         // populates the page elements with the app's data.
@@ -26,6 +28,8 @@
 
             var saveButton = document.getElementById("save");
             saveButton.addEventListener("click", this.saveProgress, false);
+            var finishButton = document.getElementById("finish");
+            finishButton.addEventListener("click", this.submitProgress, false);
 
             document.getElementById("newProfilePreview").hidden = true;
             document.getElementById("newInput").hidden = true;
@@ -155,15 +159,7 @@
                             temp.text = document.getElementById("newInput").value;
                             document.getElementById("emailList").add(temp);
                             break;
-                        }
-                    //case "event":
-                    //    {
-                    //        document.getElementById("previewEvent").hidden = false;
-                    //        var temp = document.createElement("option");
-                    //        temp.text = document.getElementById("newInput").value;
-                    //        document.getElementById("eventList").add(temp);
-                    //        break;
-                    //    }
+                        }        
                     default:
                         break;
                 }
@@ -177,6 +173,70 @@
                 var hour = document.getElementById("eventHour").value;
                 var minute = document.getElementById("eventMinute").value;
 
+                switch(month)
+                {
+                    case "January":
+                        {
+                            month = 1;
+                            break;
+                        }
+                    case "February":
+                        {
+                            month = 2;
+                            break;
+                        }
+                    case "March":
+                        {
+                            month = 3;
+                            break;
+                        }
+                    case "April":
+                        {
+                            month = 4;
+                            break;
+                        }
+                    case "May":
+                        {
+                            month = 5;
+                            break;
+                        }
+                    case "June":
+                        {
+                            month = 6;
+                            break;
+                        }
+                    case "July":
+                        {
+                            month = 7;
+                            break;
+                        }
+                    case "August":
+                        {
+                            month = 8;
+                            break;
+                        }
+                    case "September":
+                        {
+                            month = 9;
+                            break;
+                        }
+                    case "October":
+                        {
+                            month = 10;
+                            break;
+                        }
+                    case "November":
+                        {
+                            month = 11;
+                            break;
+                        }
+                    default:
+                        {
+                            month = 12;
+                            break;
+                        }
+                }
+
                 var event = {
                     date: new Date(year, month, day, hour, minute, 0, 0),
                     type: document.getElementById("typeList").value,
@@ -188,6 +248,8 @@
                 var temp = document.createElement("option");
                 temp.text = event.type + " to " + event.toValue;
                 document.getElementById("eventList").add(temp);
+
+                tempEvents[(tempEvents.length + 1)] = event;        
             }
 
             document.getElementById("addAlias").disabled = false;
@@ -330,38 +392,51 @@
         
         submitProgress: function () {
             var person = {
-                casenumber: document.getElementById("previewCasenumber").value,
+                casenumber: document.getElementById("casenumberInput").innerText,
                 locations: [],
                 aliases: [],
                 phoneNumbers: [],
                 addresses: [],
                 emailAddresses: [],
                 events: [],
-                photo: document.getElementById("previewPhoto").value,
-                sex: document.getElementById("previewSex").value,
-                race: document.getElementById("previewRace").value,
-                dateOfBirth: document.getElementById("previewDOB").value,
-                placeOfBirth: document.getElementById("previewPOB").value,
-                height: document.getElementById("previewHeight").value,
-                weight: document.getElementById("previewWeight").value,
-                eyeColor: document.getElementById("previewEye").value,
-                hairColor: document.getElementById("previewHair").value,
-                skinTone: document.getElementById("previewSkin").value
+                photo: document.getElementById("previewPhoto").innerText,
+                sex: document.getElementById("sexInput").value,
+                race: document.getElementById("raceValue").value,
+                dateOfBirth: document.getElementById("DOBMonth").value + document.getElementById("DOBDay").value + ", " + document.getElementById("DOBYear").value,
+                placeOfBirth: document.getElementById("previewPOB").innerText,
+                height: document.getElementById("foot").value + "' " + document.getElementById("inch").value + "\"",
+                weight: document.getElementById("weightInput").innerText,
+                eyeColor: document.getElementById("eyeInput").value,
+                hairColor: document.getElementById("hairInput").value,
+                skinTone: document.getElementById("skinInput").value
             };
 
 
-            for(var i = 0; i < document.getElementById("locationList").length; i++)
-                person.locations[i] = document.getElementById("locationList")[i].value;
-            for (var i = 0; i < document.getElementById("aliasList").length; i++)
-                person.aliases[i] = document.getElementById("aliasList")[i].value;
-            for (var i = 0; i < document.getElementById("phoneList").length; i++)
-                person.phoneNumbers[i] = document.getElementById("phoneList")[i].value;
-            for (var i = 0; i < document.getElementById("addressList").length; i++)
-                person.addresses[i] = document.getElementById("addressList")[i].value;
-            for (var i = 0; i < document.getElementById("emailList").length; i++)
-                person.emailAddresses[i] = document.getElementById("emailList")[i].value;
-            for (var i = 0; i < document.getElementById("eventList").length; i++)
-                person.events[i] = document.getElementById("eventList")[i].value;            
+            for(var i = 0; i < (document.getElementById("locationList").length-1); i++)
+                person.locations[i] = document.getElementById("locationList")[(i+1)].value;
+            for (var i = 0; i < (document.getElementById("aliasList").length-1); i++)
+                person.aliases[i] = document.getElementById("aliasList")[(i + 1)].value;
+            for (var i = 0; i < (document.getElementById("phoneList").length-1); i++)
+                person.phoneNumbers[i] = document.getElementById("phoneList")[(i + 1)].value;
+            for (var i = 0; i < (document.getElementById("addressList").length-1); i++)
+                person.addresses[i] = document.getElementById("addressList")[(i + 1)].value;
+            for (var i = 0; i < (document.getElementById("emailList").length-1); i++)
+                person.emailAddresses[i] = document.getElementById("emailList")[(i + 1)].value;
+            for (var i = 0; i < (tempEvents.length-1); i++) {
+                person.events[i] = tempEvents[(i+1)];
+            }
+            var personJSON = JSON.stringify(person);
+
+            WinJS.xhr({
+                type: "POST",
+                url: "http://10.201.31.113:8090/VirtualCaseWall/api/person",
+                headers: { "X-Auth-Header": WinJS.Application.sessionState.securityToken }, //this I don't think is even there brah
+                responseType: "String",
+                data: personJSON
+            }).done(function (result) {
+                console.log(personJSON);
+                console.log(result);
+            });
         }
     });
 })();

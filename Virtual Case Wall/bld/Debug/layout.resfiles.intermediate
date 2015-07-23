@@ -54,3 +54,6 @@ pages\map\map_container.html
 pages\profile\profile.css
 pages\profile\profile.html
 pages\profile\profile.js
+pages\searchResults\searchResults.css
+pages\searchResults\searchResults.html
+pages\searchResults\searchResults.js

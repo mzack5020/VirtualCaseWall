@@ -105,9 +105,24 @@
     }
 }
 
+#search {
+	position: relative;
+	top: -970px;
+	left: 1410px;
+	width: 290px;
+}
+
 #footer {
     position: fixed;
     bottom: 60px;
     padding-left: 42%;
     font-weight: bold;
+}
+
+#test {
+	position: relative;
+	height: 500px;
+	width: 500px;
+	left: 443px;
+	top: 107px;
 }

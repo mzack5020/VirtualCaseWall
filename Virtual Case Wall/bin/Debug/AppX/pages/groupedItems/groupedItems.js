@@ -4,6 +4,22 @@
     var nav = WinJS.Navigation;
     var ui = WinJS.UI;
 
+    function search(searchCriteria) {
+        var people = WinJS.Application.sessionState.people;
+        var keys = Object.keys(people);
+        var searchIndex = -1;
+        for (var i = 0; i < keys.length; i++) {
+
+            if (keys[i].search(searchCriteria) != -1) {
+                searchIndex = i;
+                var object = document.createElement("div");
+                object.innerHTML += "<h1> - Search Results - </h1>" + "<h3>" + people[keys[i]].casenumber + "</h3>";
+            }
+        }
+
+        nav.navigate("pages/searchResults/searchResults.html", object);
+    }
+
     ui.Pages.define("/pages/groupedItems/groupedItems.html", {
         // This function is called to initialize the page.
         init: function (element, options) {
@@ -13,15 +29,17 @@
 
         // This function is called whenever a user navigates to this page.
 
-        ready: function (element, options) {           
-            var appbar = document.getElementById("appbar");
-            var refreshButton = document.createElement("BUTTON");
-            refreshButton.setAttribute("data-win-control", "WinJS.UI.AppBarCommand");
-            refreshButton.setAttribute("data-win-options", "{id:'refresh', label:'Refresh', icon:'refresh', tooltip:'Refresh Page'}");
+        ready: function (element, options) {
+            var searchBox = document.getElementById("searchBox");
             
-            document.getElementById("appbar").appendChild(refreshButton);
-
-            WinJS.UI.process(refreshButton);
+            searchBox.onkeypress = function (e) {
+                if (!e) e = window.event;
+                var keyCode = e.keyCode || e.which;
+                if (keyCode == '13') {
+                    var blank = document.getElementById("searchBox");
+                    search(document.getElementById("searchBox").value);
+                }
+            }
         },
 
         updateLayout: function (element) {
@@ -44,20 +62,13 @@
 
             else if (item.group.key == 1) {
                 nav.navigate("/pages/itemDetail/itemDetail.html", { item: Data.getItemReference(item) });
-<<<<<<< HEAD
-            } else if (item.group.key==2) {
-=======
-            }            
+            } else if (item.group.key == 3) {
+                nav.navigate("/pages/itemDetail/public_figures.html")
 
-            else {
->>>>>>> master
+            } else {
                 nav.navigate("/pages/error/error.html", { item: Data.getItemReference(item) });
             }
 
-            else if (item.group.key == 3) {
-                nav.navigate("/pages/itemDetail/public_figures.html")
-              
-            }
 
 
             //console.log(item.group.key + " that was the group.key");
@@ -68,5 +79,5 @@
             WinJS.Application.sessionState.securityToken = null;
             nav.navigate("/pages/login/login.html");
         },        
-    });
+    });    
 })();

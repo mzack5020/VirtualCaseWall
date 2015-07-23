@@ -57,6 +57,7 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <Content Include="css\default.css" />
+    <Content Include="default.html" />
     <Content Include="images\1194994263582955302add.svg.med.png" />
     <Content Include="images\Facebook-Blank-Photo.jpg" />
     <Content Include="images\logo.scale-100.png" />
@@ -99,7 +100,6 @@
     <Content Include="pages\groupedItems\groupedItems.css" />
     <Content Include="pages\groupedItems\groupedItems.html" />
     <Content Include="pages\groupedItems\groupedItems.js" />
-    <Content Include="default.html" />
     <Content Include="pages\itemDetail\public_figures.html" />
     <Content Include="pages\itemDetail\world_events.html" />
     <Content Include="pages\login\login.css" />
@@ -112,6 +112,9 @@
     <Content Include="pages\profile\profile.css" />
     <Content Include="pages\profile\profile.html" />
     <Content Include="pages\profile\profile.js" />
+    <Content Include="pages\searchResults\searchResults.css" />
+    <Content Include="pages\searchResults\searchResults.html" />
+    <Content Include="pages\searchResults\searchResults.js" />
     <None Include="Virtual Case Wall_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>

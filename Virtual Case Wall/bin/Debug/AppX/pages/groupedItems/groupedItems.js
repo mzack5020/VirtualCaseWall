@@ -44,11 +44,22 @@
 
             else if (item.group.key == 1) {
                 nav.navigate("/pages/itemDetail/itemDetail.html", { item: Data.getItemReference(item) });
+<<<<<<< HEAD
+            } else if (item.group.key==2) {
+=======
             }            
 
             else {
+>>>>>>> master
                 nav.navigate("/pages/error/error.html", { item: Data.getItemReference(item) });
             }
+
+            else if (item.group.key == 3) {
+                nav.navigate("/pages/itemDetail/public_figures.html")
+              
+            }
+
+
             //console.log(item.group.key + " that was the group.key");
         },
 

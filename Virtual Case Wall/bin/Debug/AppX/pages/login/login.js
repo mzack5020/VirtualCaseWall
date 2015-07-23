@@ -26,8 +26,8 @@
             if(securityToken)
                 nav.navigate("pages/groupedItems/groupedItems.html");
 
-            var test = document.getElementById("test");
-            test.addEventListener("click", this.test, false);
+            //var test = document.getElementById("test");
+            //test.addEventListener("click", this.test, false);
         },
 
         unload: function () {
@@ -83,7 +83,7 @@
             }, function error(result) {
                 document.getElementById("JSON").innerText = "Incorrect Credentials";
             });            
-
+            //nav.navigate("pages/groupedItems/groupedItems.html");
         },
 
         getCreds: function()

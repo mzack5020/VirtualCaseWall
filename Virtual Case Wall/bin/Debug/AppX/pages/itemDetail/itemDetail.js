@@ -8,9 +8,9 @@
 
             var item = Data.resolveItemReference(options.item);
             element.querySelector(".titlearea .pagetitle").textContent = item.title;
-            //now people is a map that can be accessed by casenumber
+            ////now people is a map that can be accessed by casenumber
             var person = WinJS.Application.sessionState.people[item.title];
-            var chartIframe = document.getElementById("chart");
+            //var chartIframe = document.getElementById("chart");
 
             var chartDoc = document.getElementById("chart");
             chartDoc.contentWindow.postMessage(person, "*");
@@ -19,30 +19,27 @@
             mapDoc.contentWindow.postMessage(person, "*");
 
             //set profile photo
-            document.getElementById("photo").style.backgroundImage = "url(data:images/png;base64," + person.photo + ")";
-            document.getElementById("photo").style.backgroundSize = "100%"
+            document.getElementById("profilePhoto").style.backgroundImage = "url(data:images/png;base64," + person.photo + ")";
+            document.getElementById("profilePhoto").style.backgroundSize = "100%"
 
             // Add details to right panel div
 
-            var text = "<h4>Aliases: ";
             if (person.aliases[0] != "")
-                text += person.aliases[0];
+                document.getElementById("aliases").innerText += person.aliases[0];
             if (person.aliases[1] != "")
-                text += ", " + person.aliases[1];
-            if (person.aliases[2] != "")
-                text += ", " + person.aliases[2] + "</h4>";
+                document.getElementById("aliases").innerText += (', ' + person.aliases[1]);
 
-            text += "<h4>Sex: " + person.sex + "</h4>";
-            text += "<h4>Race: " + person.race + "</h4>";
-            text += "<h4>Date of Birth: " + person.dateOfBirth + "</h4>";
-            text += "<h4>Place of Birth: " + person.placeOfBirth + "</h4>";
-            text += "<h4>Height: "+ person.height + "</h4>";
-            text += "<h4>Weight: " + person.weight + "</h4>";
-            text += "<h4>Eyes: " + person.eyeColor + "</h4>";
-            text += "<h4>Hair: " + person.hairColor + "</h4>";
-            text += "<h4>Skintone: " + person.skinTone + "</h4>";
-            document.getElementById("rightText").innerHTML = text;
+            document.getElementById("sex").innerText += person.sex;
+            document.getElementById("race").innerText += person.race;
+            document.getElementById("dateOfBirth").innerText += person.dateOfBirth;
+            document.getElementById("placeOfBirth").innerText += person.placeOfBirth;
+            document.getElementById("height").innerText += person.height;
+            document.getElementById("weight").innerText += person.weight;
+            document.getElementById("eyeColor").innerText += person.eyeColor;
+            document.getElementById("hairColor").innerText += person.hairColor;
+            document.getElementById("skinTone").innerText += person.skinTone;
 
+            var text;
             text = "<h1 id='title'>News Feed</h1>";
 
             for (var i = 0; i < person.events.length; i++) {
@@ -75,7 +72,7 @@
                 }
             }
 
-            document.getElementById("newsFeed").innerHTML = text;
+            document.getElementById("feed").innerHTML = text;
         },
     });
 })();

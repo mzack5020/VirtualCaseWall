@@ -25,34 +25,26 @@
             </h1>
         </header>
         <section aria-label="Main content" role="main">
-            <div id="profilePhoto" style="height : 300px; width : 300px; margin-left : 100px; margin-top : 15px; border-style : solid; border-width : 3px; border-color : white; float:left; display:inline"></div>
-            <div id="info" style="height: 300px; width : 300px; float : left; display : inline; margin-top : 15px; margin-left : 20px; border-style : solid; border-width : 3px; border-color : white; background-color : black">
-                <ul style="font-size : large;">
-                    <li id="aliases">Aliases: </li>
-                    <li id="sex">Sex: </li>
-                    <li id="race">Race: </li>
-                    <li id="dateOfBirth">Date of Birth:</li>
-                    <li id="placeOfBirth">Place of Birth:</li>
-                    <li id="height">Height: </li>
-                    <li id="weight">Weight: </li>
-                    <li id="eyeColor">Eyes: </li>
-                    <li id="hairColor">Hair: </li>
-                    <li id="skinTone">Skintone: </li>
-                </ul>
+            <div id="topRow">
+                <div id="profilePhoto" style="height : 300px; width : 300px; margin-left : 100px; margin-top : 15px; margin-bottom : 35px; border-style : solid; border-width : 3px; border-color : white; float:left; display:inline"></div>
+                <div id="info" style="height: 300px; width : 300px; float : left; display : inline; margin-top : 15px; margin-left : 20px; border-style : solid; border-width : 3px; border-color : white; background-color : black">
+                    <ul style="font-size : large;">
+                        <li id="aliases">Aliases: </li>
+                        <li id="sex">Sex: </li>
+                        <li id="race">Race: </li>
+                        <li id="dateOfBirth">Date of Birth:</li>
+                        <li id="placeOfBirth">Place of Birth:</li>
+                        <li id="height">Height: </li>
+                        <li id="weight">Weight: </li>
+                        <li id="eyeColor">Eyes: </li>
+                        <li id="hairColor">Hair: </li>
+                        <li id="skinTone">Skintone: </li>
+                    </ul>
+                </div>
+                <iframe id="chart" name="" src="ms-appx-web:///pages/chart/chart.html" style="width : 1075px; height : 300px; margin-top : 15px;  margin-left : 20px; border-style : solid; border-width : 3px; border-color : black;"></iframe>
             </div>
-            <iframe id="chart" name="" src="ms-appx-web:///pages/chart/chart.html" style="width : 1075px; height : 400px; margin-top : 15px;  margin-left : 20px; border-style : solid; border-width : 3px; border-color : black;"></iframe>
-            <!--<div id="feed" style="margin-left : 100px; margin-top : 15px; height : 350px; width : 1000px; overflow : scroll; border-style : solid; border-width : 3px; border-color : white;"></div>-->
-            <!-- TODO: Content goes here. -->
-            <!--<div id="data">
-                <div id="photo"></div>
-                <div id="rightText"></div>
-                <button type="button" id="avButton">A/V Files</button><br />
-                <button type="button" id="reports">Reports</button><br />
-                <button type="button" id="photos">Photos</button><br />
-                <div id="newsFeed"></div>                
-            </div>
-            
-            <iframe id="mapPanel" name="" src="ms-appx-web:///pages/map/map.html" style="width:48.68%;height:35.68%;"></iframe>-->
+            <div id="feed" style="margin-left : 100px; height : 350px; width : 626px; overflow : scroll; border-style : solid; border-width : 3px; border-color : white; clear : left; background-color : black; float : left; display : inline;"></div>
+            <iframe id="mapPanel" name="" src="ms-appx-web:///pages/map/map.html" style="height : 350px; width : 1075px;  border-style : solid; border-width : 3px; border-color : white; float : left; display : inline; margin-left : 21px; margin-top : 0px;"></iframe>
         </section>
     </div>
 </body>

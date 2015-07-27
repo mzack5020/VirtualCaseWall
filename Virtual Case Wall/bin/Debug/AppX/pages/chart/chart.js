@@ -97,7 +97,7 @@ function drawLineChart() {
         tooltip: {isHtml:true},
         legend: { position: 'none' },
         backgroundColor: 'white',
-        pointSize : "8"
+        pointSize : "10"
     };
 
     var plot = new google.visualization.LineChart(document.getElementById('lineChart'));

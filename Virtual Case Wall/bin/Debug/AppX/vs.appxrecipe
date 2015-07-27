@@ -90,7 +90,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\itemDetail\itemDetail.html">
       <PackagePath>pages\itemDetail\itemDetail.html</PackagePath>
-      <Modified>2015-07-27T00:17:03.547</Modified>
+      <Modified>2015-07-27T00:53:22.334</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\groupDetail\groupDetail.html">
       <PackagePath>pages\groupDetail\groupDetail.html</PackagePath>
@@ -229,7 +229,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\chart\chart.js">
       <PackagePath>pages\chart\chart.js</PackagePath>
-      <Modified>2015-07-27T00:18:36.366</Modified>
+      <Modified>2015-07-27T00:32:23.959</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\error\error.js">
       <PackagePath>pages\error\error.js</PackagePath>
@@ -241,7 +241,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\itemDetail\itemDetail.js">
       <PackagePath>pages\itemDetail\itemDetail.js</PackagePath>
-      <Modified>2015-07-27T00:08:21.159</Modified>
+      <Modified>2015-07-27T00:34:28.903</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ryanp102694\Documents\Visual Studio 2013\Projects\VirtualCaseWall\Virtual Case Wall\pages\groupDetail\groupDetail.js">
       <PackagePath>pages\groupDetail\groupDetail.js</PackagePath>

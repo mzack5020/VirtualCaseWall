@@ -15,8 +15,8 @@
             var chartDoc = document.getElementById("chart");
             chartDoc.contentWindow.postMessage(person, "*");
 
-            //var mapDoc = document.getElementById("mapPanel");
-            //mapDoc.contentWindow.postMessage(person, "*");
+            var mapDoc = document.getElementById("mapPanel");
+            mapDoc.contentWindow.postMessage(person, "*");
 
             //set profile photo
             document.getElementById("profilePhoto").style.backgroundImage = "url(data:images/png;base64," + person.photo + ")";
@@ -72,7 +72,7 @@
                 }
             }
 
-            //document.getElementById("feed").innerHTML = text;
+            document.getElementById("feed").innerHTML = text;
         },
     });
 })();

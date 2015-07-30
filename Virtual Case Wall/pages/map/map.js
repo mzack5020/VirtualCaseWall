@@ -43,7 +43,7 @@ function initialize() {
     meanLng = lngSum / allLngs.length;
 
     map = new google.maps.Map(document.getElementById('mapdisplay'), {
-        zoom: 3,
+        zoom: 7,
         center: new google.maps.LatLng(meanLat, meanLng),
         mapTypeId: google.maps.MapTypeId.TERRAIN
     });

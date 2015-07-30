@@ -19,8 +19,8 @@ function initialize() {
 
     for (var i = 0; i < personObject.events.length; i++) {
         if (personObject.events[i].type == "location") {
-            var lat = parseInt((personObject.events[i].value).split(",")[0]);
-            var long = parseInt((personObject.events[i].value).split(",")[1]);
+            var lat = parseFloat((personObject.events[i].value).split(",")[0]);
+            var long = parseFloat((personObject.events[i].value).split(",")[1]);
 
             allLats[allLats.length] = lat;
             allLngs[allLngs.length] = long;

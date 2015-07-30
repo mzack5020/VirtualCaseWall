@@ -11,8 +11,8 @@
         ready: function (element, options) {
             // TODO: Initialize the page here.
 
-            var usernameReset = document.getElementById("usernameReset");
-            usernameReset.addEventListener("click", this.resetUsername, false);
+            //var usernameReset = document.getElementById("usernameReset");
+            //usernameReset.addEventListener("click", this.resetUsername, false);
 
             var emailReset = document.getElementById("emailReset");
             emailReset.addEventListener("click", this.resetEmail, false);

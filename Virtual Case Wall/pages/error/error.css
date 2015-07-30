@@ -1,4 +1,4 @@
-﻿.error section {
+﻿/*.error section {
 	margin: auto 120px;
 }
 
@@ -29,4 +29,4 @@
 	.fragment section[role=main] {
 		-ms-grid-row: 2;
 		height: 100%;
-	}
+	}*/

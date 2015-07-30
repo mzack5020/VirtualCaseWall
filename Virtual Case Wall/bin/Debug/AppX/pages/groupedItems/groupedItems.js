@@ -59,13 +59,9 @@
             if (item.title == "Add Profile") {
                 nav.navigate("/pages/profile/profile.html");
             }
-
             else if (item.group.key == 1) {
                 nav.navigate("/pages/itemDetail/itemDetail.html", { item: Data.getItemReference(item) });
-            } else if (item.group.key == 3) {
-                nav.navigate("/pages/itemDetail/public_figures.html")
-
-            } else {
+            }else {
                 nav.navigate("/pages/error/error.html", { item: Data.getItemReference(item) });
             }
 
